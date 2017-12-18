@@ -1,4 +1,4 @@
-# [Download API](https://smartystreets/docs/cloud/download-api)
+# [Download API](https://smartystreets.com/docs/cloud/download-api)
 
 
 ## 2.0.1 (November 20, 2017)

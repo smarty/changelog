@@ -1,4 +1,4 @@
-# [US Extract API](https://smartystreets/docs/local/us-extract-api)
+# [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
 
 ## 2.1.53 (December 15)
 
