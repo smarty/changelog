@@ -1,6 +1,20 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
+## 8.1.13 (December 18, 2017)
+
+IMPROVEMENTS:
+
+- Simplified internal build tasks (streamlined for go 1.9).
+
+
+## 8.1.12 (December 18, 2017)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
 ## 8.1.11 (August 28, 2017)
 
 IMPROVEMENTS:

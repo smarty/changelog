@@ -1,5 +1,13 @@
 # [International Street Address API](https://smartystreets.com/docs/cloud/international-street-api)
 
+
+## 1.2.1 (December 18, 2017)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
 ## 1.2.0 (November 30, 2017)
 
 FEATURES:
@@ -13,4 +21,3 @@ IMPROVEMENTS:
 BUG FIXES:
 
 - `address_format` field: Corrected ordering of sub-building fields during composition of this field to ensure correct result.
-- 
