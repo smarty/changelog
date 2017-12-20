@@ -1,6 +1,13 @@
 # [US Street API](https://smartystreets.com/docs/cloud/us-street-api)
 
 
+## 2.1.10 (December 20, 2017)
+
+IMPROVEMENTS:
+
+- Better sanitization of long input strings.
+
+
 ## 2.1.9 (December 18, 2017)
 
 IMPROVEMENTS:
