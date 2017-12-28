@@ -1,6 +1,13 @@
 # [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 
+## 2.2.3 (December 28, 2017)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
+
 ## 2.2.2 (December 20, 2017)
 
 IMPROVEMENTS:
