@@ -1,5 +1,11 @@
 # [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.4 (January 3, 2018)
+
+BUG FIXES:
+
+- Preventing a runtime panic related to absence of any Account ID (which is never present in requests sent to local installations of the US Street API).
+
 
 ## 2.2.3 (December 28, 2017)
 
