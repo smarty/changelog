@@ -1,6 +1,20 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.46 (January 11, 2018)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
+## 2.1.45 (January 5, 2017)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
 ## 2.1.44 (December 28, 2017)
 
 IMPROVEMENTS:
