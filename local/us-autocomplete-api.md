@@ -1,6 +1,13 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.47 (January 17, 2018)
+
+BUG FIXES:
+
+- Corrected bug introduced in 2.1.44 which prevented correct inspection and recording of the remote address, which in turn prevented [geolocated preferencing](https://smartystreets.com/docs/cloud/us-autocomplete-api#geolocate).
+
+
 ## 2.1.46 (January 11, 2018)
 
 IMPROVEMENTS:
