@@ -1,6 +1,13 @@
 # [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 
+## 2.2.6 (February 14, 2018)
+
+BUG FIXES:
+
+- Incorporated patch from upstream provider to address a rare SEGFAULT caused by inputs with "too many parsed words".
+
+
 ## 2.2.5 (January 11, 2018)
 
 IMPROVEMENTS:
