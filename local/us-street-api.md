@@ -1,5 +1,10 @@
 # [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.7 (March 23, 2018)
+
+IMPROVEMENTS:
+
+- We now remove 'smart quotes' (double and single) and reverse back-ticks from all input strings.
 
 ## 2.2.6 (February 14, 2018)
 
