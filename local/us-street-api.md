@@ -1,5 +1,17 @@
 # [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.8 (March 28, 2018)
+
+IMPROVEMENTS:
+
+- The ZIP Code value is now consistently sanitized in preparation for processing regardless of where it resides in the request, which could be any of the following locations:
+	1. The `zipcode` field (the was previously the only properly sanitized location)
+	2. The last word of the `city` field
+	3. The last word of the `lastline` field
+	4. The last word of the `street` field (freeform input)
+- Latest internal dependencies.
+
+
 ## 2.2.7 (March 23, 2018)
 
 IMPROVEMENTS:
