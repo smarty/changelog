@@ -1,11 +1,19 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.1.14 (March 28, 2018)
+
+IMPROVEMENTS:
+
+- Code cleanup
+- Now compiling with Go 1.9.4
+
 
 ## 8.1.13 (December 18, 2017)
 
 IMPROVEMENTS:
 
 - Simplified internal build tasks (streamlined for go 1.9).
+- Now compiling with Go 1.9
 
 
 ## 8.1.12 (December 18, 2017)
