@@ -1,4 +1,4 @@
-# [US Street API (local installation)](https://smartystreets.com/docs/local/us-street-api)
+# [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 ## 2.2.8 (March 28, 2018)
 
