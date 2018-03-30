@@ -1,5 +1,11 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
+## 1.3.4 (March 30, 2018)
+
+IMPROVEMENTS:
+
+- The API executable has been compiled with Go v1.10.1 (https://golang.org/doc/devel/release.html#go1.10.minor). Previous versions were built with Go v1.9.4.
+
 
 ## 1.3.3 (March 28, 2018)
 
