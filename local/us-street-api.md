@@ -1,5 +1,12 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.9 (March 30, 2018)
+
+IMPROVEMENTS:
+
+- The API executable has been compiled with Go v1.10.1 (https://golang.org/doc/devel/release.html#go1.10.minor). Previous versions were built with Go v1.9.4.
+
+
 ## 2.2.8 (March 28, 2018)
 
 IMPROVEMENTS:
