@@ -1,5 +1,13 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.10 (April 4, 2018)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies
+- Restructured configuration and wireup components (no changes to any external behavior)
+
+
 ## 2.2.9 (March 30, 2018)
 
 IMPROVEMENTS:
