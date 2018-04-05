@@ -1,5 +1,12 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.11 (April 5, 2018)
+
+BUG FIXES:
+    
+- Version 2.2.10 incorrectly displayed "dev" as its version when run with the -version flag. This has been fixed for future versions.
+
+
 ## 2.2.10 (April 4, 2018)
 
 IMPROVEMENTS:
