@@ -1,5 +1,26 @@
 # [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
 
+## 2.1.62 (April 6, 2018)
+
+IMPROVEMENTS:
+
+- This release marks a more concrete separation between the core logic and the hosting environment (configuration/wireup). This allows us to seprate wireups for cloud and local installations more cleanly. These changes do not modify the external interfaces and contracts.
+- Sanitization logic is now executed closer to the core extraction algorithm (as a result of the previously mentioned improvement).
+
+
+## 2.1.61 (March 16, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
+
+## 2.1.60 (February 15, 2018)
+
+BUG FIXES:
+
+- More corrections to formatting of messages related to error logging.
+
 
 ## 2.1.59 (February 15, 2018)
 
