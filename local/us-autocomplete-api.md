@@ -1,6 +1,48 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.53 (May 15, 2018)
+
+IMPROVEMENTS:
+
+- This release marks a more concrete separation between the core logic and the hosting environment (configuration/wireup). This allows us to separate wireups for cloud and local installations more cleanly. These changes do not modify the external interfaces and contracts.
+
+
+## 2.1.52
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
+## 2.1.51
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
+
+## 2.1.50
+
+IMPROVEMENTS:
+
+- Disabled logging enabled in 2.1.48
+
+
+## 2.1.49
+
+BUG FIXES:
+
+- Restored a slight variation on remote address selection behavior used for geocoding.
+
+
+## 2.1.48
+
+IMPROVEMENTS:
+
+- Additional logging for cloud installations.
+
+
 ## 2.1.47 (January 17, 2018)
 
 BUG FIXES:
