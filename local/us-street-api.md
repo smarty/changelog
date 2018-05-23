@@ -1,5 +1,14 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+
+## 2.2.12 (May 23, 2018)
+
+IMPROVEMENTS:
+
+- More internal restructuring and standardization.
+- In the case that required shared libraries have not been correctly installed, the resulting error message now points to the online installation instructions: https://smartystreets.com/docs/local/us-street-api#install
+
+
 ## 2.2.11 (April 5, 2018)
 
 BUG FIXES:
