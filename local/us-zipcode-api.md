@@ -1,6 +1,13 @@
 # [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
 
 
+## 2.1.42 (May 23, 2018)
+
+IMPROVEMENTS:
+
+- Slightly better resolution of city names that contain apostrophes (ie. O'Fallon, IL).
+
+
 ## 2.1.41 (May 9, 2018)
 
 IMPROVEMENTS:
