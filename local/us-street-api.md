@@ -1,6 +1,13 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 
+## 2.2.13 (June 4, 2018)
+
+IMPROVEMENTS:
+
+- Result candidates of freeform inputs with 3-word city names are now selected with greater care. For example, the freeform input `PO Box 160 Cold Spring Harbor NY 11724` would previously return a result from `Spring Brook NY 14140` rather than `Cold Spring Harbor NY 11724` as expected at the time of this writing.
+
+
 ## 2.2.12 (May 23, 2018)
 
 IMPROVEMENTS:
