@@ -1,6 +1,13 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 
+## 2.2.14 (June 6, 2018)
+
+BUG FIXES:
+
+- No longer requiring a config.json file (caused a crash at startup; mistakenly introduced in 2.2.12).
+
+
 ## 2.2.13 (June 4, 2018)
 
 IMPROVEMENTS:
