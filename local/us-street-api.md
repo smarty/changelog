@@ -1,5 +1,11 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.15 (June 6, 2018)
+
+IMPROVEMENTS:
+
+- While we don't remove apostrophes from city and street names we get from the USPS, we no longer attempt to insert apostrophes in city and street names either.
+
 
 ## 2.2.14 (June 6, 2018)
 
