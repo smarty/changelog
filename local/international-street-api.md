@@ -1,5 +1,86 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
+## 1.3.16 (July 9, 2018)
+
+IMPROVEMENTS:
+
+- Corrections to build parameters. No external changes.
+
+
+## 1.3.15 (July 3, 2018)
+
+IMPROVEMENTS:
+
+- Lots of internal restructuring in preparation for consolidating the differences between the SmartyStreets cloud installation and this 'local' installation. No external changes in behavior.
+
+
+## 1.3.14 (June 15, 2018)
+
+IMPROVEMENTS:
+
+- We now use the [SmartyStreets Go SDK](https://smartystreets.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
+
+
+## 1.3.13 (June 8, 2018)
+
+IMPROVEMENTS:
+
+- Refactored several components, no external changes (all tests passing)
+
+
+## 1.3.12 (May 26, 2018)
+
+IMPROVEMENTS:
+
+- Moved rate-limit wireup closer to usage (only affects the SmartyStreets cloud installation).
+
+
+## 1.3.11 (May 19, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
+
+## 1.3.10 (May 18, 2018)
+
+IMPROVEMENTS:
+
+- Fixes to build parameters (no behavior changes).
+
+
+## 1.3.9 (May 16, 2018)
+
+IMPROVEMENTS:
+
+- Improvements to logging interface (only affects the SmartyStreets cloud installation).
+
+## 1.3.8 (May 16, 2018)
+
+IMPROVEMENTS:
+
+- Corrected rate-limit config values (only affects the SmartyStreets cloud installation).
+
+## 1.3.7 (May 16, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+- Updates to rate-limiting wireup (only affects the SmartyStreets cloud installation).
+
+## 1.3.6 (May 14, 2018)
+
+IMPROVEMENTS:
+
+- Updated configuration values for messaging systems (only affects the SmartyStreets cloud installation).
+
+## 1.3.5 (May 14, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
+
 ## 1.3.4 (March 30, 2018)
 
 IMPROVEMENTS:
