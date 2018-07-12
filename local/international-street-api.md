@@ -1,5 +1,11 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
+## 1.3.17 (July 12, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
 ## 1.3.16 (July 9, 2018)
 
 IMPROVEMENTS:
