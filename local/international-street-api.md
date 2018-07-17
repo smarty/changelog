@@ -1,5 +1,19 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
+
+## 1.4.0 (July 17, 2018)
+
+IMPROVEMENTS:
+
+- Implemented a way for customers interested in beta-testing features to get access to experimental behaviors. This isn't the changelog entry you were looking for. Move along.
+
+
+## 1.3.18 (June 18, 2018
+
+IMPROVEMENTS:
+
+- Changes to the way the status route works internally (/status). No observable exterior changes in behavior are expected.
+
 ## 1.3.17 (July 12, 2018)
 
 IMPROVEMENTS:
