@@ -1,5 +1,11 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
+## 1.4.1 (September 6, 2018)
+
+BUG FIXES:
+
+- For a relatively short time, invalid US addresses elicited a response of `null` instead of the expected empty array (`[]`). This is now fixed.
+
 
 ## 1.4.0 (July 17, 2018)
 
