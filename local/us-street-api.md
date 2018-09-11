@@ -1,5 +1,17 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+
+## 2.2.16 (September 6, 2018)
+
+IMPROVEMENTS:
+
+- Various internal improvements and optimizations.
+
+BUG FIXES:
+
+- Algorithm that prioritizes between single and batched lookups no longer causes excessively high CPU idling.
+
+
 ## 2.2.15 (June 6, 2018)
 
 IMPROVEMENTS:
