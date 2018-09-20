@@ -1,5 +1,12 @@
 # [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
 
+## 2.1.63 (September 20, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+
+
 ## 2.1.62 (April 6, 2018)
 
 IMPROVEMENTS:
