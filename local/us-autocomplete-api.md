@@ -1,6 +1,17 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.54 (September 20, 2018)
+
+BUG FIXES:
+
+- Corrected logic that selects the remote address of the incoming request. We now select the first address (which should be the most reliable).
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+- Some cleanup and refactorings.
+
 ## 2.1.53 (May 15, 2018)
 
 IMPROVEMENTS:
