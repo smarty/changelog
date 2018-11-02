@@ -1,6 +1,15 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
 
+## 2.2.17 (November 2, 2018)
+
+IMPROVEMENTS:
+
+- Freeform Processing: We now do a much better job of selecting the boundary between the delivery line and the last line (City, State, ZIP Code) which improves matching and the quality of the output, especially in situations where the input contains secondary information, the city is several words long, and/or the state is fully spelled out (rather than abbreviated to two characters).
+- Start-up behavior: We now allow the entire process to die if any data files are missing or cannot be loaded. See the stderr stream for explanatory log entries. "Dead programs tell no lies." (The Pragmatic Programmer, Andrew Hunt & Dave Thomas)
+- Updated many internal dependencies.
+
+
 ## 2.2.16 (September 6, 2018)
 
 IMPROVEMENTS:
