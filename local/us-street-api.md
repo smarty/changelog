@@ -1,5 +1,11 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.18 (November 5, 2018)
+
+BUG FIXES:
+
+- Fixed bug related to freeform processing improvements mentioned in 2.2.17 that slipped through the cracks in that release. This bug only affected freeform requests where the data submitted only consisted of a state and a ZIP Code. (Who does that, anyway?)
+
 
 ## 2.2.17 (November 2, 2018)
 
