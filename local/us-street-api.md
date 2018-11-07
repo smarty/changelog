@@ -1,5 +1,12 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+## 2.2.20 (November 6, 2018)
+
+BUG FIXES:
+
+- Fixed a but introduced with 2.2.17 (a release that really did rock the boat) that prevented fully spelled state names from being recognized in component inputs. 
+
+
 ## 2.2.19 (November 5, 2018)
 
 BUG FIXES:
