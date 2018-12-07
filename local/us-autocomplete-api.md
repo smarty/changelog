@@ -1,6 +1,18 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.56 (December 6, 2018)
+
+- Modifications to schema of R&D logging.
+
+## 2.1.55 (December 6, 2018)
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+- Made provision for R&D logging when hosted in the SmartyStreets production environment.
+
+
 ## 2.1.54 (September 20, 2018)
 
 BUG FIXES:

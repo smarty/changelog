@@ -1,11 +1,47 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+
+## 8.1.18 (December, 6 2018)
+
+IMPROVEMENTS:
+
+- Changed ordering of file analysis such that large files with invalid headers are rejected much faster.
+
+
+## 8.1.17 (September, 26, 2018)
+
+IMPROVEMENTS:
+
+- Estimated lookup count in analysis prompt now displayed using a comma as the thousands separator.
+- Small formatting tweaks to progress bar display.
+- Upgraded internal dependencies to latest versions.
+- Dependencies managed using [go modules](https://github.com/golang/go/wiki/Modules) rather than [dep](https://github.com/golang/dep).
+- Now compiled using [Go 1.11](https://blog.golang.org/go1.11).
+
+
+## 8.1.16 (May 17, 2018)
+
+BUG FIXES:
+
+- Updated csv test to use valid delimiter value (see https://golang.org/doc/go1.10#encoding/csv).
+
+
+## 8.1.15 (May 17, 2018)
+
+NOTE: This version was never actually published because of a test failure during the build process. The failure is addressed by version 8.1.16.
+
+IMPROVEMENTS:
+
+- Usage of smart-quotes (and their ilk) as quotation characters in command line flags now results in a fatal error.
+- Now compiled with Go 1.10.2
+
+
 ## 8.1.14 (March 28, 2018)
 
 IMPROVEMENTS:
 
 - Code cleanup
-- Now compiling with Go 1.9.4
+- Now compiled with Go 1.9.4
 
 
 ## 8.1.13 (December 18, 2017)
@@ -13,7 +49,7 @@ IMPROVEMENTS:
 IMPROVEMENTS:
 
 - Simplified internal build tasks (streamlined for go 1.9).
-- Now compiling with Go 1.9
+- Now compiled with Go 1.9
 
 
 ## 8.1.12 (December 18, 2017)

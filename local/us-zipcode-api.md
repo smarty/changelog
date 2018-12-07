@@ -1,7 +1,14 @@
 # [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
 
+## 2.2.0 (December 5, 2018)
 
-## 2.1.44
+IMPROVEMENTS:
+
+- Latest internal dependencies.
+- Made provision for R&D logging when hosted in the SmartyStreets production environment.
+
+
+## 2.1.44 (September 19, 2018)
 
 IMPROVEMENTS:
 
