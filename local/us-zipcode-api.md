@@ -7,6 +7,12 @@ IMPROVEMENTS:
 - Latest internal dependencies.
 - Made provision for R&D logging when hosted in the SmartyStreets production environment.
 
+## Underlying Data Package (December 2018)
+
+BUG FIXES:
+
+- Fixed county output in scenario categorized by a plus 4 code that crosses over a state line into a county with a FIPS code that matches the FIPS code of an unrelated county in the default state. Previously, the output contained county info pertaining to the unrelated county from the default state rather than the correct county in the adjoining state.
+ 
 
 ## 2.1.44 (September 19, 2018)
 

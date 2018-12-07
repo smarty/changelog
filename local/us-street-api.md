@@ -1,5 +1,41 @@
 # [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
 
+
+## 2.2.25 (November 29, 2018)
+
+IMPROVEMENTS:
+
+- Latest internal dependencies
+
+
+## 2.2.24 (November 29, 2018)
+
+BUG FIXES:
+
+- Fixed county output in scenario categorized by a plus 4 code that crosses over a state line into a county with a FIPS code that matches the FIPS code of an unrelated county in the default state. Previously, the output contained county info pertaining to the unrelated county from the default state rather than the correct county in the adjoining state.
+
+
+## 2.2.23 (November 26, 2018)
+
+IMPROVEMENTS:
+
+- The `default_city_field` within the `components` output structure is not always populated, even when it matches the `city` field.
+
+
+## 2.2.22 (November 12, 2018)
+
+IMPROVEMENTS:
+
+- Improved logging message prefix.
+
+
+## 2.2.21 (November 11, 2018)
+
+IMPROVEMENTS:
+
+- Installed additional logging around failure conditions related to freeform address processing.
+
+
 ## 2.2.20 (November 6, 2018)
 
 BUG FIXES:
