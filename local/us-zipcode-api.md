@@ -1,5 +1,13 @@
 # [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
 
+
+## 2.2.2 (December 12, 2018)
+
+BUG FIXES:
+
+- Corrected aggressive CPU usage in case where errant default configuration value related to logging was used.
+
+
 ## 2.2.1 (December 11, 2018)
 
 IMPROVEMENTS:

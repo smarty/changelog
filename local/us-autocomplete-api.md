@@ -1,9 +1,17 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
+## 2.1.57 (December 17, 2018)
+
+BUG FIXES:
+
+- Corrected aggressive CPU usage in case where errant default configuration value related to logging was used.
+
+
 ## 2.1.56 (December 6, 2018)
 
 - Modifications to schema of R&D logging.
+
 
 ## 2.1.55 (December 6, 2018)
 
