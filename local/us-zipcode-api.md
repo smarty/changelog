@@ -1,5 +1,11 @@
 # [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
 
+## 3.0.0 (December 26, 2018)
+
+IMPROVEMENTS:
+
+- ZIP Code inputs that consist only of zeros are now discarded as if they were blank, but only if supplied along with non-blank City and State input values.
+
 
 ## 2.2.2 (December 12, 2018)
 
@@ -12,8 +18,8 @@ BUG FIXES:
 
 IMPROVEMENTS:
 
-- ZIP Codes inputs submitted without leading zeros no longer result in a 'blank lookup' status (example: `501` -> `00501`).
-- ZIP Codes inputs that consist only of zeros are now discarded as if they were blank. This allows requests such as the following to be processed as city/state lookups:
+- ZIP Code inputs submitted without leading zeros no longer result in a 'blank lookup' status (example: `501` -> `00501`).
+- ZIP Code inputs that consist only of zeros are now discarded as if they were blank. This allows requests such as the following to be processed as city/state lookups:
 
 `/verify?zipcode=0&city=PROVO&state=UT`
 
