@@ -1,14 +1,21 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
-## 8.1.18 (December, 6 2018)
+## 8.1.19 (December 7, 2018)
+
+BUG FIXES:
+
+- Corrected initial prompt, which was reporting '0' as the number of expected lookups to be used. This bug was introduced with version 8.1.18.
+
+
+## 8.1.18 (December 6, 2018)
 
 IMPROVEMENTS:
 
 - Changed ordering of file analysis such that large files with invalid headers are rejected much faster.
 
 
-## 8.1.17 (September, 26, 2018)
+## 8.1.17 (September 26, 2018)
 
 IMPROVEMENTS:
 
