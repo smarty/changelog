@@ -1,21 +1,21 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
-## 8.1.19 (December 7, 2018)
+## [8.1.19] - 2018-12-07
 
 BUG FIXES:
 
 - Corrected initial prompt, which was reporting '0' as the number of expected lookups to be used. This bug was introduced with version 8.1.18.
 
 
-## 8.1.18 (December 6, 2018)
+## [8.1.18] - 2018-12-06
 
 IMPROVEMENTS:
 
 - Changed ordering of file analysis such that large files with invalid headers are rejected much faster.
 
 
-## 8.1.17 (September 26, 2018)
+## [8.1.17] - 2018-09-26
 
 IMPROVEMENTS:
 
@@ -26,14 +26,14 @@ IMPROVEMENTS:
 - Now compiled using [Go 1.11](https://blog.golang.org/go1.11).
 
 
-## 8.1.16 (May 17, 2018)
+## [8.1.16] - 2018-05-17
 
 BUG FIXES:
 
 - Updated csv test to use valid delimiter value (see https://golang.org/doc/go1.10#encoding/csv).
 
 
-## 8.1.15 (May 17, 2018)
+## [8.1.15] - 2018-05-17
 
 NOTE: This version was never actually published because of a test failure during the build process. The failure is addressed by version 8.1.16.
 
@@ -43,7 +43,7 @@ IMPROVEMENTS:
 - Now compiled with Go 1.10.2
 
 
-## 8.1.14 (March 28, 2018)
+## [8.1.14] - 2018-03-28
 
 IMPROVEMENTS:
 
@@ -51,7 +51,7 @@ IMPROVEMENTS:
 - Now compiled with Go 1.9.4
 
 
-## 8.1.13 (December 18, 2017)
+## [8.1.13] - 2017-12-18
 
 IMPROVEMENTS:
 
@@ -59,28 +59,28 @@ IMPROVEMENTS:
 - Now compiled with Go 1.9
 
 
-## 8.1.12 (December 18, 2017)
+## [8.1.12] - 2017-12-18
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 8.1.11 (August 28, 2017)
+## [8.1.11] - 2017-08-28
 
 IMPROVEMENTS:
 
 - Now using the [dep](https://github.com/golang/dep) tool for managing source code dependencies.
 
 
-## 8.1.10 (August 15, 2017)
+## [8.1.10] - 2017-08-15
 
 IMPROVEMENTS:
 
 - Upgraded internal and open-source dependencies.
 
 
-## 8.1.9 (July 31, 2017)
+## [8.1.9] - 2017-07-31
 
 IMPROVEMENTS:
 
@@ -90,42 +90,42 @@ IMPROVEMENTS:
     "R7": "Phantom Address"
 
 
-## Version 8.1.8 (May 11, 2017)
+## [8.1.8] - 2017-05-11
 
 IMPROVEMENTS:
 
 - Corrected the handling of the UTF-8 byte-order mark (https://en.wikipedia.org/wiki/Byte_order_mark). Without this fix, lists that contained a UTF-8 byte order mark and whose first column was the 'street' field could not be analyzed or processed because the required 'street' field was not recognized.
 
 
-## Version 8.1.7 (May 4, 2017)
+## [8.1.7] - 2017-05-04
 
 IMPROVEMENTS:
 
 - Internal refactorings and improvements. May the 4th be with you...always.
 
 
-## Version 8.1.6 (January 27, 2017)
+## [8.1.6] - 2017-01-27
 
 FEATURES:
 
 - Summary text is now "No Match - PO Box Only" for records whose `metadata.zip_type` is "PO Box" (`P`).
 
 
-## Version 8.1.5 (December, 8, 2016)
+## [8.1.5] - 2016-12-08
 
 IMPROVEMENTS:
 
 - Internal optimizations.
 
 
-## Version 8.1.4 (November 30, 2016)
+## [8.1.4] - 2016-11-30
 
 IMPROVEMENTS:
 
 - Internal optimizations.
 
 
-## Version 8.1.3 (November 17, 2016)
+## [8.1.3] - 2016-11-17
 
 IMPROVEMENTS:
 
@@ -135,28 +135,28 @@ be related to the network connections with our API servers, not the SmartyList t
 fails, please send the log file associated with that processing attempt to help us diagnose the problem.
 
 
-## Version 8.1.2 (November 11, 2016)
+## [8.1.2] - 2016-11-11
 
 BUG FIXES:
 
 - Log file path can now be specified at the command line with the -log flag. We no longer display the -proxy and -base-url values in the list analysis if defaults are used.
 
 
-## Version 8.1.1 (November 2, 2016)
+## [8.1.1] - 2016-11-02
 
 IMPROVEMENTS:
 
 - Increased HTTP timeout and retry parameters.
 
 
-## Version 8.1.0 (October 31, 2016)
+## [8.1.0] - 2016-10-31
 
 FEATURES:
 
 - New command-line flag: -proxy (Allows lists to be processed via an organization's web proxy.)
 
 
-## Version 8.0.4 (October 27, 2016)
+## [8.0.4] - 2016-10-27
 
 UPGRADE NOTES:
 
@@ -164,21 +164,21 @@ UPGRADE NOTES:
 program and a non-zero exit code. So there.
 
 
-## Version 8.0.3 (October 17, 2016)
+## [8.0.3] - 2016-10-17
 
 IMPROVEMENTS:
 
 - Modified the output for addresses that completely fail verification that also have a "Unique" ZIP codes.
 
 
-## Version 8.0.2 (October 10, 2016)
+## [8.0.2] - 2016-10-10
 
 IMPROVEMENTS:
 
 - Using the latest version of the smartystreets-go-sdk: 5.0.1 (which correctly buffers the request body for retry)
 
 
-## Version 8.0.1 (October 6, 2016)
+## [8.0.1] - 2016-10-06
 
 BUG FIXES:
 
@@ -186,7 +186,7 @@ BUG FIXES:
 
 
 
-## Version 8.0.0 (October 4, 2016)
+## [8.0.0] - 2016-10-04
 
 FEATURES:
 
@@ -236,7 +236,7 @@ command-line flags (this is the same listing provided by 'smartylist -help'):
     	Show the version and exit.
 
 
-## Version 7.0.0 (August 29, 2016)
+## [7.0.0] - 2016-08-29
 
 FEATURES:
 
