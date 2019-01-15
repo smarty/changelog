@@ -1,120 +1,120 @@
 # [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
 
-## 1.4.1 (September 6, 2018)
+## [1.4.1] - 2018-09-06
 
 BUG FIXES:
 
 - For a relatively short time, invalid US addresses elicited a response of `null` instead of the expected empty array (`[]`). This is now fixed.
 
 
-## 1.4.0 (July 17, 2018)
+## [1.4.0] - 2018-07-17
 
 IMPROVEMENTS:
 
 - Implemented a way for customers interested in beta-testing features to get access to experimental behaviors. This isn't the changelog entry you were looking for. Move along.
 
 
-## 1.3.18 (June 18, 2018
+## [1.3.18] - 2018-06-18
 
 IMPROVEMENTS:
 
 - Changes to the way the status route works internally (/status). No observable exterior changes in behavior are expected.
 
-## 1.3.17 (July 12, 2018)
+## [1.3.17] - 2018-07-12
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
-## 1.3.16 (July 9, 2018)
+## [1.3.16] - 2018-07-09
 
 IMPROVEMENTS:
 
 - Corrections to build parameters. No external changes.
 
 
-## 1.3.15 (July 3, 2018)
+## [1.3.15] - 2018-07-03
 
 IMPROVEMENTS:
 
 - Lots of internal restructuring in preparation for consolidating the differences between the SmartyStreets cloud installation and this 'local' installation. No external changes in behavior.
 
 
-## 1.3.14 (June 15, 2018)
+## [1.3.14] - 2018-06-15
 
 IMPROVEMENTS:
 
 - We now use the [SmartyStreets Go SDK](https://smartystreets.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
 
 
-## 1.3.13 (June 8, 2018)
+## [1.3.13] - 2018-06-08
 
 IMPROVEMENTS:
 
 - Refactored several components, no external changes (all tests passing)
 
 
-## 1.3.12 (May 26, 2018)
+## [1.3.12] - 2018-05-26
 
 IMPROVEMENTS:
 
 - Moved rate-limit wireup closer to usage (only affects the SmartyStreets cloud installation).
 
 
-## 1.3.11 (May 19, 2018)
+## [1.3.11] - 2018-05-19
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 1.3.10 (May 18, 2018)
+## [1.3.10] - 2018-05-18
 
 IMPROVEMENTS:
 
 - Fixes to build parameters (no behavior changes).
 
 
-## 1.3.9 (May 16, 2018)
+## [1.3.9] - 2018-05-16
 
 IMPROVEMENTS:
 
 - Improvements to logging interface (only affects the SmartyStreets cloud installation).
 
-## 1.3.8 (May 16, 2018)
+## [1.3.8] - 2018-05-16
 
 IMPROVEMENTS:
 
 - Corrected rate-limit config values (only affects the SmartyStreets cloud installation).
 
-## 1.3.7 (May 16, 2018)
+## [1.3.7] - 2018-05-16
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 - Updates to rate-limiting wireup (only affects the SmartyStreets cloud installation).
 
-## 1.3.6 (May 14, 2018)
+## [1.3.6] - 2018-05-14
 
 IMPROVEMENTS:
 
 - Updated configuration values for messaging systems (only affects the SmartyStreets cloud installation).
 
-## 1.3.5 (May 14, 2018)
+## [1.3.5] - 2018-05-14
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 1.3.4 (March 30, 2018)
+## [1.3.4] - 2018-03-30
 
 IMPROVEMENTS:
 
 - The API executable has been compiled with Go v1.10.1 (https://golang.org/doc/devel/release.html#go1.10.minor). Previous versions were built with Go v1.9.4.
 
 
-## 1.3.3 (March 28, 2018)
+## [1.3.3] - 2018-03-28
 
 BUG FIXES:
 
@@ -126,7 +126,7 @@ IMPROVEMENTS:
 - Internal restructuring and cleanup surrounding country validation.
 
 
-## 1.3.2 (March 21, 2018)
+## [1.3.2] - 2018-03-21
 
 IMPROVEMENTS:
 
@@ -134,14 +134,14 @@ IMPROVEMENTS:
 - Simplification of cloud hosting wireup (does not have any effect on local installations).
 
 
-## 1.3.1 (March 16, 2018)
+## [1.3.1] - 2018-03-16
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 1.3.0 (March 7, 2018)
+## [1.3.0] - 2018-03-07
 
 IMPROVEMENTS:
 
@@ -149,63 +149,63 @@ IMPROVEMENTS:
 - More verbose logging of certain kinds of processing failures.
 
 
-## 1.2.8 (March 6, 2018)
+## [1.2.8] - 2018-03-06
 
 IMPROVEMENTS:
 
 - Internal logging simplified.
 
 
-## 1.2.7 (January 16, 2018)
+## [1.2.7] - 2018-01-16
 
 IMPROVEMENTS:
 
 - All instances of the "Unicode Replacement Character" are removed from all input strings as a pre-processing step. See https://www.fileformat.info/info/unicode/char/fffd/index.htm
 
 
-## 1.2.6 (January 11, 2018)
+## [1.2.6] - 2018-01-11
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.5 (January 2, 2018)
+## [1.2.5] - 2018-01-02
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.4 (January 2, 2018)
+## [1.2.4] - 2018-01-02
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.3 (December 29, 2017)
+## [1.2.3] - 2017-12-29
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.2 (December 28, 2017)
+## [1.2.2] - 2017-12-28
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.1 (December 18, 2017)
+## [1.2.1] - 2017-12-18
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 1.2.0 (November 30, 2017)
+## [1.2.0] - 2017-11-30
 
 FEATURES:
 

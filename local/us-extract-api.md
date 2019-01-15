@@ -1,13 +1,13 @@
 # [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
 
-## 2.1.63 (September 20, 2018)
+## [2.1.63] - 2018-09-20
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 2.1.62 (April 6, 2018)
+## [2.1.62] - 2018-04-06
 
 IMPROVEMENTS:
 
@@ -15,21 +15,21 @@ IMPROVEMENTS:
 - Sanitization logic is now executed closer to the core extraction algorithm (as a result of the previously mentioned improvement).
 
 
-## 2.1.61 (March 16, 2018)
+## [2.1.61] - 2018-03-16
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 2.1.60 (February 15, 2018)
+## [2.1.60] - 2018-02-15
 
 BUG FIXES:
 
 - More corrections to formatting of messages related to error logging.
 
 
-## 2.1.59 (February 15, 2018)
+## [2.1.59] - 2018-02-15
 
 BUG FIXES:
 
@@ -40,28 +40,28 @@ IMPROVEMENTS:
 - Modified severity of language surrounding error logging.
 
 
-## 2.1.58 (January 11, 2018)
+## [2.1.58] - 2018-01-11
 
 IMPROVEMENTS:
 
 - Latest internal dependencies (we're on a roll lately).
 
 
-## 2.1.57 (January 5, 2018)
+## [2.1.57] - 2018-01-05
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 2.1.56 (December 22, 2017)
+## [2.1.56] - 2017-12-22
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 2.1.55 (December 20, 2017)
+## [2.1.55] - 2017-12-20
 
 IMPROVEMENTS:
 
@@ -69,14 +69,14 @@ IMPROVEMENTS:
 - Downgraded severity of internal log entries.
 
 
-## 2.1.54 (December 18, 2017)
+## [2.1.54] - 2017-12-18
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
 
 
-## 2.1.53 (December 15)
+## [2.1.53] - 2017-12-15
 
 IMPROVEMENTS:
 

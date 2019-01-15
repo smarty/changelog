@@ -1,19 +1,19 @@
 # [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
 
 
-## 2.1.57 (December 17, 2018)
+## [2.1.57] - 2018-12-17
 
 BUG FIXES:
 
 - Corrected aggressive CPU usage in case where errant default configuration value related to logging was used.
 
 
-## 2.1.56 (December 6, 2018)
+## [2.1.56] - 2018-12-06
 
 - Modifications to schema of R&D logging.
 
 
-## 2.1.55 (December 6, 2018)
+## [2.1.55] - 2018-12-06
 
 IMPROVEMENTS:
 
@@ -21,7 +21,7 @@ IMPROVEMENTS:
 - Made provision for R&D logging when hosted in the SmartyStreets production environment.
 
 
-## 2.1.54 (September 20, 2018)
+## [2.1.54] - 2018-09-20
 
 BUG FIXES:
 
@@ -32,7 +32,7 @@ IMPROVEMENTS:
 - Updated internal dependencies.
 - Some cleanup and refactorings.
 
-## 2.1.53 (May 15, 2018)
+## [2.1.53] - 2018-05-15
 
 IMPROVEMENTS:
 
@@ -74,49 +74,49 @@ IMPROVEMENTS:
 - Additional logging for cloud installations.
 
 
-## 2.1.47 (January 17, 2018)
+## [2.1.47] - 2018-01-17
 
 BUG FIXES:
 
 - Corrected bug introduced in 2.1.44 which prevented correct inspection and recording of the remote address, which in turn prevented [geolocated preferencing](https://smartystreets.com/docs/cloud/us-autocomplete-api#geolocate).
 
 
-## 2.1.46 (January 11, 2018)
+## [2.1.46] - 2018-01-11
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 2.1.45 (January 5, 2017)
+## [2.1.45] - 2017-01-05
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 2.1.44 (December 28, 2017)
+## [2.1.44] - 2017-12-28
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 2.1.43 (December 18, 2017)
+## [2.1.43] - 2017-12-18
 
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 
 
-## 2.1.42 (December 13, 2017)
+## [2.1.42] - 2017-12-13
 
 IMPROVEMENTS:
 
 - Updated internal csv scanner
 
 
-## 2.1.41 (December 11, 2017)
+## [2.1.41] - 2017-12-11
 
 IMPROVEMENTS:
 
