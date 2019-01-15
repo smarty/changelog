@@ -1,0 +1,1 @@
+Because the US Extract API is actually a wrapper over the US Street Address API, it doesn't have its own data package. See the US Street Address API Data changelog for relevant details.
