@@ -1,4 +1,4 @@
-# Changelog - [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
+# Changelog - [International Street Address API](https://smartystreets.com/docs/cloud/international-street-api)
 
 All notable changes to the International Street Address API will be documented in this file.
 

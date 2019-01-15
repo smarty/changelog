@@ -1,4 +1,4 @@
-# Changelog - [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
+# Changelog - [US Street Address API](https://smartystreets.com/docs/cloud/us-street-api)
 
 All notable changes to the US Street Address API will be documented in this file.
 

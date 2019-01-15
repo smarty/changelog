@@ -1,4 +1,4 @@
-# Changelog - [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
+# Changelog - [US Extract API](https://smartystreets.com/docs/cloud/us-extract-api)
 
 All notable changes to the US Extract API will be documented in this file.
 

@@ -1,4 +1,4 @@
-# Changelog - US Autocomplete  API Data
+# Changelog - US Autocomplete API Data
 
 All notable changes to the US Autocomplete API Data will be documented in this file.
 
