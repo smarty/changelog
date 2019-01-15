@@ -1,4 +1,8 @@
-# [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
+# Changelog - [US Street Address API (local installation)](https://smartystreets.com/docs/local/us-street-api)
+
+All notable changes to the US Street Address API will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
 ## 2.2.25 - 2018-11-29

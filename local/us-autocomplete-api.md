@@ -1,4 +1,8 @@
-# [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
+# Changelog - [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
+
+All notable changes to the US Autocomplete API will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
 ## 2.1.57 - 2018-12-17

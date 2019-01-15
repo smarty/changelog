@@ -1,4 +1,9 @@
-# [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
+# Changelog - [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
+
+All notable changes to the US Extract API will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 
 ## 2.1.63 - 2018-09-20
 
