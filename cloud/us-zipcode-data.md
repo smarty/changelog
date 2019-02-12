@@ -4,6 +4,35 @@ All notable changes to the US ZIP Code API Data will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## 2019.02.5 - 2019-02-12
+
+- As promised, this build contains `Zip5` precision geocodes for every non-military ZIP Code currently in use.
+
+
+## 2019.02.4 - 2019-02-12
+
+- This build re-introduces many more `Zip5` precision geocodes that had been discarded becuase of errant accuracy. There are only just a few still to be added
+
+
+## 2019.02.3 - 2019-02-06
+
+- This build introduces a few thousand `Zip5` precision geocodes which were lost with the release of 2019.02.0 and 2019.02.1. In most cases these lost geocodes were found to be too far outside of tolerances to continue using. Over the next several versions we will be gradually filling in the gaps in our `Zip5` coverage.
+
+
+## 2019.02.2 - 2019-02-06 [YANKED]
+
+- This build had no significant changes.
+
+
+## 2019.02.1 - 2019-01-30
+
+Changes:
+
+- Latest data from upstream providers.
+- This subsequent release corrected problems with 2019.02.0 where many entries lacked geocode information (see [status page incident](https://status.smartystreets.com/incidents/jfsjnkz08jtl) for details).
+
+
 ## 2019.02.0 - 2019-01-29
 
 Changes:
