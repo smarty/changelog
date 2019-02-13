@@ -5,6 +5,13 @@ All notable changes to the US Street Address API Data will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 2019.02.1 - 2019-02-13
+
+Changes:
+
+- Geocoding data has been updated such that every non-military 5-digit ZIP Code has a geocode. In cases where we don't have a higher precision geocode to return for an address, at least a Zip5 precision will be returned.
+
+
 ## 2019.02.0 - 2019-01-29
 
 Changes:
