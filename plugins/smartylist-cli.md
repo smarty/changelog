@@ -1,6 +1,14 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
+## 8.1.20 - 2019-02-15
+
+CHANGES:
+
+- The changelog document included with all downloads of the SmartyList CLI now just references this document
+- The sample input file that is included with all downloads of the SmartyList CLI has column headers that are more aligned with [published documentation](https://smartystreets.com/docs/plugins/smartylist/cli#input).
+
+
 ## 8.1.19 - 2018-12-07
 
 BUG FIXES:
