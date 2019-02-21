@@ -5,6 +5,11 @@ All notable changes to the US ZIP Code API Data will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 2019.02.6 - 2019-0221
+
+- Several million Zip9 corrections/additions to the geocoding data.
+
+
 ## 2019.02.5 - 2019-02-12
 
 - As promised, this build contains `Zip5` precision geocodes for every non-military ZIP Code currently in use.
