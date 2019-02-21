@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 Changes:
 
 - Overhauling module and deployment system. (No public-facing changes expected.)
+- Freeform inputs containing underscores (instead of spaces) will be handled correctly.
 
 
 ## 3.0.22 - 2018-11-29
