@@ -7,7 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
-- Freeform inputs containing underscores (instead of spaces) will be handled correctly.
+
+## 2.2.27 - 2019-02-22
+
+IMPROVEMENTS:
+
+- Freeform inputs containing underscores (instead of spaces) will be sanitized and handled correctly.
+- Updated all internal dependencies to latest versions.
+
+
+## 2.2.26 - 2018-12-12
+
+BUG FIXES:
+
+- Wireup race condition fixed in inner verification engine.
 
 
 ## 2.2.25 - 2018-11-29
