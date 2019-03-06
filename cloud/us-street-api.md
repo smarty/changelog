@@ -5,9 +5,17 @@ All notable changes to the US Street Address API will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## Unreleased
+## UNRELEASED
 
-Changes:
+
+## 3.0.24 - 2019-03-06
+
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+- Compiled using Go v1.12.
+
+CHANGES:
 
 - Overhauling module and deployment system. (No public-facing changes expected.)
 
