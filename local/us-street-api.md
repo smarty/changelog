@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 IMPROVEMENTS:
 
 - Updated internal dependencies.
+- Compiled using Go v1.12.
 
 
 ## 2.2.27 - 2019-02-22
