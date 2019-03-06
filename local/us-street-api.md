@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+
 
 ## 2.2.27 - 2019-02-22
 
