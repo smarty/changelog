@@ -5,9 +5,14 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## Unreleased
+## 2.1.4 - 2019-03-06
 
-Changes:
+IMPROVEMENTS:
+
+- Updated internal dependencies.
+- Compiled using Go v1.12.
+
+CHANGES:
 
 - Overhauling module and deployment system. (No public-facing changes expected.)
 - New object to appear in the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (Full documentation and SDK support pending.) Example:
@@ -52,6 +57,6 @@ curl "international-street.api.smartystreets.com/verify?auth-id=123&auth-token=a
 
 ## 2.1.3 - 2018-09-05
 
-Changes:
+CHANGES:
 
 - Latest web translation code.
