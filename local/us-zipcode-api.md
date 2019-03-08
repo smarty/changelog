@@ -10,6 +10,7 @@ IMPROVEMENTS:
 
 - Updated internal dependencies.
 - Compiled using Go v1.12.
+- Internal refactoring.
 
 
 ## 3.0.0 - 2018-12-26
