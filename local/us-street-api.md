@@ -11,6 +11,7 @@ IMPROVEMENTS:
 
 - Updated internal dependencies.
 - Compiled using Go v1.12.
+- Internal refactoring.
 
 
 ## 2.2.27 - 2019-02-22

@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 3.0.25 - 2019-03-08
+
+CHANGES:
+- Internal refactoring.
+
+
 ## 3.0.24 - 2019-03-06
 
 IMPROVEMENTS:
