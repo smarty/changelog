@@ -4,10 +4,12 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## Unreleased:
 
-- Overhauling module and deployment system. (No public-facing changes expected.)
-- New object to appear in the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (Full documentation and SDK support pending.) Example:
+## 2.3.1 - 2019-03-12
+
+CHANGES:
+
+- New object nested within the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (See [full documentation](https://smartystreets.com/docs/cloud/international-street-api), SDK support pending.) Example:
 
 ```
 curl "international-street.api.smartystreets.com/verify?auth-id=123&auth-token=abc&country=Australia&address1=200%20River%20Terrace&address2=&locality=Kangaroo%20Point&administrative_area=Queensland&postal_code=4169&geocode=true&experimental=true"
