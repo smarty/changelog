@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+- N/A
+
+
+## 1.5.0 - 2019-03-14
+
 IMPROVEMENTS:
 
 - Updated internal dependencies.
@@ -13,7 +18,6 @@ IMPROVEMENTS:
 
 CHANGES:
 
-- Overhauling module and deployment system. (No public-facing changes expected.)
 - New object to appear in the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (Full documentation and SDK support pending.) Example:
 
 ```
@@ -52,6 +56,7 @@ curl "international-street.api.smartystreets.com/verify?auth-id=123&auth-token=a
    }
 ]
 ```
+
 
 ## 1.4.1 - 2018-09-06
 
