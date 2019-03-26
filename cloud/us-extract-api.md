@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 3.0.5 - 2019-03-26
+
+CHANGES:
+- Internal refactoring relative to message routing.
+
+
 ## 3.0.4 - 2019-03-25
 
 CHANGES:
