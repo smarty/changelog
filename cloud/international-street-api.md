@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 2.3.6 - 2019-03-27
+
+IMPROVEMENTS:
+
+- If `address1` is not provided but `address2`, etc. exist, use those instead.
+- Updated internal engine to close more cleanly during shutdown signal.
+
+
 ## 2.3.5 - 2019-03-26
 
 CHANGES:
