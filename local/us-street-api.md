@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 IMPROVEMENTS:
 
+- If street is empty but street2 is populated, street and street2 will be swapped before processing.
 - Updated internal dependencies.
 - Compiled using Go v1.12.
 - Internal refactoring.
