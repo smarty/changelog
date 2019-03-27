@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- If street is empty and street2 is populated, street and street2 are switched before processing.
 
 ## 3.0.27 - 2019-03-26
 
