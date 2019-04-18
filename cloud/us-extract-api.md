@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 3.1.13 - 2019-04-18
+
+- Rolled back changes introduced in 3.1.12 once issue was identified.
+
+## 3.1.12 - 2019-04-18
+
+- Includes additional http tracing to help debug an issue in production. (https://status.smartystreets.com/incidents/6052sfzh0xhh)
+
 
 ## 3.0.5 - 2019-03-26
 
