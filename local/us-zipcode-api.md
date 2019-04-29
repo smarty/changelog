@@ -6,11 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 3.1.0 - 2019-04-29
+
 IMPROVEMENTS:
 
 - Updated internal dependencies.
 - Compiled using Go v1.12.
 - Internal refactoring.
+- Overhauled packaging and publishing mechanism.
+
+NOTES:
+
+- While this is a minor version release, there are no additional behaviors or features in this release.
 
 
 ## 3.0.0 - 2018-12-26
