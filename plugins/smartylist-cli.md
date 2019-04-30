@@ -1,6 +1,18 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
+## 8.2.0 - 2019-04-30
+
+CHANGES:
+
+- Now compiled with Go 1.12 and go modules.
+- Reworked packaging and publishing process.
+
+NOTES:
+
+- While this is a minor version release, there are no additional behaviors or features in this release.
+
+
 ## 8.1.20 - 2019-02-15
 
 CHANGES:
