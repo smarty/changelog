@@ -9,6 +9,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - If street is empty and street2 is populated, street and street2 are switched before processing.
 
+
+## 3.2.22 - 2019-04-30
+
+CHANGES:
+
+- Now compiled with Go 1.12 and Go modules.
+- The service now runs in a docker image and has been fully migrated to geo-distributed kubernetes clusters.
+
+NOTES:
+
+- While this is a minor version release, there are no additional behaviors or features in this release.
+
+
 ## 3.0.27 - 2019-03-26
 
 CHANGES:

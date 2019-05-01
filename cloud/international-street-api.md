@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- n/a
+
+
+## 2.4.5 - 2019-04-12
+
+CHANGES:
+
+- Now compiled with Go 1.12 and Go modules.
+- The service now runs in a docker image and has been fully migrated to geo-distributed kubernetes clusters.
+
+NOTES:
+
+- While this is a minor version release, there are no additional behaviors or features in this release.
+
 
 ## 2.3.6 - 2019-03-27
 

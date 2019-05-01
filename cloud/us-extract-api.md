@@ -11,9 +11,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Rolled back changes introduced in 3.1.12 once issue was identified.
 
+
 ## 3.1.12 - 2019-04-18
 
 - Includes additional http tracing to help debug an issue in production. (https://status.smartystreets.com/incidents/6052sfzh0xhh)
+
+
+## 3.1.11 - 2019-04-04
+
+CHANGES:
+
+- Now compiled with Go 1.12 and Go modules.
+- The service now runs in a docker image and has been fully migrated to geo-distributed kubernetes clusters.
+
+NOTES:
+
+- While this is a minor version release, there are no additional behaviors or features in this release.
 
 
 ## 3.0.5 - 2019-03-26
