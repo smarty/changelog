@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.2.2 - 2019-05-01
+
+CHANGES:
+
+- The pre-processing analysis view no longer reports the size of the input file.
+- The in-process progress bar has been replaced with a simpler reporting mechanism which shows `lookups completed / total lookups (completed %)`.
+
 
 ## 8.2.0 - 2019-04-30
 
