@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - n/a
 
 
+## 2.4.6 - 2019-05-03
+
+CHANGES:
+
+- Internal dependency changes.
+- Additional diagnostic/logging information to monitor system health.
+
+
 ## 2.4.5 - 2019-04-12
 
 CHANGES:

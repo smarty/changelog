@@ -10,6 +10,7 @@ IMPROVEMENTS:
 
 - If `address1` is not provided but `address2`, etc. exist, use those instead.
 - Updated internal engine to close more cleanly during shutdown signal.
+- Updated internal dependencies
 
 
 ## 1.5.0 - 2019-03-14
