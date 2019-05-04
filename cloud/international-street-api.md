@@ -8,6 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 2.4.7 - 2019-05-04
+
+CHANGES:
+
+- Removed temporary diagnostic/logging behavior.
 
 ## 2.4.6 - 2019-05-03
 
