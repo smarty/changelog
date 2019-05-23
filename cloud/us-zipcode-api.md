@@ -8,6 +8,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 5.0.0 - 2019-05-23
+
+CHANGES:
+
+- Restructured and consolidated all code for running the US ZIP Code API in the SmartyStreets cloud or as a local installation. As such, this changelog (moving forward) will contain changes that apply to both isntallations.
+- CORS headers will no longer be provided to responses served by local installations. This is now the responsibility of organizations running their own local installation. There is no change to CORS header handling for users of the SmartyStreets cloud installation (https://us-zipcode.api.smartystreets.com).
+
 
 ## 4.1.3 - 2019-04-08
 
