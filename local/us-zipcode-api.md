@@ -1,4 +1,4 @@
-# Changelog - [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
+# [DEPRECATED] Changelog - [US ZIP Code API](https://smartystreets.com/docs/local/us-zipcode-api)
 
 All notable changes to the US ZIP Code API will now be documented in the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/us-zipcode-api.md). This file remains only for historical purpose.
 
