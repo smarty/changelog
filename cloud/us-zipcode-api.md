@@ -12,7 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
-- Local installation users now benefit from the same middleware handlers as cloud installation users as far as preparing the request for handling go (rejecting any GET requests with payload).
+- Local installation users now benefit from the same middleware handlers as cloud installation users as far as preparing the request for handling (rejecting any GET requests with payload).
 - There is now a new endpoint at `/version`. A GET request to this endpoint will result in HTTP 200 and a `text/plain` repsonse body containing software version information. The syntax/contract of the body is documented within itself.
 
 
