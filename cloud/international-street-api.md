@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 2.4.8 - 2019-05-29
+
+CHANGES:
+
+- Additional diagnostic/logging information to monitor system health.
+
 ## 2.4.7 - 2019-05-04
 
 CHANGES:
