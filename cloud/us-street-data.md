@@ -10,6 +10,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Candidates with street names containing "County Road" will be title-cased more intelligiently.
 
 
+## 2019.06.0 - 2019-05-31
+
+Changes:
+
+- Latest updates from all upstream packages and providers.
+
+
 ## 2019.05.0 - 2019-05-02
 
 Changes:
