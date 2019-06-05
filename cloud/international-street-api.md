@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 2.4.10 - 2019-06-05
+
+CHANGES:
+
+- Internal structural changes to better support subscription management.
+
 ## 2.4.9 - 2019-05-29
 
 CHANGES:
