@@ -1,5 +1,13 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+
+## 8.2.3 - 2019-06-04
+
+CHANGES:
+
+- Using latest dependencies.
+
+
 ## 8.2.2 - 2019-05-01
 
 CHANGES:
