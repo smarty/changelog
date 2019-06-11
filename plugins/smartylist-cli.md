@@ -1,5 +1,15 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.2.4 - 2019-06-11
+
+BUG FIXES:
+
+- Prevented the application from haning in the case that a request/batch fails even after configured retries.
+
+CHANGES:
+
+- Many users reported errors which seem to be related to the http2 protocol (which go now supports by default). Until further notice this application will downgrade all requests to http 1.1.
+
 
 ## 8.2.3 - 2019-06-04
 
