@@ -4,7 +4,7 @@
 
 BUG FIXES:
 
-- Prevented the application from haning in the case that a request/batch fails even after configured retries.
+- Prevented the application from hanging in the case that a request/batch fails even after configured retries.
 
 CHANGES:
 
