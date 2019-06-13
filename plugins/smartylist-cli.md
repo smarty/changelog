@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.2.6 - 2019-06-13
+
+CHANGES:
+
+- The record count displayed on the final processing report is now formatted with thousands separators (,).
+
+
 ## 8.2.5 - 2019-06-13
 
 CHANGES:
