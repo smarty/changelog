@@ -6,11 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## 1.5.2 - 2019-06-17
+
 IMPROVEMENTS:
 
 - If `address1` is not provided but `address2`, etc. exist, use those instead.
 - Updated internal engine to close more cleanly during shutdown signal.
-- Updated internal dependencies
+- Updated internal dependencies.
+- Overhauled build pipeline used for packaging new versions.
 
 
 ## 1.5.0 - 2019-03-14
