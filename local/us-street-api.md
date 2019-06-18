@@ -7,12 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+
+## 2.2.28 - 2019-06-17
+
 IMPROVEMENTS:
 
 - If street is empty but street2 is populated, street and street2 will be swapped before processing.
 - Updated internal dependencies.
 - Compiled using Go v1.12.
 - Internal refactoring.
+- Overhauled internal build CI/CD pipeline.
 
 
 ## 2.2.27 - 2019-02-22
