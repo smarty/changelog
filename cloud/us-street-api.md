@@ -9,6 +9,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.0.0 - 2019-07-01
+
+This release, while a major version release represents a merging of internal code repositories and does not introduce any changes to the input/output contracts [as currently documented](https://smartystreets.com/docs/cloud/us-street-api).
+
+CHANGES:
+
+- Local installations can now make use of up to 64 cores (previously the max was 8).
+- Local installations should log slow status check durations less frequently (when applicable).
+
 ## 3.3.2 - 2019-06-24
 
 - Updated internal dependencies. Incrementing the minor version number in this case was a mistake.
