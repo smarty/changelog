@@ -14,6 +14,13 @@ Changes:
 - Fixed a bug in the data that caused incorrect values in the `alternate_cities` collection.
 
 
+## 2019.07.1 - 2019-06-28
+
+Changes:
+
+- Latest data.
+
+
 ## 2019.06.0 - 2019-06-02
 
 Changes:
