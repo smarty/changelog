@@ -9,7 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
-## 4.0.0 - 2019-07-01
+## 4.0.7 - 2019-07-09
+
+BUG FIXES:
+
+- With the 4.0.0 release a concurrency-related bug was introduced in a hash calculation which caused the application to panic and shut down. (See incident details: https://status.smartystreets.com/incidents/dk5ghfl03vjf) This release fixes that issue.
+
+
+## 4.0.0 - 2019-07-01 [YANKED]
 
 This release, while a major version release represents a merging of internal code repositories and does not introduce any changes to the input/output contracts [as currently documented](https://smartystreets.com/docs/cloud/us-street-api).
 
