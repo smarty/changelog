@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+IMPROVEMENTS:
+
+- Misc bug fixes to facilitate a clean process shutdown.
+
+BUG FIXES:
+
+- Corrected ISO3 code for `Timor-Leste` to `TLS`.
+
+
 ## 1.5.2 - 2019-06-17
 
 IMPROVEMENTS:
