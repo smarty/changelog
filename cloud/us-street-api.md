@@ -9,6 +9,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+
+## 4.0.12 - 2019-07-26
+
+CHANGES:
+
+- Latest internal dependencies.
+
+
+## 4.0.11 - 2019-07-26
+
+BUG FIXES:
+
+- Reinstated top-level /lib folder into the local installation package (required reworking much of the source code boilerplate).
+
+CHANGES:
+
+- Internal refactoring.
+ 
+
 ## 4.0.10 - 2019-07-12
 
 BUG FIXES:
