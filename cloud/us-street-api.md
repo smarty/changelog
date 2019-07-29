@@ -24,7 +24,7 @@ CHANGES:
 - Latest internal dependencies.
 
 
-## 4.0.11 - 2019-07-26
+## 4.0.11 - 2019-07-26 [YANKED: cloud installation]
 
 BUG FIXES:
 
@@ -35,14 +35,14 @@ CHANGES:
 - Internal refactoring.
  
 
-## 4.0.10 - 2019-07-12
+## 4.0.10 - 2019-07-12 [YANKED: local installation]
 
 BUG FIXES:
 
 - Corrected mishandling of lookups that contain no street information, introduced in the 4.0.0 release.
 
 
-## 4.0.7 - 2019-07-09
+## 4.0.7 - 2019-07-09 [YANKED: local installation]
 
 BUG FIXES:
 
