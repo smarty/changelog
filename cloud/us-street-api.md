@@ -10,6 +10,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - n/a
 
 
+## 4.0.14 - 2019-07-26
+
+CHANGES:
+
+- Slight change to internal boilerplate code used in development and testing.
+
+
 ## 4.0.12 - 2019-07-26
 
 CHANGES:
