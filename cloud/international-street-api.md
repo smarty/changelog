@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+
+## 2.5.2 - 2019-08-02
+
+CHANGES:
+
+- The country of `Timor Leste` is now recognized by both `TLP` and `TLS` even though its proper ISO3 code is `TLS`.
+- Many internal refactorings and restructurings.
+
+
 ## 2.4.13 - 2019-07-22
 
 IMPROVEMENTS:
