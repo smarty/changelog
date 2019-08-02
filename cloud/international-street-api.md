@@ -12,6 +12,7 @@ IMPROVEMENTS:
 
 - A few more fixes surrounding a clean process shutdown.
 
+
 ## 2.4.12 - 2019-07-22
 
 IMPROVEMENTS:
@@ -21,6 +22,7 @@ IMPROVEMENTS:
 BUG FIXES:
 
 - Corrected ISO3 code for `Timor-Leste` to `TLS`.
+
 
 ## 2.4.11 - 2019-06-28
 
@@ -35,11 +37,13 @@ CHANGES:
 
 - Internal structural changes to better support subscription management.
 
+
 ## 2.4.9 - 2019-05-29
 
 CHANGES:
 
 - Removed temporary diagnostic/logging behavior.
+
 
 ## 2.4.8 - 2019-05-29
 
@@ -47,11 +51,13 @@ CHANGES:
 
 - Additional diagnostic/logging information to monitor system health.
 
+
 ## 2.4.7 - 2019-05-04
 
 CHANGES:
 
 - Removed temporary diagnostic/logging behavior.
+
 
 ## 2.4.6 - 2019-05-03
 
@@ -105,11 +111,13 @@ CHANGES:
 
 - Internal refactoring: Partitioning workload based upon account information.
 
+
 ## 2.3.1 - 2019-03-13
 
 CHANGES:
 
 - Making internal messages routed between various internal systems durable/persistent.
+
 
 ## 2.3.0 - 2019-03-12
 
@@ -160,6 +168,7 @@ curl "international-street.api.smartystreets.com/verify?auth-id=123&auth-token=a
 FIXES:
 
 - Fixed configuration reader wireup
+
 
 ## 2.1.4 - 2019-03-06 [YANKED]
 
