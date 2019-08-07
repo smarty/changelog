@@ -7,6 +7,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 2.5.5 - 2019-08-07
+
+CHANGES:
+
+- Further improvements and flexibility surrounding addresses from "Åland Islands" (see version [2.5.3](#253---2019-08-07)).
+
+
+## 2.5.4 - 2019-08-07
+
+CHANGES:
+
+- Updated internal dependencies.
+
+
+## 2.5.3 - 2019-08-07
+
+CHANGES:
+
+- The ISO3 code for some aliases of ["Åland Islands"](https://en.wikipedia.org/wiki/%C3%85land_Islands) (a province of Finland) was incorrect. We now recognize "Aland" as a valid alias. 
+
+
 ## 2.5.2 - 2019-08-02
 
 CHANGES:
