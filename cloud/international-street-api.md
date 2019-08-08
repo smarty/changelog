@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 2.5.6 - 2019-08-07
+
+CHANGES:
+
+- Additional fix related to country of `Timor Leste` (see [2.5.2](#252---2019-08-02)).
+
 
 ## 2.5.5 - 2019-08-07
 
