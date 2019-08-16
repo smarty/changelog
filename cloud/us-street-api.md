@@ -7,7 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
-- n/a
+## 4.0.16 - 2019-08-16
+
+CHANGES:
+
+- Compiling using Go v1.12.9 to address various potential CVEs found in standard library for HTTP/2.
 
 
 ## 4.0.15 - 2019-08-02

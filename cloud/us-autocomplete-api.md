@@ -5,9 +5,13 @@ All notable changes to the US Autocomplete API will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## Unreleased
+## UNRELEASED
 
-- n/a
+## 3.3.2 - 2019-08-16
+
+CHANGES:
+
+- Compiling using Go v1.12.9 to address various potential CVEs found in standard library for HTTP/2.
 
 
 ## 3.3.1 - 2019-08-09
