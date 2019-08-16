@@ -1,5 +1,9 @@
 # Changelog - [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
 
+Since 2019-08-16 the changelogs for the cloud and local installations of the US Extract API have been merged and now reside where the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/us-extract-api.md) exists.
+
+--------------
+
 All notable changes to the US Extract API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).

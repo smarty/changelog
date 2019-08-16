@@ -7,6 +7,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- n/a
+
+
+## 3.2.4 - 2019-08-16
+
+CHANGES:
+
+- Reworking build/publish boilerplate.
+
+
+## 3.2.3 - 2019-08-16 [YANKED]
+
+CHANGES:
+
+- Reworking build/publish boilerplate.
+
+
 ## 3.2.2 - 2019-08-16
 
 CHANGES:
