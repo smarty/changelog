@@ -68,6 +68,9 @@ CHANGES:
 
 - Local installations can now make use of up to 64 cores (previously the max was 8).
 - Local installations should log slow status check durations less frequently (when applicable).
+- Local installations no longer limit the size of request payloads. 
+- Clients of local installations must now submit a `Content-Type` header with `application/json; charset=utf-8` for `JSON` payloads. Failure to do so will result in `HTTP 400 Malformed Request`.
+    - One option would be to put the local installation behind your own proxy that performs an override in the case of certain common content types submitted by tools such as cURL (`x-www-formurlencoded` to `application/json; charset=utf-8`).
 
 ## 3.3.2 - 2019-06-24
 
