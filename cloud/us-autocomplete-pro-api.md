@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 1.1.17 2019-08-19
+
+CHANGES:
+
+- Changed default for the prefer_geolocation parameter from 'none' to 'city'.
+
 
 ## 1.1.16 2019-08-16
 
