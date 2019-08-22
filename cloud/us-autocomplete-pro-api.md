@@ -8,11 +8,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 1.1.20 2019-08-22
+
+CHANGES:
+
+- Fixed the very last issues with expanding secondaries that we will ever encounter in our lifetimes.
+
+## 1.1.19 2019-08-21
+
+CHANGES:
+
+- Fixed more issues with expanding secondaries.
+
 ## 1.1.18 2019-08-21
 
 CHANGES:
 
-- Fixed issue with expanding secondaries.
+- Fixed issues with expanding secondaries.
 
 
 ## 1.1.17 2019-08-19
