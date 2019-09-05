@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+CHANGES:
+
+- The response body for `HTTP 4xx` responses is now formatted more like other SmartyStreets APIs. This response is not to be parsed and may change at any time.
+- The wording and formatting of line items in the diagnostic response just mentioned have been reworked.  
+- Previously, a blank input `search` value resulted in `HTTP 200` and a response body containing `{"suggestions":null}` whereas it will now result in `HTTP 422` (unprocessable entity) with a diagnostic report in the response body.
+
 
 ## 1.1.20 2019-08-22
 
