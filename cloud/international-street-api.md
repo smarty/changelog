@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 2.6.0 - 2019-09-06
+
+- Latest version of internal, upstream dependencies.
+- Allowing dynamic selection via configuration of US Street API (cloud version only).
+
 ## 2.5.7 - 2019-08-16
 
 CHANGES:
