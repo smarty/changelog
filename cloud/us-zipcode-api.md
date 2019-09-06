@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 5.1.6 - 2019-09-06
+
+CHANGES:
+
+- Latest version of internal dependencies.
+
+
 ## 5.1.5 - 2019-08-16
 
 CHANGES:
