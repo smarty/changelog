@@ -7,8 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 4.0.18 - 2019-09-06
+
+CHANGES:
+- Internal refactoring.
+
 ## 4.0.17 - 2019-09-06
 
+CHANGES:
 - Latest version of internal, upstream dependencies.
 
 ## 4.0.16 - 2019-08-16
