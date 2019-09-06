@@ -10,6 +10,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - n/a
 
 
+## 3.3.0 - 2019-09-06
+
+CHANGES:
+
+- Additional configuration values for cloud version to make downstream URL dynamic.
+- Latest dependencies.
+
 ## 3.2.4 - 2019-08-16
 
 CHANGES:
