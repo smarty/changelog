@@ -7,40 +7,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+
+## 1.1.21 - 2019-09-06
+
 CHANGES:
 
 - The response body for `HTTP 4xx` responses is now formatted more like other SmartyStreets APIs. This response is not to be parsed and may change at any time.
-- The wording and formatting of line items in the diagnostic response just mentioned have been reworked.  
+- The wording and formatting of line items in the diagnostic response just mentioned have been reworked.
 - Previously, a blank input `search` value resulted in `HTTP 200` and a response body containing `{"suggestions":null}` whereas it will now result in `HTTP 422` (unprocessable entity) with a diagnostic report in the response body.
+- Latest internal dependencies
 
-
-## 1.1.20 2019-08-22
+## 1.1.20 - 2019-08-22
 
 CHANGES:
 
 - Fixed the very last issues with expanding secondaries that we will ever encounter in our lifetimes.
 
-## 1.1.19 2019-08-21
+## 1.1.19 - 2019-08-21
 
 CHANGES:
 
 - Fixed more issues with expanding secondaries.
 
-## 1.1.18 2019-08-21
+## 1.1.18 - 2019-08-21
 
 CHANGES:
 
 - Fixed issues with expanding secondaries.
 
 
-## 1.1.17 2019-08-19
+## 1.1.17 - 2019-08-19
 
 CHANGES:
 
 - Changed default for the prefer_geolocation parameter from 'none' to 'city'.
 
 
-## 1.1.16 2019-08-16
+## 1.1.16 - 2019-08-16
 
 CHANGES:
 
