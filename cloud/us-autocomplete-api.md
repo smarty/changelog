@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+
+## 3.4.0 - 2019-09-06
+
+- Internal dependency changes.
+
 ## 3.3.2 - 2019-08-16
 
 CHANGES:
