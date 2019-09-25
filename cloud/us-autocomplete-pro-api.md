@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.2.0 - 2019-09-19
+
+CHANGES:
+
+- Implemented a new parameter named `selected` that is used to return up to 100 secondaries for an address.
 
 ## 1.1.21 - 2019-09-06
 
