@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.3.1 - 2019-10-4
+
+CHANGES:
+
+- Fixed an issue with the `selected` parameter to handle partial secondary values.
+
+## 1.3.0 - 2019-10-3
+
+CHANGES:
+
+- When using the `selected` parameter is used and the user has subsequently typed part of the secondary value,
+  it now returns the limited list of secondaries that match what has been typed thus far.
+
 ## 1.2.0 - 2019-09-19
 
 CHANGES:
