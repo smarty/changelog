@@ -7,18 +7,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
-## 1.3.1 - 2019-10-4
+## 1.2.4 - 2019-10-17
 
 CHANGES:
 
-- Fixed an issue with the `selected` parameter to handle partial secondary values.
+- Fixed secondary ignoring issues when filtering on cities.
 
-## 1.3.0 - 2019-10-3
+## 1.2.2 - 2019-10-10
 
 CHANGES:
 
-- When using the `selected` parameter is used and the user has subsequently typed part of the secondary value,
+- Added additional fuzziness that will try ignoring secondary data in the `search` parameter.
+  This allows the user to type secondary data and still get results when no such data is actually in the address.
+
+## 1.2.1 - 2019-10-3
+
+CHANGES:
+
+- When using the `selected` parameter and the user has subsequently typed part of the secondary value,
   it now returns the limited list of secondaries that match what has been typed thus far.
+- Fixed an issue with the `selected` parameter to handle partial secondary values.
 
 ## 1.2.0 - 2019-09-19
 
