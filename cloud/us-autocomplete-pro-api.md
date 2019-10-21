@@ -5,13 +5,20 @@ All notable changes to the US Autocomplete Pro API will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## UNRELEASED
+## RELEASED
+
+## 1.2.7 - 2019-10-21
+
+CHANGES:
+
+- Fixed panic when secondaries were entered at the beginning of the input.
+- Fixed panic when hyphens are used in primaries.
 
 ## 1.2.4 - 2019-10-17
 
 CHANGES:
 
-- Fixed secondary ignoring issues when filtering on cities.
+- Fixed `secondary ignoring` issues when filtering on cities.
 
 ## 1.2.2 - 2019-10-10
 
