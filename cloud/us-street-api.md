@@ -8,7 +8,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
-## 4.0.20  -2019-10-17
+## 4.0.21 - 2019-10-22
+
+CHANGES:
+
+- Latest version of internal dependencies.
+
+
+## 4.0.20 - 2019-10-17
 
 CHANGES:
 
