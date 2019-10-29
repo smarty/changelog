@@ -5,6 +5,13 @@ All notable changes to the US Street Address API Data will be documented in this
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 2019.11.0 - 2019-10-27
+
+Changes:
+
+- Latest updates from all upstream packages and providers.
+
+
 ## 2019.10.0 - 2019-09-30
 
 Changes:
