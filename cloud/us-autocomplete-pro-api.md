@@ -7,18 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## RELEASED
 
-## 1.2.7 - 2019-10-21
+## 1.3.4 - 2019-11-04
 
 CHANGES:
 
-- Fixed panic when secondaries were entered at the beginning of the input.
-- Fixed panic when hyphens are used in primaries.
-
-## 1.2.4 - 2019-10-17
-
-CHANGES:
-
-- Fixed `secondary ignoring` issues when filtering on cities.
+- Added support for secondaries that contain spaces
+- Fixed many issues related to features delivered in 1.2.0 and 1.2.2.
+- Returns 5 digit ZIP Codes in the suggestions
 
 ## 1.2.2 - 2019-10-10
 
