@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.4.2] - 2019-11-05
+
+### Changed:
+
+- Added support for US Autocomplete Pro
+
 ### Changed:
 
 - Nothing yet
