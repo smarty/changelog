@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## RELEASED
 
+## 1.3.5 - 2019-11-05
+
+CHANGES:
+
+- Fixed issue when using 'selected' and in results Apt could return as Bpt.
+- Fixed panic in specific search scenarios.
+
 ## 1.3.4 - 2019-11-04
 
 CHANGES:
