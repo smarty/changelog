@@ -12,6 +12,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.4.0] - 2019-11-22
+
+### Changed:
+
+- Now implementing US-Autocomplete-Pro API.
+
 ## [3.3.6] - 2019-01-14
 
 ### Changed:
