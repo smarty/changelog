@@ -4,11 +4,163 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [8.4.0] - 2019-11-22
 
 ### Changed:
 
 - Typos in Makefile
+- US-Autocomplete-Pro API added
+
+
+## [8.3.3] - 2019-07-10
+
+### Changed:
+
+- Sender tools made public.
+- Sender has more flexibility with nil returns.
+
+
+## [8.3.2] - 2019-07-10
+
+### Changed:
+
+- Additional input fields in examples.
+
+
+## [8.3.1] - 2019-07-10
+
+### Changed:
+
+- Incremented version.
+
+
+## [8.3.0] - 2019-07-10
+
+### Changed:
+
+- Objective C examples created.
+
+
+## [8.2.1] - 2019-07-10
+
+### Changed:
+
+- Incremented version.
+
+
+## [8.2.0] - 2019-07-10
+
+### Changed:
+
+- Separated executables from library.
+
+## [8.1.1] - 2019-07-10
+
+### Changed:
+
+- Incremented version.
+
+
+## [8.1.0] - 2019-08-05
+
+### Changed:
+
+- Accept gzip encoded requests.
+
+
+## [8.0.0] - 2019-07-01
+
+### Changed:
+
+- Library changed from Objective C to Swift.
+
+
+## [7.7.3] - 2019-03-15
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.7.2] - 2019-03-15
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.7.1] - 2019-03-14
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.7.0] - 2019-03-14
+
+### Changed:
+
+- Changes field added to Analysis object. (Rootlevel added to accomodate)
+- Changelog moved to separate repository.
+- Match=invalid added to example.
+
+
+## [7.6.7] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.6] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.5] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.4] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.3] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.2] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.1] - 2019-02-26
+
+### Changed:
+
+- Incremented version.
+
+
+## [7.6.0] - 2019-02-26
+
+### Changed:
+
+- Deprecated EWS Match.
+- Moved EWS Match to Metadata.
+
 
 ## [7.5.4] - 2018-09-24
 
