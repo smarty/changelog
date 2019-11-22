@@ -18,6 +18,31 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Now implementing US-Autocomplete-Pro API.
 
+
+## [3.4.1] - 2019-11-12
+
+### Changed:
+
+- Updates to pom.xml.
+- Input ID returned with the result.
+
+
+## [3.3.8] - 2019-04-05
+
+### Changed:
+
+- Additional changes field in International Street Analysis (Rootlevel added).
+- Input fields populated in examples.
+
+
+## [3.3.7] - 2019-02-26
+
+### Changed:
+
+- Moved Changelog to separate repo.
+- Moved EWS Match to correct field.
+
+
 ## [3.3.6] - 2019-01-14
 
 ### Changed:
