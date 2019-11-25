@@ -5,17 +5,47 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## [Unreleased]
+## [8.3.0] - 2019-09-25
+
+### Changed:
+
+- Populated relevant input fields in examples.
+- Added notes for readability.
+- US Street example (.vb) updated to work with library.
+- Made USStreetSingleAddressExample.vb compile.
+- 'inputID' added to the response.
+
+
+## [8.2.0] - 2019-03-13
+
+### Changed:
+
+- Added Match Strategy to examples.
+- Moved changelog.
+- 'changes' field added to International Street Analysis, Rootlevel created to assist.
+
+
+## [8.1.1] - 2019-02-26
+
+### Changed:
+
+- Made Analysis compile.
+
+
+## [8.1.0] - 2019-02-26
 
 ### Changed:
 
 - Update integration test to check environment variables to enable alternative API URLs (`SMARTY_URL_INTERNATIONAL_STREET`, `SMARTY_URL_US_AUTOCOMPLETE`, `SMARTY_URL_US_EXTRACT`, `SMARTY_URL_US_STREET`, `SMARTY_URL_US_ZIP`).
+- Deprecated Analysis.IsEWS_Match
+
 
 ## [8.0.15] - 2019-01-15
 
 ### Changed:
 
 - By default add `Accept-Encoding: gzip` header to request and handle gzipped response.
+
 
 ## [8.0.14] - 2018-09-18
 
