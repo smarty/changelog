@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.5.1] - 2019-12-03
+
+### Changed:
+
+- Updated code examples.
+
+
 ## [3.5.0] - 2019-11-22
 
 ### Changed:
