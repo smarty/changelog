@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 4.0.26 - 2019-12-19
+
+CHANGES:
+
+- Internal refactorings and simplifications.
+- Emitting additional data points for internal business intelligence.
+
 
 ## 4.0.21 - 2019-10-22
 
