@@ -10,6 +10,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - n/a
 
 
+## 3.3.1 - 2019-12-20
+
+CHANGES:
+
+- Internal refactorings and simplifications.
+- Emitting additional data points for internal business intelligence.
+
+
 ## 3.3.0 - 2019-09-06
 
 CHANGES:
