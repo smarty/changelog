@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 2.6.2 - 2019-12-20
+
+CHANGES:
+
+- Internal refactorings and simplifications.
+- Emitting additional data points for internal business intelligence.
+
 ## 2.6.0 - 2019-09-06
 
 - Latest version of internal, upstream dependencies.
