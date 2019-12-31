@@ -21,6 +21,12 @@ CHANGES:
 - Internal refactorings and simplifications.
 - Emitting additional data points for internal business intelligence.
 
+## 1.3.6 - 2019-12-30
+
+CHANGES:
+
+- Added more street suffix aliases with misspellings for greater tolerance
+- Added building default addresses back into the data
 
 ## 1.3.5 - 2019-11-05
 
