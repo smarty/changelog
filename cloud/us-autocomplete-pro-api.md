@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## RELEASED
 
+## 1.3.9 - 2020-01-03
+
+CHANGES:
+
+- When using the _zip_codes parameters, the prefer_geolocation parameter will default to none. Before this change, it needed to be set to none explicitly.
+- Clarified error messages related to this change.
+- Updated the documentation. 
+
+
 ## 1.3.8 - 2019-12-20
 
 CHANGES:
