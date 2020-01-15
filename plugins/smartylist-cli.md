@@ -1,5 +1,14 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.2.7 - 2020-01-15
+
+CHANGES:
+
+- Now compiled with Go 1.13
+- Better handling of progress bar in error scenarios
+- Corrected documentation URL in `DO-NOT-README.txt`: https://smartystreets.com/docs/plugins/smartylist/cli
+
+
 ## 8.2.6 - 2019-06-13
 
 CHANGES:
