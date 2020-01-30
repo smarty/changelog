@@ -16,6 +16,9 @@ CHANGES:
 
 - Internal refactorings and simplifications.
 - Emitting additional data points for internal business intelligence.
+- Local Installations Only:
+	- It is now required that clients send requests with `Content-Type` of `text/plain; charset=utf-8`. Failure to do so may result in `HTTP 400 Bad Request`.
+	- The server now longer limits the size of the request body or provides CORS response headers. If desired, this is now the responsibility of the organization hosting the local installation.
 
 
 ## 3.3.0 - 2019-09-06
