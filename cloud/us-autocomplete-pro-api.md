@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## RELEASED
 
+## 1.3.10 - 2020-01-31
+
+CHANGES:
+
+- Fixed a display and data issue when addresses do not have a secondary designator but yet have a secondary value. 
+
+
 ## 1.3.9 - 2020-01-03
 
 CHANGES:
