@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.1.14 - 2020-03-16
+
+CHANGES:
+
+- Latest internal dependencies.
 
 ## 5.1.13 - 2019-12-20
 
