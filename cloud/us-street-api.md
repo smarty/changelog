@@ -7,6 +7,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- n/a
+
+
+## 4.0.30 - 2020-03-17
+
+BUG FIXES:
+
+- Corrected concurrent access bug that caused intermittent geocode inaccuracies.
+
+
 ## 4.0.29 - 2020-03-16
 
 CHANGES:
