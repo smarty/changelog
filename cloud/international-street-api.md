@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 2.7.1 - 2020-03-24
+
+CHANGES:
+
+- Internal packaging and dependency management.
+
+
+## 2.7.0 - 2020-03-24
+
+CHANGES:
+
+- Internal packaging and dependency management.
+
+
 ## 2.6.4 - 2020-03-16
 
 CHANGES:
