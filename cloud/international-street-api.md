@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 2.8.0 - 2020-04-13
+
+CHANGES:
+
+- Updated packaging instructions for on-premise builds.
+
+
 ## 2.7.1 - 2020-03-24
 
 CHANGES:

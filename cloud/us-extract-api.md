@@ -7,7 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
-- n/a
+## 3.4.0 - 2020-04-13
+
+CHANGES:
+
+- Updated packaging instructions for on-premise builds.
+
 
 ## 3.3.1 - 2020-03-16
 
