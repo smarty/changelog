@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.2.1 - 2020-05-05
+
+CHANGES:
+
+- Internal behavior surrounding subscription management.
+
+
 ## 5.2.0 - 2020-04-13
 
 CHANGES:
