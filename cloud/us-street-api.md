@@ -9,6 +9,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.2.2 - 2020-05-28
+
+CHANGES:
+
+- Compiled against Go v1.14.3.
 
 ## 4.2.1 - 2020-05-05
 
