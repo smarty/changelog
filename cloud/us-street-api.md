@@ -14,6 +14,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 CHANGES:
 
 - Compiled against Go v1.14.3.
+- Includes the new usps/ams libraries.
 
 ## 4.2.1 - 2020-05-05
 
