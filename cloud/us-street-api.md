@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.2.3 - 2020-06-10
+
+CHANGES:
+
+- Compiled against Go v1.14.4.
+- Adjusted internal metrics reporting frequency.
+
 ## 4.2.2 - 2020-05-28
 
 CHANGES:
