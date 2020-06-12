@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 3.4.4 - 2020-06-12
+
+CHANGES:
+
+- Upgrade to latest dependencies
+- Updated packaging instructions for on-premise builds.
+- Compiled using Go v1.14.x.
+
+
 ## 3.4.1 - 2020-05-05
 
 CHANGES:

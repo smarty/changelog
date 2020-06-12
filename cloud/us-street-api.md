@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.2.4 - 2020-06-12
+
+CHANGES:
+
+- Upgrade to latest dependencies
+- Updated packaging instructions for on-premise builds.
+
+
 ## 4.2.3 - 2020-06-10
 
 CHANGES:
