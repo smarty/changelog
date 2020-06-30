@@ -5,6 +5,13 @@ All notable changes to the US Autocomplete API Data will be documented in this f
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 2020.07.A - 2020-06-30
+
+Changes:
+
+- Latest data.
+
+
 ## 2020.06.A - 2020-05-27
 
 Changes:
