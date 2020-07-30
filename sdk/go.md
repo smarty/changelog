@@ -4,6 +4,42 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.5.1] - 2020-07-30
+
+### Changed:
+
+- Incremented version.
+
+## [v1.5.0] - 2020-07-30
+
+### Changed:
+
+- WithContext option now available for all clients.
+
+## [v1.4.3] - 2020-06-12
+
+### Changed:
+
+- Latest dependencies and build instructions.
+
+## [v1.4.2] - 2020-04-30
+
+### Changed:
+
+- Version is not incrementing properly.
+
+## [v1.4.1] - 2020-04-30
+
+### Changed:
+
+- Incremented version.
+
+## [v1.4.0] - 2020-04-29
+
+### Changed:
+
+- Option to allow caller to pass in their own http.Client.
+
 ## [v1.3.5] - 2020-03-16
 
 ### Changed:
