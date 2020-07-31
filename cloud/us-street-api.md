@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.3.0 - 2020-07-31
+
+CHANGES:
+- Upgrade to latest dependencies
+- Small internal improvements in preparation for soon-to-be-released features.
+
+
 ## 4.2.4 - 2020-06-12
 
 CHANGES:
