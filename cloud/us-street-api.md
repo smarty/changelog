@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.3.2 - 2020-08-03
+
+CHANGES:
+- Better internal error checking surrounding geocoding.
+
+
 ## 4.3.1 - 2020-08-03
 
 CHANGES:
