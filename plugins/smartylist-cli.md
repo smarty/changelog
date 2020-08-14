@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.3.0 - 2020-08-14
+
+CHANGES:
+
+- Added `license` command line flag. This flag is useful when targeting specific capabilities of an API based on your subscription level. See the documentation for possible values. Most users need not supply this flag.
+
+
 ## 8.2.7 - 2020-01-15
 
 CHANGES:
