@@ -9,6 +9,35 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+
+## 4.3.9 - 2020-08-21
+
+CHANGES:
+
+- Internal structural changes
+
+
+## 4.3.8 - 2020-08-20
+
+CHANGES:
+
+- Internal structural changes
+
+
+## 4.3.7 - 2020-08-20
+
+CHANGES:
+
+- Internal structural changes
+
+
+## 4.3.6 - 2020-08-20
+
+CHANGES:
+
+- Internal structural changes
+
+
 ## 4.3.5 - 2020-08-11
 
 CHANGES:
@@ -18,18 +47,21 @@ CHANGES:
 ## 4.3.2 - 2020-08-03
 
 CHANGES:
+
 - Better internal error checking surrounding geocoding.
 
 
 ## 4.3.1 - 2020-08-03
 
 CHANGES:
+
 - Internal handling of feature flags.
 
 
 ## 4.3.0 - 2020-07-31
 
 CHANGES:
+
 - Upgrade to latest dependencies
 - Small internal improvements in preparation for soon-to-be-released features.
 
