@@ -1,10 +1,25 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+
+## 8.4.1 - 2020-?
+
+BUG FIXES:
+
+- Ensured the `-version` flag correctly displays the version.
+
+
+## 8.4.0 - 2020-0?
+
+CHANGES:
+
+- Deprecated `-licenses` flag from 8.3.0, in favor of `-license` (singular). This flag may be supplied multiple times to specify multiple values. Most users need not supply this flag.
+
+
 ## 8.3.0 - 2020-08-14
 
 CHANGES:
 
-- Added `license` command line flag. This flag is useful when targeting specific capabilities of an API based on your subscription level. See the documentation for possible values. Most users need not supply this flag.
+- Added `-licenses` command line flag. This flag is useful when targeting specific capabilities of an API based on your subscription level. See the documentation for possible values. Most users need not supply this flag.
 
 
 ## 8.2.7 - 2020-01-15
