@@ -4,11 +4,36 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [v1.6.2] - 2020-08-25
+
+### Bug Fixes:
+
+- Incorporate the path of supplied `WithBaseURL` value into the http request. This allows the client to send requests to locally hosted APIs that reside behind a non-blank path. From the most recent version of the godocs:
+
+> The address provided will be consulted for scheme, host, and path values. Any other URL components such as the query string or fragment will be ignored.
+
+
+## [v1.6.1] - 2020-08-14
+
+### Bug Fixes:
+
+- Filter out blank values passed to `WithLicenses` function option.
+
+
+## [v1.6.0] - 2020-08-13
+
+### Changed:
+
+- Introduced a new function option for wireup: `WithLicenses`. This option is useful when targeting specific capabilities of an API based on the subscription level. See the documentation for possible values. Most callers need not supply this flag.
+
+
 ## [v1.5.1] - 2020-07-30
 
 ### Changed:
 
 - Incremented version.
+
 
 ## [v1.5.0] - 2020-07-30
 
@@ -16,11 +41,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - WithContext option now available for all clients.
 
+
 ## [v1.4.3] - 2020-06-12
 
 ### Changed:
 
 - Latest dependencies and build instructions.
+
 
 ## [v1.4.2] - 2020-04-30
 
@@ -28,11 +55,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Version is not incrementing properly.
 
+
 ## [v1.4.1] - 2020-04-30
 
 ### Changed:
 
 - Incremented version.
+
 
 ## [v1.4.0] - 2020-04-29
 
@@ -40,11 +69,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Option to allow caller to pass in their own http.Client.
 
+
 ## [v1.3.5] - 2020-03-16
 
 ### Changed:
 
 - Latest internal testing dependencies.
+
 
 ## [v1.3.4] - 2019-11-26
 
