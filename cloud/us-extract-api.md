@@ -7,6 +7,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- n/a
+
+## 3.5.1 - 2020-08-25
+
+CHANGES:
+
+- Incorporate latest version of the SmartyStreets Go SDK (v1.6.2) which adds support for calling a local instance of the US Street API hosted behind a non-blank path in its address.
+
+
+## 3.5.0 - 2020-06-30
+
+CHANGES:
+
+- Internal upgrades to messaging infrastructure.
+
+
 ## 3.4.4 - 2020-06-12
 
 CHANGES:
