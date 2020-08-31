@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [v1.6.3] - 2020-08-28
+
+### Changed:
+
+- Retry client now employs exponential backoff strategy complete with 'jitter'. (Fixes [Issue #17](https://github.com/smartystreets/smartystreets-go-sdk/issues/17) via [PR #18](https://github.com/smartystreets/smartystreets-go-sdk/pull/18))
+
+
+
 ## [v1.6.2] - 2020-08-25
 
 ### Bug Fixes:
