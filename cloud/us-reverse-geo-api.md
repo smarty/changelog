@@ -7,6 +7,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+- n/a
+
+
+## 0.1.1 - 2020-09-01
+
+CHANGES:
+
+- Internal structural changes.
+
+
+## 0.1.0 - 2020-09-01
+
+CHANGES:
+
+- BREAKING CHANGE: JSON output field `state` has been renamed to `state_abbreviation`.
+
+
 ## 0.13.8 - 2020-08-08
 
 CHANGES:
