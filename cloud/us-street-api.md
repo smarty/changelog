@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 4.4.0 - 2020-09-09
+
+CHANGES:
+
+- New `coordinate_license` field in response to give attribution as well as indicate any restrictions that may exist relative to the geocode coordinate being returned.
+
 
 ## 4.3.13 - 2020-08-21
 
