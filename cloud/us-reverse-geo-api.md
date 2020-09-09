@@ -9,6 +9,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - n/a
 
+## 0.15.0 - 2020-09-09
+
+CHANGES:
+
+- Renamed result field from `license` to `coordinate_license` to better distinguish between upstream data provider licensing restrictions
+  as compared to SmartyStreets licensing relative to subscriptions.
+- Added `accuracy` field to properly indicate the level of accuracy of a particular geographic coordinate.
+- As a result of the `accuracy` field addition, the data file structural changes. All previous versions of the data field will not properly
+  return either the `coordinate_license` or `accuracy` fields when using an older data set.
+
 
 ## 0.14.1 - 2020-09-01
 
