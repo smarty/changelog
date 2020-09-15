@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.3.16 - 2020-09-15
+
+CHANGES:
+
+- Changed default for prefer_ratio to 100.
+
+
 ## 1.3.14 - 2020-06-12
 
 CHANGES:
