@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
-## 1.3.16 - 2020-09-15
+## 1.3.17 - 2020-09-15
 
 CHANGES:
 
