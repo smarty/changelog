@@ -7,7 +7,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
-- n/a
+CHANGES:
+- Compiled using Go v1.15.x.
+
 
 ## 0.15.0 - 2020-09-09
 

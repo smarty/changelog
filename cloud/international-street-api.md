@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+CHANGES:
+- Compiled using Go v1.15.x.
+
+
 ## 2.8.1 - 2020-06-12
 
 CHANGES:
