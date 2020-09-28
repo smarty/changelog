@@ -1,14 +1,21 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
 
-## 8.4.1 - 2020-?
+## 8.5.0 - 2020-09-28
+
+CHANGES:
+
+- Compiled using Go v1.15.x.
+
+
+## 8.4.1 - 2020-08-21
 
 BUG FIXES:
 
 - Ensured the `-version` flag correctly displays the version.
 
 
-## 8.4.0 - 2020-0?
+## 8.4.0 - 2020-08-18
 
 CHANGES:
 
