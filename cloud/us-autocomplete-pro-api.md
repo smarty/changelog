@@ -11,6 +11,13 @@ CHANGES:
 - Compiled using Go v1.15.x.
 
 
+## 1.3.18 - 2020-10-14
+
+CHANGES:
+
+- Fixed issue that abnormally terminated a user request with specific input
+
+
 ## 1.3.17 - 2020-09-15
 
 CHANGES:
