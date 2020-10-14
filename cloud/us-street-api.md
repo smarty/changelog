@@ -5,6 +5,18 @@ All notable changes to the US Street Address API will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## UNRELEASED
+
+CHANGES:
+
+## 4.5.0 - 2020-10-14
+
+CHANGES:
+
+- Internal structural changes.
+- Removed dynamic geocoding corrections in favor of daily rotation.
+- Wireup more tolerant of optional files.
+
 ## 4.4.1 - 2020-09-30
 
 CHANGES:
