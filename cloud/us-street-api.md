@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 4.5.1 - 2020-10-15
+
+CHANGES:
+- Increased diagnostic message verbosity on failure.
+- New diagnostic message regarding required number file descriptors.
+
+
 ## 4.5.0 - 2020-10-14
 
 CHANGES:
