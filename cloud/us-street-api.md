@@ -9,9 +9,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 4.5.2 - 2020-10-16
+
+CHANGES:
+
+- Using earlier version of shared library which doesn't segfault on malformed input.
+- Improved initialization speed by introducing concurring.
+
+
 ## 4.5.1 - 2020-10-15
 
 CHANGES:
+
 - Increased diagnostic message verbosity on failure.
 - New diagnostic message regarding required number file descriptors.
 
