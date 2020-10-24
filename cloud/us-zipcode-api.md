@@ -7,8 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.4.0 - 2020-06-24
+
 CHANGES:
+
+- Upgrade to latest dependencies which allowed removal of various internal dependencies.
 - Compiled using Go v1.15.x.
+- Using latest internal (v2) geocoding library.
 
 
 ## 5.3.0 - 2020-06-24

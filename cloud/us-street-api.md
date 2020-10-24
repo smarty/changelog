@@ -14,7 +14,7 @@ CHANGES:
 CHANGES:
 
 - Using earlier version of shared library which doesn't segfault on malformed input.
-- Improved initialization speed by introducing concurring.
+- Improved initialization speed with concurrency.
 
 
 ## 4.5.1 - 2020-10-15
