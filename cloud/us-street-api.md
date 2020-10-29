@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+CHANGES:
+
+- Upgraded address processing engine to latest version.
+
 
 ## 4.5.4 - 2020-10-29
 
