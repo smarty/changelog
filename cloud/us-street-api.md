@@ -7,7 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+
+## 4.5.4 - 2020-10-29
+
 CHANGES:
+
+- Internal restructuring, no external changes.
+
 
 ## 4.5.3 - 2020-10-26
 
@@ -16,8 +22,6 @@ CHANGES:
 - Latest dependencies.
 - More attempts to geocode an address.
 
-
-CHANGES:
 
 ## 4.5.2 - 2020-10-16
 
