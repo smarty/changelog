@@ -7,8 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.4.2 - 2020-11-20
+
 CHANGES:
 - Compiled using Go v1.15.x.
+- New, local-install version now available for download.
 
 
 ## 1.3.18 - 2020-10-14
