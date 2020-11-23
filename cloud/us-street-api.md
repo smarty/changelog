@@ -9,7 +9,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+
+## 4.6.0 - 2020-11-23
+
+CHANGES:
+
 - Upgraded address processing engine to latest version.
+
+- The `active` field in the `analysis` structure of the result candidate will
+now always return "Y" to indicate active. In previous releases we were too
+aggressive about showing a potential address as not active which could,
+depending upon client processing logic, result in a perfectly valid and active
+address from being utilized.
 
 
 ## 4.5.4 - 2020-10-29
