@@ -7,6 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.5.2 - 2020-11-25
+
+CHANGES:
+
+- Updated internal performance monitoring for cloud release.
+
+## 5.5.1 - 2020-11-25
+
+CHANGES:
+
+- Updated internal performance monitoring for cloud release.
+
 ## 5.5.0 - 2020-11-24
 
 CHANGES:
