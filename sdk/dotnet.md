@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [8.7.1] - 2020-10-19
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response.
+
+## [8.7.0] - 2020-10-17
+
+### Changed:
+
+- Functionality added to handle the new US Reverse Geocoding API.
+
 ## [8.6.1] - 2020-09-30
 
 ### Changed:
