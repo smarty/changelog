@@ -7,7 +7,25 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 CHANGES:
+
+- n/a
+
+
+
+## 2.8.5 - 2020-12-16
+
+CHANGES:
+
+- Upgrade to latest dependencies.
 - Compiled using Go v1.15.x.
+- Resolved another intermittent shutdown panic ("send on closed channel").
+
+
+## 2.8.4 - 2020-09-04
+
+CHANGES:
+
+- Resolved intermittent shutdown panic ("send on closed channel").
 
 
 ## 2.8.1 - 2020-06-12
