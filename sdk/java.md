@@ -12,6 +12,48 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.7.2] - 2020-11-19
+
+### Changed:
+
+- Latest dependencies.
+
+
+## [3.7.1] - 2020-11-19
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response.
+
+
+## [3.7.0] - 2020-09-17
+
+### Changed:
+
+- Functionality added to handle the new US Reverse Geocoding API.
+
+
+## [3.6.1] - 2020-08-31
+
+### Changed:
+
+- License array must be instantiated.
+
+
+## [3.6.0] - 2020-08-25
+
+### Changed:
+
+- User can now specify the license to be used.
+
+
+## [3.5.2] - 2020-06-19
+
+### Changed:
+
+- Set key for input_id field.
+
+
 ## [3.5.1] - 2019-12-03
 
 ### Changed:
