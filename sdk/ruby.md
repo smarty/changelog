@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [5.9.2] - 2020-11-30
+
+### Changed:
+
+- Checking if candidates are nil before iterating in International Street Client.
+
+
+## [5.9.1] - 2020-11-23
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response.
+
+
+## [5.9.0] - 2020-10-29
+
+### Changed:
+
+- Functionality added to handle the new US Reverse Geocoding API.
+
+
+## [5.8.0] - 2020-08-25
+
+### Changed:
+
+- User can now specify the license to be used.
+
+
 ## [5.7.1] - 2019-11-25
 
 ### Changed:
