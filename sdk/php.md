@@ -5,6 +5,34 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [4.11.3] - 2020-11-23
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response.
+
+
+## [4.11.1] - 2020-11-06
+
+### Changed:
+
+- Functionality added to handle the new US Reverse Geocoding API.
+
+
+## [4.10.1] - 2020-08-20
+
+### Changed:
+
+- User can now specify the license to be used.
+
+
+## [4.9.1] - 2020-07-30
+
+### Changed:
+
+- Returning StatusCodes in the results.
+
+
 ## [4.8.0] - 2019-11-25
 
 ### Changed:
