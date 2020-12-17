@@ -5,6 +5,50 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [4.7.2] - 2020-11-20
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response.
+
+
+## [4.7.1] - 2020-10-30
+
+### Changed:
+
+- Updates to setup file, making US Reverse Geo visible.
+
+
+## [4.7.0] - 2020-10-30
+
+### Changed:
+
+- Update to examples to accurately represent match field accepted inputs.
+- Functionality added to handle the new US Reverse Geocoding API.
+
+
+## [4.6.1] - 2020-08-21
+
+### Changed:
+
+- Fixed broken tests surrounding mandatory population of street field.
+
+
+## [4.6.0] - 2020-08-21
+
+### Changed:
+
+- Street field needs to be populated.
+- User can now specify the license to be used.
+
+
+## [4.5.0] - 2020-04-03
+
+### Changed:
+
+- Support configuring CA bundle & proxy via env vars. 
+
+
 ## [4.4.1] - 2020-02-26
 
 ### Changed:
