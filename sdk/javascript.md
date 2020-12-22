@@ -6,9 +6,52 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.6.3] - 2020-12-21
+
+### Changed:
+
+- License parameter is decoded from the US Reverse Geocoding API response
+
+## [1.6.2] - 2020-12-10
+
+### Changed:
+
+- Fixed WithLicense functionality
+
+## [1.6.1] - 2020-12-03
+
+### Changed:
+
+- Latest dependencies
+- Updates to US Street Example
+
+## [1.6.0] - 2020-10-08
+
+### Changed:
+
+- Functionality added to handle the new US Reverse Geocoding API
+
+## [1.5.0] - 2020-08-14
+
+### Changed:
+
+- Latest Dependencies
+- User can now specify the license to be used.
+
+## [1.4.5] - 2020-06-17
+
+### Changed:
+
+- Preference to website keys in this SDK rather than authID and authToken
+- Latest dependencies
+
+## [1.4.4] - 2020-03-16
+
 ### Changed:
 
 - Comments in US Street clarify match strategy
+- Example code is more universally usable
+- Latest dependencies
 
 ## [1.4.2] - 2019-11-05
 
