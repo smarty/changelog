@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 4.7.2 - 2021-01-27
+
+CHANGES:
+
+- Corrected local install to not try to load unexpected data files.
+- Internal restructure to better support reporting process speed to supports SLAs in hosted, cloud environment.
 
 ## 4.6.0 - 2020-11-23
 
