@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 4.7.3 - 2021-02-02
+
+CHANGES:
+
+- Fixed an issue with the on-premise binary. This did not affect cloud functionality.
+
 ## 4.7.2 - 2021-01-27
 
 CHANGES:
