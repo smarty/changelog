@@ -7,8 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 0.18.1 - 2021-02-03
+
 CHANGES:
+
 - Compiled using Go v1.15.x.
+- Removed deprecated fields from 0.15.0 changes.
+- Latest internal dependencies.
 
 
 ## 0.15.0 - 2020-09-09
