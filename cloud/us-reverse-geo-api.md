@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 0.19.0 - 2021-02-10
+
+CHANGES:
+
+- Latest internal dependencies.
+- Updated mechanism for counting lookups.
+
+
 ## 0.18.1 - 2021-02-03
 
 CHANGES:
