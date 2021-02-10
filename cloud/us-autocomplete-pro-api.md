@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.5.2 - 2021-02-10
+
+CHANGES:
+- Fixed issue when searching addresses that contain dots.
+
+
 ## 1.4.2 - 2020-11-20
 
 CHANGES:
