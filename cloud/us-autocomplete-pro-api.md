@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 1.5.3 - 2021-02-16
+
+CHANGES:
+- Fixed issue when a dot is entered following a secondary designator (e.g. APT.) which resulted in no results.
+- Fixed issue with over 30 ZIPCodes in the filter. List is now limited to 100. 
+
+
 ## 1.5.2 - 2021-02-10
 
 CHANGES:
