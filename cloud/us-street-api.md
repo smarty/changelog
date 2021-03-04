@@ -8,13 +8,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 4.8.2 - 2021-03-03
+
+CHANGES:
+
+- Fixed logging issue during spelling correction
+
 ## 4.8.0 - 2021-02-17
 
 CHANGES:
 
 - Added output field: dpv_no_stat. This is a specialized field that should only be used by those who understand what it means.
-
-CHANGES:
 
 ## 4.7.3 - 2021-02-02
 
