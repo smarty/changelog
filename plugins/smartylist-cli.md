@@ -1,5 +1,11 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.6.0 - 2021-03-12
+
+CHANGES:
+
+- New dpv_no_stat column.
+
 
 ## 8.5.0 - 2020-09-28
 
