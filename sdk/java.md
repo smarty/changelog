@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.8.0] - 2021-03-12
+
+### Changed:
+
+- Defined new fields for us-street-api analysis object: `dpv_no_stat`
+
+
 ## [3.7.2] - 2020-11-19
 
 ### Changed:
