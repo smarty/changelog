@@ -10,6 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed:
 
 - Defined new fields for us-street-api analysis object: `dpv_no_stat`
+- Functionality added to handle the US Autocomplete Pro API.
 
 
 ## [5.9.2] - 2020-11-30
