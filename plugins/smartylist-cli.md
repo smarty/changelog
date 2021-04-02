@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.7.0 - 2021-04-02
+
+CHANGES:
+
+- Now compiled with Go 1.16.
+
+
 ## 8.6.0 - 2021-03-12
 
 CHANGES:
