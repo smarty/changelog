@@ -7,7 +7,33 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
-## [1.7.0] - 2021-03-12
+## [1.8.1] - 2021-05-03
+
+### Changed:
+
+- Proper naming on the `coordinateLicense` field
+- Naming changes in examples
+
+
+## [1.8.0] - 2021-04-30
+
+### Changed:
+
+- Naming changes in examples
+- Updated the way client is built in examples
+- New `coordinateLicense` field in the US Street response
+
+
+## [1.7.2] - 2021-03-12
+
+### Changed:
+
+- Latest dependencies
+- Node tests
+- Fixes to setting referer field
+
+
+## [1.7.0] - 2021-03-05
 
 ### Changed:
 
