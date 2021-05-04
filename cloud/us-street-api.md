@@ -7,24 +7,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+BUG FIXES:
+
+- Fixed segfault on certain startup error messages.
 
 ## 4.8.6 - 2021-04-26
 
 CHANGES:
 
-- Updating internal metric instrumentation.
+- Updated internal metric instrumentation.
 
 ## 4.8.3 - 2021-03-05
 
-CHANGES:
+BUG FIXES:
 
-- Fixed issue with RDI data not being returned correctly in some cases
+- Fixed issue with RDI data not being returned correctly in some cases.
 
 ## 4.8.2 - 2021-03-03
 
-CHANGES:
+BUG FIXES:
 
-- Fixed logging issue during spelling correction
+- Fixed logging issue during spelling correction.
 
 ## 4.8.0 - 2021-02-17
 
@@ -34,7 +37,7 @@ CHANGES:
 
 ## 4.7.3 - 2021-02-02
 
-CHANGES:
+BUG FIXES:
 
 - Fixed an issue with the on-premise binary. This did not affect cloud functionality.
 
