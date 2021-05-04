@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 4.8.3 - 2021-03-05
+
+CHANGES:
+
+- Fixed issue with RDI data not being returned correctly in some cases
+
 ## 4.8.2 - 2021-03-03
 
 CHANGES:
