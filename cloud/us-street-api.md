@@ -8,6 +8,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 
 
+## 4.8.6 - 2021-04-26
+
+CHANGES:
+
+- Updating internal metric instrumentation.
+
 ## 4.8.3 - 2021-03-05
 
 CHANGES:
