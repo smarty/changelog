@@ -4,8 +4,14 @@ All notable changes to the US Autocomplete Pro API will be documented in this fi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-
 ## UNRELEASED
+None
+
+## 1.5.5 - 2021-06-10
+
+CHANGES:
+- Fixed issue where excluded states or territories could not be excluded from results.
+
 
 ## 1.5.3 - 2021-02-16
 
