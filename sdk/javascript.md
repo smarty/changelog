@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.9.0] - 2021-06-11
+
+### Changed:
+
+- License field descriptions in the examples.
+- US Street V2 integration fields in Analysis.
+
+
 ## [1.8.1] - 2021-05-03
 
 ### Changed:
