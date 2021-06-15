@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
-- US Street V2 integration fields in Analysis.
+- US Street enhanced matching integration fields in Analysis.
 - Makefile updates for latest python version.
 
 

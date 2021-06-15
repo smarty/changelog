@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Changed:
 
 - License field descriptions in the examples.
-- US Street V2 integration fields in Analysis.
+- US Street enhanced matching integration fields in Analysis.
 
 
 ## [4.13.3] - 2021-04-14
