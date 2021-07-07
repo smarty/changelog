@@ -1,5 +1,14 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.8.0 - 2021-07-07
+
+CHANGES:
+
+- Added ability to specify a "match" column in the input file.
+- Added "match" command-line parameter to override the match column in the input file.
+- Added new "enhanced_match" column in the output file.
+
+
 ## 8.7.0 - 2021-04-02
 
 CHANGES:
