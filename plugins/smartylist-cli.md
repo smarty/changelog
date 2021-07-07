@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.8.1 - 2021-07-07
+
+CHANGES:
+
+- Summary field now reflects if the address is non-postal.
+
+
 ## 8.8.0 - 2021-07-07
 
 CHANGES:
