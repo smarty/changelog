@@ -9,7 +9,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 BUG FIXES:
 
-- Fixed segfault on certain startup error messages.
+## 5.0.6 - 2021-07-13
+
+In this major version release, new features are exposed via new `match` options (see [documentation](https://www.smartystreets.com/docs/cloud/us-street-api#input-fields)). The input/output contracts for existing features are preserved.
+
+CHANGES:
+
+- Release enhanced match mode and non-postal address features for cloud environments.
+
+## 4.8.7 - 2021-05-14
+
+BUG FIXES:
+
+- Fixed segfault for certain startup error messages on local install.
 
 ## 4.8.6 - 2021-04-26
 
