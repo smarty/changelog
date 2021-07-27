@@ -7,8 +7,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 3.7.3 - 2020-07-27
+
 CHANGES:
-- Compiled using Go v1.15.x.
+- Fixed an issue where in some cases, the same suggestion would be returned multiple times.
+
+
+## 3.7.1 - 2020-07-23
+
+CHANGES:
+- Compiled using Go v1.16.x.
+- Replaced several internal libraries
 
 
 ## 3.5.2 - 2020-06-12
