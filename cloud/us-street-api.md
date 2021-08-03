@@ -5,6 +5,14 @@ All notable changes to the US Street Address API will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 5.0.12 - 2021-08-03
+
+CHANGES:
+
+- Changes to enhanced mode to eliminate some false positive results.
+- Several internal changes that do not affect the user experience.  
+- Provided enhanced mode for local installations (does not affect cloud environment). 
+
 ## 5.0.7 - 2021-07-14
 
 BUG FIXES:
