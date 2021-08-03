@@ -7,6 +7,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.6.1 - 2021-08-03
+
+CHANGES:
+- Added 15+ million non-postal addresses to the data. 
+  When these addresses are validated using us-street-api, the analysis section will look similar to:
+  "analysis": {
+      "dpv_footnotes": "A1",
+      "active": "Y",
+      "footnotes": "F#",
+      "enhanced_match": "non-postal-match"
+  }
+
+
 ## 1.5.5 - 2021-06-10
 
 CHANGES:
