@@ -12,6 +12,48 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.10.6] - 2021-08-10
+
+### Changed:
+
+- Fixes to test environment.
+
+
+## [3.10.5] - 2021-08-10
+
+### Changed:
+
+- Eliminating deprecated java library method.
+
+
+## [3.10.4] - 2021-08-10
+
+### Changed:
+
+- Match being set properly on the query.
+
+
+## [3.10.1] - [3.10.3] - 2021-08-06
+
+### Changed:
+
+- Resolving issues with publishing to Maven.
+
+
+## [3.10.0] - 2021-07-14
+
+### Changed:
+
+- New match strategy "enhanced".
+
+
+## [3.9.1] - 2021-07-06
+
+### Changed: 
+
+- Removed match_mode, renamed match_details to enhanced_match.
+
+
 ## [3.9.0] - 2021-06-11
 
 ### Changed:
