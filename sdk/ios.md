@@ -5,6 +5,41 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [8.8.6] - 2021-07-08
+
+### Changed:
+
+- CodingKeys allows Analysis deserialization.
+
+
+## [8.8.5] - 2021-07-07
+
+### Changed:
+
+- Incremented version.
+
+
+## [8.8.4] - 2021-07-07
+
+### Changed:
+
+- Http response from the International API is properly written to output.
+
+
+## [8.8.3] - 2021-07-06
+
+### Changed:
+
+- Incremented version.
+
+
+## [8.8.2] - 2021-07-06
+
+### Changed:
+
+- Removed match_mode, renamed match_details to enhanced_match.
+
+
 ## [8.8.1] - 2021-06-11
 
 ### Changed:
