@@ -5,6 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [5.12.0] - 2021-07-14
+
+### Changed:
+
+- New match strategy "enhanced".
+
+
+## [5.11.2] - 2021-07-06
+
+### Changed:
+
+- Removed match_mode, renamed match_details to enhanced_match.
+
+
+## [5.11.1] - 2021-06-15
+
+### Changed:
+
+- WithLicenses calls in examples changed to have acceptable parameter array type.
+
+
 ## [5.11.0] - 2021-06-11
 
 ### Changed:
