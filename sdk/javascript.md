@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.9.2] - 2021-07-06
+
+### Changed:
+
+- Removed match_mode, renamed match_details to enhanced_match.
+
+
+## [1.9.1] - 2021-06-17
+
+### Changed:
+
+- No need to set the hostname for js client side since the browser takes care of this, defaults to showing client side example.
+
+
 ## [1.9.0] - 2021-06-11
 
 ### Changed:
