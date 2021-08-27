@@ -7,6 +7,42 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.10.4] - 2021-08-23
+
+### Changed:
+
+- Lookup returned with response attached rather than response being returned.
+
+
+## [1.10.3] - 2021-08-20
+
+### Changed:
+
+- Removed response parameter to comply with API response.
+
+
+## [1.10.2] - 2021-08-20
+
+### Changed:
+
+- Removed Autocomplete Basic example.
+
+
+## [1.10.1] - 2021-08-19
+
+### Changed:
+
+- Bump patch version.
+
+
+## [1.10.0] - 2021-08-19
+
+### Changed:
+
+- Updated dependencies.
+- International Address Autocomplete API.
+
+
 ## [1.9.2] - 2021-07-06
 
 ### Changed:
