@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.10.7] - 2021-08-20
+
+### Changed:
+
+- Removed Autocomplete Basic example.
+
+
 ## [3.10.6] - 2021-08-10
 
 ### Changed:
