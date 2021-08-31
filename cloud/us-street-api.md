@@ -4,15 +4,26 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 5.0.16 - 2021-08-12
+## 5.0.20 - 2021-08-31
 
 CHANGES:
+
+- Updated component input results to be more consistent with freeform input results in enhanced mode.
+- Expanded multiple candidate support in enhanced mode.
+
+BUG FIXES:
+
+- Fixed instances where a secondary component field could be duplicated in the result under enhanced mode.
+
+## 5.0.16 - 2021-08-12
+
+BUG FIXES:
 
 - Resolved issue where some queries would not return consistent results.
 
 ## 5.0.14 - 2021-08-11
 
-CHANGES:
+BUG FIXES:
 
 - Fix empty response for specific mangled address pattern.
 
