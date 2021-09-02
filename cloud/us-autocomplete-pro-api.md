@@ -7,6 +7,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.6.4 - 2021-09-02
+
+CHANGES:
+- Added back non-postal addresses with a parameter to include them in the results. By default non-postals are not returned. See documentation for the "source" parameter.
+
+
+## 1.6.2 - 2021-08-18
+
+CHANGES:
+- Removed non-postals from the data as per customer feedback.
+
+
 ## 1.6.1 - 2021-08-03
 
 CHANGES:
