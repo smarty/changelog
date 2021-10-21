@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [8.10.2] - 2021-10-21
+
+### Changes:
+
+- Incremented version.
+
+
+## [8.10.1] - 2021-10-21
+
+## Changes:
+
+- Fixes to broken International Autocomplete Client tests.
+
+
+## [8.10.0] - 2021-10-21
+
+### Changes:
+
+- Support for International Autocomplete API.
+
+
+## [8.9.0] - 2021-09-23
+
+### Changed:
+
+- Ensuring proper URL encoding on US Autocomplete Pro requests.
+- Source field added to US Autocomplete Pro lookup.
+
+
 ## [8.8.8] - 2021-08-20
 
 ### Changed:
