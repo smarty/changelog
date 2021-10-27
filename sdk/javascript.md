@@ -7,6 +7,43 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.11.3] - 2021-10-20
+
+### Changed:
+
+- Reverted axios-retry to working version.
+
+
+## [1.11.2] - 2021-10-07
+
+### Changed:
+
+- Updated axios-retry version.
+- Updated to expect response to return 'candidates' key.
+
+
+## [1.11.0] - 2021-09-23
+
+### Changed:
+
+- Delete trailing line in International Street Example and US Street Example.
+- Source field added to US Autocomplete Pro lookup.
+
+
+## [1.10.6] - 2021-09-07
+
+### Changed:
+
+- Updated new lookup parameters and tests.
+
+
+## [1.10.5] - 2021-09-02
+
+### Changed:
+
+- npm audit fix.
+
+
 ## [1.10.4] - 2021-08-23
 
 ### Changed:
