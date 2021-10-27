@@ -12,6 +12,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.2] - 2021-10-20
+
+### Changed:
+
+- Correct naming on lookup query fields.
+
+
+## [3.12.1] - 2021-10-14
+
+### Changed:
+
+- Tests for new International Autocomplete functions.
+
+
+## [3.12.0] - 2021-10-14
+
+### Changed:
+
+- Make release accomodates later JDK version.
+- Support for International Autocomplete API.
+
+
+## [3.11.1] - 2021-10-11
+
+### Changed:
+
+- Docker build pointing to Java 11.
+
+
+## [3.11.0] - 2021-10-07
+
+### Changed:
+
+- Changed ArrayList for input parameters to List.
+- Moving from Google Sender to built in HTTP Sender.
+- Source field added to US Autocomplete Pro lookup.
+
+
 ## [3.10.7] - 2021-08-20
 
 ### Changed:
