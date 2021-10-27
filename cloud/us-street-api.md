@@ -10,7 +10,7 @@ CHANGES:
 
 - DPVMatchCode is no longer cleared in enhanced mode.
 - Increased match accuracy for enhanced mode.
-- Updated data format for local version; a new download of the data is required.
+- Updated "enhanced" data format for local version; a new download of the "enhanced" data is required.
 
 BUG FIXES:
 
