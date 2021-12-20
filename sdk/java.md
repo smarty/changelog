@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.3] - 2021-12-14
+
+### Changed:
+
+- Code to access static credentials in US Autocomplete Pro provided in example.
+
+
 ## [3.12.2] - 2021-10-20
 
 ### Changed:
