@@ -7,6 +7,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.11.8] - 2022-01-12
+
+### Changed:
+
+- Default candidates is 5 for enhanced matching.
+
+
+## [1.11.7] - 2021-12-08
+
+### Changed:
+
+- Support for asynchronous API calls.
+
+
 ## [1.11.3] - 2021-10-20
 
 ### Changed:
