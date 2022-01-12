@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.4] - 2022-01-12
+
+### Changed:
+
+- Default candidates is 5 for enhanced matching.
+
+
 ## [3.12.3] - 2021-12-14
 
 ### Changed:
