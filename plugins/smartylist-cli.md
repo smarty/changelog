@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.8.2 - 2022-04-12
+
+CHANGES:
+
+- Continue retrying on 429 rate limit errors.
+
+
 ## 8.8.1 - 2021-07-07
 
 CHANGES:
