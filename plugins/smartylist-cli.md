@@ -1,6 +1,13 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
-## 8.8.2 - 2022-04-12
+## 8.8.3 - 2022-01-14
+
+CHANGES:
+
+- Fixed a build issue preventing publishing of 8.8.2.
+
+
+## 8.8.2 - 2022-01-12
 
 CHANGES:
 
