@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.6.9 - 2022-01-21
+
+CHANGES:
+- Fixed issue where if HEIGHTS were spelled out instead of HTS, it would eliminate all HTS addresses from the result set.
+
 
 ## 1.6.6 - 2021-09-03
 
