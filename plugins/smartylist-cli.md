@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
 
+## 8.8.4 - 2022-01-24
+
+CHANGES:
+
+- Updated dependencies and Smarty Go SDK version 1.14.3.
+
+
 ## 8.8.3 - 2022-01-14
 
 CHANGES:
