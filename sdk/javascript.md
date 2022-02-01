@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.11.10] - 2022-01-18
+
+### Changed:
+
+- Latest dependencies:
+	- node_modules/follow-redirects
+- Removal of unnessecary dependencies.
+
+
 ## [1.11.8] - 2022-01-12
 
 ### Changed:
