@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.9.2 - 2022-02-21
+
+CHANGES:
+
+- Compiled using Go v1.17.7.
+- Overhauled internals of the engine and how it processes lookup.
+- Maintains CLI argument compatibility for local installations.
+
 ## 5.5.2 - 2020-11-25
 
 CHANGES:
