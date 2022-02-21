@@ -1,4 +1,4 @@
-# [Python SDK](https://smartystreets.com/docs/sdk/python)
+# [Python SDK](https://www.smarty.com/docs/sdk/python)
 
 All notable changes to this project will be documented in this file.
 

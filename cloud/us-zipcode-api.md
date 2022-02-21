@@ -1,4 +1,4 @@
-# Changelog - [US ZIP Code API](https://smartystreets.com/docs/cloud/us-zipcode-api)
+# Changelog - [US ZIP Code API](https://www.smarty.com/docs/cloud/us-zipcode-api)
 
 All notable changes to the US ZIP Code API will be documented in this file.
 

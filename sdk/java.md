@@ -1,4 +1,4 @@
-# [Java SDK](https://smartystreets.com/docs/sdk/java)
+# [Java SDK](https://www.smarty.com/docs/sdk/java)
 
 All notable changes to this project will be documented in this file.
 

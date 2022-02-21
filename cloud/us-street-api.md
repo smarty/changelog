@@ -1,4 +1,4 @@
-# Changelog - [US Street Address API](https://smartystreets.com/docs/cloud/us-street-api)
+# Changelog - [US Street Address API](https://www.smarty.com/docs/cloud/us-street-api)
 
 All notable changes to the US Street Address API will be documented in this file.
 
@@ -66,7 +66,7 @@ BUG FIXES:
 
 ## 5.0.6 - 2021-07-13
 
-In this major version release, new features are exposed via new `match` options (see [documentation](https://www.smartystreets.com/docs/cloud/us-street-api#input-fields)). The input/output contracts for existing features are preserved.
+In this major version release, new features are exposed via new `match` options (see [documentation](https://www.smarty.com/docs/cloud/us-street-api#input-fields)). The input/output contracts for existing features are preserved.
 
 CHANGES:
 
@@ -388,12 +388,12 @@ BUG FIXES:
 
 BUG FIXES:
 
-- With the 4.0.0 release a concurrency-related bug was introduced in a hash calculation which caused the application to panic and shut down. (See incident details: https://status.smartystreets.com/incidents/dk5ghfl03vjf) This release fixes that issue.
+- With the 4.0.0 release a concurrency-related bug was introduced in a hash calculation which caused the application to panic and shut down. (See incident details: https://status.smarty.com/incidents/dk5ghfl03vjf) This release fixes that issue.
 
 
 ## 4.0.0 - 2019-07-01 [YANKED]
 
-This release, while a major version release represents a merging of internal code repositories and does not introduce any changes to the input/output contracts [as currently documented](https://smartystreets.com/docs/cloud/us-street-api).
+This release, while a major version release represents a merging of internal code repositories and does not introduce any changes to the input/output contracts [as currently documented](https://www.smarty.com/docs/cloud/us-street-api).
 
 CHANGES:
 

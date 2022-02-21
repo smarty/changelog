@@ -1,4 +1,4 @@
-# Changelog - [US Extract API](https://smartystreets.com/docs/cloud/us-extract-api)
+# Changelog - [US Extract API](https://www.smarty.com/docs/cloud/us-extract-api)
 
 All notable changes to the US Extract API will be documented in this file.
 
@@ -22,7 +22,7 @@ CHANGES:
 CHANGES:
 
 - Compiled using Go v1.15.x.
-- Full support for the [`license` query string parameter](https://smartystreets.com/docs/cloud/licensing).
+- Full support for the [`license` query string parameter](https://www.smarty.com/docs/cloud/licensing).
 
 
 ## 3.5.1 - 2020-08-25
@@ -113,7 +113,7 @@ CHANGES:
 
 ## 3.1.12 - 2019-04-18
 
-- Includes additional http tracing to help debug an issue in production. (https://status.smartystreets.com/incidents/6052sfzh0xhh)
+- Includes additional http tracing to help debug an issue in production. (https://status.smarty.com/incidents/6052sfzh0xhh)
 
 
 ## 3.1.11 - 2019-04-04

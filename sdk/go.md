@@ -1,4 +1,4 @@
-# [Go SDK](https://smartystreets.com/docs/sdk/go)
+# [Go SDK](https://www.smarty.com/docs/sdk/go)
 
 All notable changes to this project will be documented in this file.
 
@@ -172,7 +172,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
-- In accordance with [published documentation](https://smartystreets.com/docs/cloud/authentication#htmlkeys), now using 'key' instead of 'auth-id' in query string for embedded (website) key authentication.
+- In accordance with [published documentation](https://www.smarty.com/docs/cloud/authentication#htmlkeys), now using 'key' instead of 'auth-id' in query string for embedded (website) key authentication.
 
 
 ## [v1.10.1] - 2021-03-23

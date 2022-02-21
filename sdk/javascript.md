@@ -1,4 +1,4 @@
-# [Javascript SDK](https://smartystreets.com/docs/sdk/javascript)
+# [Javascript SDK](https://www.smarty.com/docs/sdk/javascript)
 
 All notable changes to this project will be documented in this file.
 

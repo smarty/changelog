@@ -1,4 +1,4 @@
-# Changelog - [US Street Address API](https://smartystreets.com/docs/local/us-street-api)
+# Changelog - [US Street Address API](https://www.smarty.com/docs/local/us-street-api)
 
 Since 2019-06-24 the changelogs for the cloud and local installations of the US Street Address API have been merged and now reside where the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/us-street-api.md) exists.
 
@@ -140,7 +140,7 @@ IMPROVEMENTS:
 IMPROVEMENTS:
 
 - More internal restructuring and standardization.
-- In the case that required shared libraries have not been correctly installed, the resulting error message now points to the online installation instructions: https://smartystreets.com/docs/local/us-street-api#install
+- In the case that required shared libraries have not been correctly installed, the resulting error message now points to the online installation instructions: https://www.smarty.com/docs/local/us-street-api#install
 
 
 ## 2.2.11 - 2018-04-05

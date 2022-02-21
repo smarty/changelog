@@ -1,4 +1,4 @@
-# [PHP SDK](https://smartystreets.com/docs/sdk/php)
+# [PHP SDK](https://www.smarty.com/docs/sdk/php)
 
 All notable changes to this project will be documented in this file.
 

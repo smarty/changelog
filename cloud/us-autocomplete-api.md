@@ -1,4 +1,4 @@
-# Changelog - [US Autocomplete API](https://smartystreets.com/docs/cloud/us-autocomplete-api)
+# Changelog - [US Autocomplete API](https://www.smarty.com/docs/cloud/us-autocomplete-api)
 
 All notable changes to the US Autocomplete API will be documented in this file.
 

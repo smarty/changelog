@@ -1,4 +1,4 @@
-# Changelog - [International Street Address API](https://smartystreets.com/docs/cloud/international-street-api)
+# Changelog - [International Street Address API](https://www.smarty.com/docs/cloud/international-street-api)
 
 All notable changes to the International Street Address API will be documented in this file.
 
@@ -236,7 +236,7 @@ CHANGES:
 
 CHANGES:
 
-- New object nested within the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (See [full documentation](https://smartystreets.com/docs/cloud/international-street-api#changes), SDK support pending.) Example:
+- New object nested within the `analysis` object, entitled `changes` which mirrors the structure of the address fields provided at the top-level object and in the components object. Each field describes what changes were made to the parsed input in order to deliver the final result. (See [full documentation](https://www.smarty.com/docs/cloud/international-street-api#changes), SDK support pending.) Example:
 
 ```
 curl "international-street.api.smartystreets.com/verify?auth-id=123&auth-token=abc&country=Australia&address1=200%20River%20Terrace&address2=&locality=Kangaroo%20Point&administrative_area=Queensland&postal_code=4169&geocode=true&experimental=true"

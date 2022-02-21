@@ -1,4 +1,4 @@
-# [SmartyList CLI](https://smartystreets.com/docs/plugins/smartylist/cli)
+# [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
 ## 8.8.4 - 2022-01-24
 
@@ -85,7 +85,7 @@ CHANGES:
 
 - Now compiled with Go 1.13
 - Better handling of progress bar in error scenarios
-- Corrected documentation URL in `DO-NOT-README.txt`: https://smartystreets.com/docs/plugins/smartylist/cli
+- Corrected documentation URL in `DO-NOT-README.txt`: https://www.smarty.com/docs/plugins/smartylist/cli
 
 
 ## 8.2.6 - 2019-06-13
@@ -144,7 +144,7 @@ NOTES:
 CHANGES:
 
 - The changelog document included with all downloads of the SmartyList CLI now just references this document
-- The sample input file that is included with all downloads of the SmartyList CLI has column headers that are more aligned with [published documentation](https://smartystreets.com/docs/plugins/smartylist/cli#input).
+- The sample input file that is included with all downloads of the SmartyList CLI has column headers that are more aligned with [published documentation](https://www.smarty.com/docs/plugins/smartylist/cli#input).
 
 
 ## 8.1.19 - 2018-12-07

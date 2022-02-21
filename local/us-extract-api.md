@@ -1,4 +1,4 @@
-# Changelog - [US Extract API](https://smartystreets.com/docs/local/us-extract-api)
+# Changelog - [US Extract API](https://www.smarty.com/docs/local/us-extract-api)
 
 Since 2019-08-16 the changelogs for the cloud and local installations of the US Extract API have been merged and now reside where the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/us-extract-api.md) exists.
 
@@ -91,7 +91,7 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- Now using version 7.0.0 of the SmartyStreets Go SDK (smartystreets.com/docs/sdk/go) which introduces function configuration/wireup.
+- Now using version 7.0.0 of the SmartyStreets Go SDK (https://www.smarty.com/docs/sdk/go) which introduces function configuration/wireup.
 - Downgraded severity of internal log entries.
 
 

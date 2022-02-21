@@ -310,7 +310,7 @@ Changes:
 Changes:
 
 - Latest data from upstream providers.
-- This subsequent release corrected problems with 2019.02.0 where many entries lacked geocode information (see [status page incident](https://status.smartystreets.com/incidents/jfsjnkz08jtl) for details).
+- This subsequent release corrected problems with 2019.02.0 where many entries lacked geocode information (see [status page incident](https://status.smarty.com/incidents/jfsjnkz08jtl) for details).
 
 
 ## 2019.02.0 - 2019-01-29 [YANKED]

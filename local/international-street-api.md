@@ -1,4 +1,4 @@
-# Changelog - [International Street Address API](https://smartystreets.com/docs/local/international-street-api)
+# Changelog - [International Street Address API](https://www.smarty.com/docs/local/international-street-api)
 
 Since 2019-08-02 the changelogs for the cloud and local installations of the International Street Address API have been merged and now reside where the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/international-street-api.md) exists.
 
@@ -123,7 +123,7 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- We now use the [SmartyStreets Go SDK](https://smartystreets.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
+- We now use the [SmartyStreets Go SDK](https://www.smarty.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
 
 
 ## 1.3.13 - 2018-06-08

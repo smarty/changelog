@@ -1,4 +1,4 @@
-# [Ruby SDK](https://smartystreets.com/docs/sdk/ruby)
+# [Ruby SDK](https://www.smarty.com/docs/sdk/ruby)
 
 All notable changes to this project will be documented in this file.
 

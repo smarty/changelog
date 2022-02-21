@@ -1,4 +1,4 @@
-# Changelog - [US Autocomplete API](https://smartystreets.com/docs/local/us-autocomplete-api)
+# Changelog - [US Autocomplete API](https://www.smarty.com/docs/local/us-autocomplete-api)
 
 Since 2019-08-09 the changelogs for the cloud and local installations of the US Autocomplete API have been merged and now reside where the [cloud installation changelog](https://github.com/smartystreets/changelog/blob/master/cloud/us-autocomplete-api.md) exists.
 
@@ -108,7 +108,7 @@ IMPROVEMENTS:
 
 BUG FIXES:
 
-- Corrected bug introduced in 2.1.44 which prevented correct inspection and recording of the remote address, which in turn prevented [geolocated preferencing](https://smartystreets.com/docs/cloud/us-autocomplete-api#geolocate).
+- Corrected bug introduced in 2.1.44 which prevented correct inspection and recording of the remote address, which in turn prevented [geolocated preferencing](https://www.smarty.com/docs/cloud/us-autocomplete-api#geolocate).
 
 
 ## 2.1.46 - 2018-01-11

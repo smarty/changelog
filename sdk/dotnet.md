@@ -1,4 +1,4 @@
-# [.Net SDK](https://smartystreets.com/docs/sdk/dotnet)
+# [.Net SDK](https://www.smarty.com/docs/sdk/dotnet)
 
 All notable changes to this project will be documented in this file.
 

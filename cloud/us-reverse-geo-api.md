@@ -1,4 +1,4 @@
-# Changelog - [US Reverse Geocoding API](https://smartystreets.com/docs/cloud/us-reverse-geo-api)
+# Changelog - [US Reverse Geocoding API](https://www.smarty.com/docs/cloud/us-reverse-geo-api)
 
 All notable changes to the US Reverse Geocoding API will be documented in this file.
 

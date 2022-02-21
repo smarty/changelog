@@ -1,4 +1,4 @@
-# [iOS SDK](https://smartystreets.com/docs/sdk/ios)
+# [iOS SDK](https://www.smarty.com/docs/sdk/ios)
 
 All notable changes to this project will be documented in this file.
 
