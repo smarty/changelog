@@ -29,7 +29,7 @@ CHANGES:
 
 CHANGES:
 
-- Incorporate latest version of the SmartyStreets Go SDK (v1.6.2) which adds support for calling a local instance of the US Street API hosted behind a non-blank path in its address.
+- Incorporate latest version of the Smarty Go SDK (v1.6.2) which adds support for calling a local instance of the US Street API hosted behind a non-blank path in its address.
 
 
 ## 3.5.0 - 2020-06-30

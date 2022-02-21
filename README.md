@@ -1,6 +1,6 @@
 # CHANGELOG
 
-This repository contains curated changelogs for closed-source services and software provided by SmartyStreets. For the most part, the file structure herein mirrors that of the [documentation found at smartystreets.com](https://www.smarty.com/docs).
+This repository contains curated changelogs for closed-source services and software provided by Smarty. For the most part, the file structure herein mirrors that of the [documentation found at smarty.com](https://www.smarty.com/docs).
 
 The format of the changelogs is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 

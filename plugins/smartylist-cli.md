@@ -99,7 +99,7 @@ CHANGES:
 
 CHANGES:
 
-- Using [latest SmartyStreets Go SDK](https://github.com/smartystreets/smartystreets-go-sdk/commit/615b3d80a5cbde61385c68bc55c8a217ce0ccb93) which has better support for disabling http2 (see version 8.2.4).
+- Using [latest Smarty Go SDK](https://github.com/smartystreets/smartystreets-go-sdk/commit/615b3d80a5cbde61385c68bc55c8a217ce0ccb93) which has better support for disabling http2 (see version 8.2.4).
 
 ## 8.2.4 - 2019-06-11
 

@@ -91,7 +91,7 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- Now using version 7.0.0 of the SmartyStreets Go SDK (https://www.smarty.com/docs/sdk/go) which introduces function configuration/wireup.
+- Now using version 7.0.0 of the Smarty Go SDK (https://www.smarty.com/docs/sdk/go) which introduces function configuration/wireup.
 - Downgraded severity of internal log entries.
 
 

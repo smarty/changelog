@@ -116,14 +116,14 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- Lots of internal restructuring in preparation for consolidating the differences between the SmartyStreets cloud installation and this 'local' installation. No external changes in behavior.
+- Lots of internal restructuring in preparation for consolidating the differences between the Smarty cloud installation and this 'local' installation. No external changes in behavior.
 
 
 ## 1.3.14 - 2018-06-15
 
 IMPROVEMENTS:
 
-- We now use the [SmartyStreets Go SDK](https://www.smarty.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
+- We now use the [Smarty Go SDK](https://www.smarty.com/docs/sdk/go) for processing inputs where the `country` field is "USA".
 
 
 ## 1.3.13 - 2018-06-08
@@ -137,7 +137,7 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- Moved rate-limit wireup closer to usage (only affects the SmartyStreets cloud installation).
+- Moved rate-limit wireup closer to usage (only affects the Smarty cloud installation).
 
 
 ## 1.3.11 - 2018-05-19
@@ -158,26 +158,26 @@ IMPROVEMENTS:
 
 IMPROVEMENTS:
 
-- Improvements to logging interface (only affects the SmartyStreets cloud installation).
+- Improvements to logging interface (only affects the Smarty cloud installation).
 
 ## 1.3.8 - 2018-05-16
 
 IMPROVEMENTS:
 
-- Corrected rate-limit config values (only affects the SmartyStreets cloud installation).
+- Corrected rate-limit config values (only affects the Smarty cloud installation).
 
 ## 1.3.7 - 2018-05-16
 
 IMPROVEMENTS:
 
 - Latest internal dependencies.
-- Updates to rate-limiting wireup (only affects the SmartyStreets cloud installation).
+- Updates to rate-limiting wireup (only affects the Smarty cloud installation).
 
 ## 1.3.6 - 2018-05-14
 
 IMPROVEMENTS:
 
-- Updated configuration values for messaging systems (only affects the SmartyStreets cloud installation).
+- Updated configuration values for messaging systems (only affects the Smarty cloud installation).
 
 ## 1.3.5 - 2018-05-14
 

@@ -48,7 +48,7 @@ BUG FIXES:
 IMPROVEMENTS:
 
 - Updated internal dependencies.
-- Made provision for R&D logging when hosted in the SmartyStreets production environment.
+- Made provision for R&D logging when hosted in the Smarty production environment.
 
 
 ## 2.1.54 - 2018-09-20
