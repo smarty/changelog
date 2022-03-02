@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 3.11.0 2022-03-02
+
+CHANGES:
+
+- Latest dependencies.
+- Go v1.17.7
+- Completely overhauled internal structure.
+
 ## 3.8.3 2021-04-01
 
 CHANGES:
