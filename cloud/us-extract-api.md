@@ -9,6 +9,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 3.11.3 2022-03-02
+
+CHANGES:
+
+- Internal packaging to ensure binaries for local installation are available.
+
 ## 3.11.0 2022-03-02
 
 CHANGES:
