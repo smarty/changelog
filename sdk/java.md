@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.5] - 2022-03-02
+
+### Changed:
+
+- Messages in US Street examples are more accurate pertaining to address validity.
+
+
 ## [3.12.4] - 2022-01-12
 
 ### Changed:
