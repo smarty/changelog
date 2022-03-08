@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.6.10 - 2022-03-08
+
+CHANGES:
+- Fixed issues with standalone secondary designators or secondary values. The secondary value would include a backticked city name.
+
+
 ## 1.6.9 - 2022-01-21
 
 CHANGES:
