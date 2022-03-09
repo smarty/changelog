@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 3.11.10 2022-03-09
+
+CHANGES:
+
+- Go v1.17.8
+- Ensuring all arguments are fully reset on each HTTP invocation to prevent cross-talk between requests.
+
 ## 3.11.3 2022-03-02
 
 CHANGES:
