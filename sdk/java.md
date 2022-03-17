@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.6] - 2022-03-16
+
+### Changed:
+
+- Setting "content-type" header.
+
+
 ## [3.12.5] - 2022-03-02
 
 ### Changed:
