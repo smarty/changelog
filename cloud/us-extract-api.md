@@ -9,6 +9,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 3.11.14 2022-03-24
+
+CHANGES:
+
+- Fix issue with candidate processing that could cause a server panic.
+- Internal code refactor to improve reliability and stability.
+
+
 ## 3.11.10 2022-03-09
 
 CHANGES:
