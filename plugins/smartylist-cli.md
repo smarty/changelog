@@ -1,5 +1,13 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.8.5 - 2022-03-24
+
+CHANGES:
+
+- Updated dependencies and Smarty Go SDK version 1.14.4.
+- Fix rate limit handling.
+
+
 ## 8.8.4 - 2022-01-24
 
 CHANGES:
