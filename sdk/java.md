@@ -76,6 +76,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Changed ArrayList for input parameters to List.
 - Moving from Google Sender to built in HTTP Sender.
 - Source field added to US Autocomplete Pro lookup.
+- Moved to Java 11 to support HTTP Client. This is a breaking change for anyone using earlier versions of Java.
 
 
 ## [3.10.7] - 2021-08-20
