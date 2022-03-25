@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
-## 1.7.5 - 2022-03-24
+## 1.7.4 - 2022-03-18
 
 CHANGES:
 - Code refactor to increase performance and maintainability.
