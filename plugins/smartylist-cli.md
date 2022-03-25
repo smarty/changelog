@@ -1,11 +1,18 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.8.6 - 2022-03-25
+
+CHANGES:
+
+- Fix issue in rate limit handling that could cause open file handle exhaustion.
+
+
 ## 8.8.5 - 2022-03-24
 
 CHANGES:
 
 - Updated dependencies and Smarty Go SDK version 1.14.4.
-- Fix rate limit handling.
+- Fix panic in rate limit handling.
 
 
 ## 8.8.4 - 2022-01-24
@@ -397,4 +404,3 @@ FEATURES:
 - This version served as an intermediate version between 6.0.0 and 8.0.0. No new processing
 behavior was released. The only change in this version was the addition of a series of
 informational prompts warning the user of the changes listed below in version 8.0.0.
-
