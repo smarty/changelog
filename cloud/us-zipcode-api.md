@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.9.12 - 2022-04-01
+
+- Compiled using Go v1.17.8.
+- Internal restructuring of small bits of code.
+- Allowing config file location to be specified using a CLI flag.
+
 ## 5.9.6 - 2022-03-02
 
 CHANGES:
