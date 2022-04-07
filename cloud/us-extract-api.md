@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
+## 3.11.15 2022-04-07
+
+CHANGES:
+
+- Code refactor. Nothing was changed that would modify the user experience.
+
+
 ## 3.11.14 2022-03-24
 
 CHANGES:
