@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [8.13.7] - 2022-04-07
+
+### Changed:
+
+- Content type being set directly on the request rather than the header.
+
+
+## [8.13.6] - 2022-04-06
+
+### Changed:
+
+- Sleep for 5 seconds on 429 status code.
+
+
 ## [8.13.5] - 2022-03-04
 
 ### Changed:
