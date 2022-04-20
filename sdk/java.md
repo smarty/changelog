@@ -12,6 +12,28 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.9] - 2022-04-20
+
+### Changed:
+
+- Sleep for 5 seconds on 429 status code.
+
+
+## [3.12.8] - 2022-04-05
+
+### Changed:
+
+- Dropped unnecessary commons-lang3 dependency.
+
+
+## [3.12.7] - 2022-04-05
+
+### Changed:
+
+- Fixes for prefer_ratio in US Autocomplete Pro.
+- Eliminating dependency on google http-client.
+
+
 ## [3.12.6] - 2022-03-16
 
 ### Changed:
