@@ -4,13 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## UNRELEASED
+## 3.0.3 - 2022-04-27
 
 CHANGES:
 
-- n/a
-
-
+- Data enhancement for International Street API including higher rates of DeliveryPoint matches for many countries.
+- Premise matches now indicate that the house number was found within the range for a specific street segment.
+- Language transliteration is now country-specific.
+- Compiled against Go v1.17.8.
+- Upgrade to latest dependencies.
 
 ## 2.8.5 - 2020-12-16
 
