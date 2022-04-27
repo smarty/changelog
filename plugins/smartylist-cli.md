@@ -1,5 +1,13 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.8.7 - 2022-04-27
+
+CHANGES:
+
+- Updated dependencies and Smarty Go SDK version 1.14.6.
+- Fix for timeouts while processing large data sets.
+- Added a timeout flag for request/response to CLI.
+
 ## 8.8.6 - 2022-03-25
 
 CHANGES:
