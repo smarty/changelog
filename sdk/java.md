@@ -12,6 +12,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.10] - 2022-05-03
+
+### Changed:
+
+- MatchType is made lowercase on the payload.
+
+
 ## [3.12.9] - 2022-04-20
 
 ### Changed:
