@@ -7,6 +7,80 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 
+## [1.13.3] - 2022-05-25
+
+### Changed:
+
+- Removed unused dependencies.
+
+
+## [1.13.2] - 2022-04-11
+
+### Changed:
+
+- Removed s3 code.
+
+
+## [1.13.1] - 2022-04-08
+
+### Changed:
+
+- Latest dependencies:
+	- node_modules/minimist
+
+
+## [1.13.0] - 2022-04-07
+
+### Changed:
+
+- Replaced axios with axios-proxy-fix
+
+
+## [1.12.0] - 2022-03-31
+
+### Changed:
+
+- Ability to set max results for international-autocomplete calls.
+
+
+## [1.11.11] - 2022-02-21
+
+### Changed:
+
+- Latest dependencies:
+	- node_modules/cached-path-relative
+	- cached-path-relative
+	- node_modules/pathval
+	- node_modules/follow-redirects
+	- node_modules/chokidar
+	- anymatch
+	- glob-parent
+	- fsevents
+	- node_modules/glob
+	- node_modules/js-yaml
+	- node_modules/log-symbols/node_modules/chalk
+	- node_modules/mocha
+	- node_modules/nanoid
+	- node_modules/picomatch
+	- node_modules/readdirp
+	- node_modules/serialize-javascript
+	- node_modules/workerpool
+	- log-symbols
+- Added dependencies:
+	- node_modules/debug
+	- node_modules/debug/node_modules/ms
+	- node_modules/is-unicode-supported
+	- dependencies
+- Removed dependencies:
+	- node_modules/is-fullwidth-code-point
+	- node_modules/mocha/node_modules/debug
+	- node_modules/mocha/node_modules/debug/node_modules/ms
+	- node_modules/string-width
+	- node_modules/string-width/node_modules/ansi-regex
+	- node_modules/string-width/node_modules/strip-ansi
+	- node_modules/wide-align
+
+
 ## [1.11.10] - 2022-01-18
 
 ### Changed:
