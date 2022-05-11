@@ -12,6 +12,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Nothing yet
 
 
+## [3.12.11] - 2022-05-10
+
+### Changed:
+
+- Removed unnecessary import.
+- US Street examples default to us-core-cloud license.
+
+
 ## [3.12.10] - 2022-05-03
 
 ### Changed:
