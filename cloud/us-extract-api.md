@@ -5,9 +5,22 @@ All notable changes to the US Extract API will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## UNRELEASED
+## 3.12.0 2022-05-11
 
 CHANGES:
+
+- When the upstream validation service returns a rate limited response (HTTP 429), it will be passed on in the client response.
+- For local installations:
+  - The executable binary is now statically compiled and no longer depends on `libc` or `libpcre` dynamic modules.
+  - If upstream validation fails, a `[WARN]` message is logged by the application.
+  - Added command line option descriptions under `-help`.
+  - Added command line option `-license` for when a single `auth-id` has multiple us address licenses.
+
+BUG FIXES:
+ 
+- For local installations:
+  - Fix where `-auth-id` and `-auth-token` options on the command line could have been ignored.
+	
 
 ## 3.11.15 2022-04-07
 
