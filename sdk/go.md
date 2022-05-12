@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
-- Update handling of rate limiting and other specific 4xx http codes in RetryClientApply rate limit handling in RetryClient to also apply to GET requests. 
+- Update handling of rate limiting and other specific 4xx http codes in RetryClient to also apply to GET requests. 
 
 ## [v1.14.10] - 2022-5-11
 
