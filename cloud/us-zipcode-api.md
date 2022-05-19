@@ -5,7 +5,10 @@ All notable changes to the US ZIP Code API will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
-## UNRELEASED
+## 5.9.14 - 2022-05-19
+
+- Updated internal memory management.
+- For local installations, updated CLI flag descriptions.
 
 ## 5.9.12 - 2022-04-01
 
@@ -18,7 +21,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 CHANGES:
 
 - Compiled using Go v1.17.7.
-- Recgonizing alternate spelling of state abbreviations
+- Recognizing alternate spelling of state abbreviations
 
 ## 5.9.2 - 2022-02-21
 
