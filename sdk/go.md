@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.15.0] - 2022-5-26
+
+### Changed:
+
+- Remove recent Option KeepTryingOnRateLimit introduced in v1.14.0 and deprecated in v1.14.5.
+- Add json serialization tags to us-extract Lookup object.
+- Add json serialization tag to us-zipcode Lookup.Result field.
+- Update corporate name in copyright and clarify license disclaimer.
+
 ## [v1.14.11] - 2022-5-12
 
 ### Changed:
