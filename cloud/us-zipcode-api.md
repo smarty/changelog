@@ -4,18 +4,34 @@ All notable changes to the US ZIP Code API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.10.2 - 2022-06-06
+
+CHANGES:
+
+- Compiled using Go v1.18.3.
+- Upgrade to latest dependencies.
+
+BUG FIXES:
+
+- Local install no longer gives startup error if `config.json` is not present.
 
 ## 5.10.0 - 2022-05-31
+
+CHANGES:
 
 - Reduce memory requirements.
 - Upgrade to latest dependencies.
 
 ## 5.9.14 - 2022-05-19
 
+CHANGES:
+
 - Updated internal memory management.
 - For local installations, updated CLI flag descriptions.
 
 ## 5.9.12 - 2022-04-01
+
+CHANGES:
 
 - Compiled using Go v1.17.8.
 - Internal restructuring of small bits of code.
