@@ -4,6 +4,22 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.1.10 - 2022-06-14
+
+CHANGES:
+
+- Fixed issue that would occasionally return inconsistent results.
+
+
+## 3.1.8 - 2022-06-08
+
+CHANGES:
+
+- Fixed bug that would not remove diacritics and ligatures when language is set to latin.
+- Added SWE to a list of countries affected by the street suffix concatenation fix in 3.1.5.
+- Fixed issue where transliteration would not occur for freeform requests.
+
+
 ## 3.1.5 - 2022-06-01
 
 CHANGES:
