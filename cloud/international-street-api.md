@@ -4,6 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.1.15 - 2022-06-20
+
+CHANGES:
+
+- Added AUT to a list of countries affected by the street suffix concatenation fix in 3.1.5.
+- Fixed bug that would not recognize changes to the ThoroughfareType field.
+- Improved search results in all countries.
+
+
 ## 3.1.10 - 2022-06-14
 
 CHANGES:
