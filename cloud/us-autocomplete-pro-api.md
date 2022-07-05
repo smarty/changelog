@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.0 - 2022-07-05
+
+CHANGES:
+- Fixed issue where the source field would not be returned for postal addresses even when source is specified in the input.
+- Fixed issue where some addresses with alternate cities would not be returned.
+
+
 ## 1.7.4 - 2022-03-18
 
 CHANGES:
