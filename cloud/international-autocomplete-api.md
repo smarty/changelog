@@ -8,11 +8,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
-- New data for improved results.
-- Several improvements for CAN and GBR searching including:
+- Updated data for improved results.
+- Several improvements to CAN and GBR searching:
   - Only return results with full Postal Codes
   - Allow entry of units that would previously cause no results to be returned.
-    - Units are still not returned, but there is a plan for a future release to support units.
+    - (Units are not returned but is planned for a future release).
 
 ## 0.3.0 - 2021-09-27
 
