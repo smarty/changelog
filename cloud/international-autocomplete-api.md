@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.2 - 2022-07-14
+
+CHANGES:
+
+- Improvements on how PO BOX address formatting.
+- Improved lookups for PO BOX addresses in CAN and GBR.
+- Added ability to bias results based on location, geolocation and proximity.
+
 ## 0.8.0 - 2022-07-07
 
 CHANGES:
