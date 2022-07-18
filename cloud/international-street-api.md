@@ -4,6 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.2.5 - 2022-07-18
+
+CHANGES:
+
+- Fixed address_format for PO Box results. It contained fields not used to build the address fields.
+- Improved results in when components are used in the lookup.
+- Fixed an issue with the changes section in the premise field. Sometimes it would say Verified when it should have been Identified.
+
+
 ## 3.2.1 - 2022-07-05
 
 CHANGES:
