@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.9 - 2022-07-29
+
+CHANGES:
+
+- Fixed postal code formatting for several countries. [CZE, GRC, SVK, SWE, LVA, POL]
+- Fixed incomplete postal code issues for IRL.
+
+
 ## 0.8.8 - 2022-07-28
 
 CHANGES:
