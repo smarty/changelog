@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.8.8 - 2022-08-02
+
+CHANGES:
+
+- Modified the timeout parameter to accept an integer (in seconds) instead of an interval. This conforms to the documentation.
+- Show the timeout on the initial summary screen.
+
 ## 8.8.7 - 2022-04-27
 
 CHANGES:
