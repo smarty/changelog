@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.2.11 - 2022-08-01
+
+CHANGES:
+
+- Fixed issue where some postal codes would have the two letter country code prepended. Specifically SWE, LVA, LTU.
+- Fixed AUS unit placement in results. It is now returned as a prefix to the premise number separated by a slash.
+
+
 ## 3.2.10 - 2022-07-28
 
 CHANGES:
