@@ -4,6 +4,19 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.2.12 - 2022-08-17
+
+CHANGES:
+
+- Updated the max precision for various countries.
+- Updated list of countries that have super administration areas.
+- Fixed the changes field for NLD postal codes.
+- Fixed the changes field for some sub building scenarios.
+- Fixed sub building deficiencies for some GBR addresses.
+- Fixed precision for CAN addresses where no thoroughfare was matched.
+- Eliminate duplicate candidates.
+
+
 ## 3.2.11 - 2022-08-01
 
 CHANGES:
