@@ -4,6 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.2.15 - 2022-08-18
+
+CHANGES:
+
+- Organization data will now be used in the search.
+- Improved search results in GBR and JPN.
+- Restored postal code prefix for LVA.
+
+
 ## 3.2.12 - 2022-08-17
 
 CHANGES:
