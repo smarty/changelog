@@ -4,6 +4,28 @@ All notable changes to the US Extract API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.14.6 2022-08-22
+
+CHANGES:
+
+- Removed some messages printed on the console.
+
+
+## 3.14.4 2022-08-18
+
+CHANGES:
+
+- Go v1.18.4
+- Fixed an issue with hyphens in the primary number.
+- Any communication errors to US Street will be reported to the client.
+
+
+## 3.13.0 2022-06-10
+
+CHANGES:
+
+- Allow patch to config.json upon startup using -config
+
 
 ## 3.12.2 2022-05-23
 
