@@ -4,6 +4,16 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.0 - 2022-08-23
+
+CHANGES:
+
+- Updated the data to improve results.
+- Fixed issue where sub buildings may be returned that are not associated with the result.
+- Will only attempt to transliterate for native countries. Updated native country list.
+- Improved GBR results.
+
+
 ## 3.2.15 - 2022-08-18
 
 CHANGES:
