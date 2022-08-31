@@ -4,6 +4,24 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.2.0 - 2022-08-31
+
+CHANGES:
+
+- Improved speed and accuracy in enhanced mode.
+- Improved primary number handling in enhanced mode.
+
+
+## 5.1.1 - 2022-07-19
+
+CHANGES:
+
+- Compiled against Go v1.18.4.
+- Upgrade to latest dependencies.
+- Enhance geocode precision in very rare correction cases (cloud version).
+- Internal update to DNS handling (cloud version).
+
+
 ## 5.0.31 - 2022-06-09
 
 CHANGES:
