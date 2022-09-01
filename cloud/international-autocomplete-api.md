@@ -4,6 +4,13 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.13 - 2022-08-31
+
+CHANGES:
+
+- Filter IRL results with incomplete postal codes.
+
+
 ## 0.8.12 - 2022-08-30
 
 CHANGES:
