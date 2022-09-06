@@ -4,6 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.1 - 2022-09-06
+
+CHANGES:
+
+- Updated logic for countries that use Super Administrative Area. Removed SVN from the S.A.A. country list.
+- Fixed a miscalculation of the changes field for Locality and Admin area.
+- Improved CAN results for freeform queries.
+
+
 ## 3.3.0 - 2022-08-23
 
 CHANGES:
