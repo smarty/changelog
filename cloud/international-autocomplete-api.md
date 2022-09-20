@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.14 - 2022-09-20
+
+CHANGES:
+
+- Handle countries that use sub administrative areas such as BGR. In these cases, administrative area would not be populated.
+- Handle countries that use super administrative areas such as [BEL,BOL,ESP,FRA,HKG,ITA,LIE,LUX,MDG,MDV,PAK,PHL,SRB,TUN]
+
+
 ## 0.8.13 - 2022-08-31
 
 CHANGES:
