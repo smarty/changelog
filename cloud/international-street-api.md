@@ -4,6 +4,18 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.5 - 2022-09-19
+
+CHANGES:
+
+- Return expanded CAN pre-directionals. (e.g. it was S, now is South)
+- Improved GBR results by not falling back to street centroid results.
+- Improved GBR results by not including the input premise number when none was requested.
+- Add building name to the results where applicable.
+- Improved LUX results by pre-processing the requested Postal Code.
+- Improved overall performance.
+
+
 ## 3.3.2 - 2022-09-07
 
 CHANGES:
