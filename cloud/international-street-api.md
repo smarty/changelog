@@ -4,6 +4,17 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.6 - 2022-09-22
+
+CHANGES:
+
+- Fixed Plot/Premise issue for THA. We now prepend PLOT when to the premise number when available.
+- Add DNK to the list of countries for Germanic street suffix handling where some suffixes are appended to the street with no space.
+- Added fields to the output: level_type, level_number when available.
+- Standardized address line formatting for various countries.
+- Use the new Level fields in the AUS address lines.
+
+
 ## 3.3.5 - 2022-09-19
 
 CHANGES:
