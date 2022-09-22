@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.4 - 2022-09-22
+
+CHANGES:
+- When using preferences, an unmatched search term was sometimes returning results.
+
+
 ## 1.9.3 - 2022-09-15
 
 CHANGES:
