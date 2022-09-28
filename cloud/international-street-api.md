@@ -4,6 +4,15 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.7 - 2022-09-28
+
+CHANGES:
+
+- Added new fields in result (when applicable): administrative_area_short and administrative_area_long
+- Added a list of countries that always use administrative_area_short for the value of administrative_area.
+  [AUS BRA BRB CAN CHE CXR CCK GIB ITA MEX]
+
+
 ## 3.3.6 - 2022-09-22
 
 CHANGES:
