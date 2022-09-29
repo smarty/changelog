@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 0.8.15 - 2022-09-29
+
+CHANGES:
+
+- Resolve an issue with invalid result removal.
+- Do not return CAN results with an incomplete Postal Code.
+
+
 ## 0.8.14 - 2022-09-20
 
 CHANGES:
