@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.5 - 2022-10-04
+
+CHANGES:
+- Compiled against Go 1.19.1
+- Internal changes that will not affect the user experience.
+
+
 ## 1.9.4 - 2022-09-22
 
 CHANGES:
