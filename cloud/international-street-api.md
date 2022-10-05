@@ -4,6 +4,23 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.3.11 - 2022-10-05
+
+CHANGES:
+
+- Compiled against Go v1.19.
+- Internal changes that should not affect the user experience.
+
+
+## 3.3.9 - 2022-10-04
+
+CHANGES:
+
+- Added PRT as a super administrative area country. 
+- Updated address formatting for various countries.
+- Updated postal code data for countries with a single or no postal code.
+
+
 ## 3.3.7 - 2022-09-28
 
 CHANGES:
