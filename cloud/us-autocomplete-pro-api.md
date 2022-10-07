@@ -7,6 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.6 - 2022-10-07
+
+CHANGES:
+- Compiled against Go 1.19.2
+- Eliminate duplicate candidates in the Autocomplete Basic results.
+
+
 ## 1.9.5 - 2022-10-04
 
 CHANGES:
