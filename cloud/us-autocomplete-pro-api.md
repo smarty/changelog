@@ -7,6 +7,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.7 - 2022-10-11
+
+CHANGES:
+- Added secondary data to Autocomplete Basic results.
+
+
 ## 1.9.6 - 2022-10-07
 
 CHANGES:
