@@ -7,6 +7,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.9.9 - 2022-10-12
+
+- Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.
+
 ## 1.9.8 - 2022-10-11
 
 CHANGES:
