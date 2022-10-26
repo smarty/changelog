@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.0 - 2022-10-26
+
+CHANGES:
+
+Enhanced Mode Improvements:
+- Improved match rates.
+- Field enhanced_match is now consistently populated in the returned results.
+- Field enhanced_match contains "ignored-input" parameter when input is not used to obtain a match.
+- HC and HCR address matching has been improved.
+- dpv_footnotes and footnotes are more consistent.
+- Significant improvements to invalid secondaries.
+- Improved matches for valid secondaries.
+
+
+## 5.2.1 - 2022-09-28
+
 ## 5.2.2 - 2022-10-04
 
 CHANGES:
