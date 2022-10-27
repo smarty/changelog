@@ -4,6 +4,32 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+
+
+## 3.3.16 - 2022-10-27
+
+CHANGES:
+
+- Fixed an issue with the health check that could make it unhealthy unexpectedly.
+- Added NOR to the Germanic Street Suffix handling.
+- Added an Administrative Area table for GBR so it will always return one.
+
+
+## 3.3.14 - 2022-10-25
+
+CHANGES:
+
+- Backed out the feature in 3.3.12 as it created a health check failure after a few hours and caused an outage.
+
+
+## 3.3.12 - 2022-10-24
+
+CHANGES:
+
+- Implemented a feature to improve results across the board.
+
+
 ## 3.3.11 - 2022-10-05
 
 CHANGES:
