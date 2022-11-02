@@ -1,5 +1,11 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.8.9 - 2022-11-2
+
+CHANGES:
+
+- Now compiled with go 1.19.3 
+
 ## 8.8.8 - 2022-08-02
 
 CHANGES:
