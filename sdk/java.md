@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [3.13.3] - 2022-11-08
+
+### Changed:
+
+- Added new fields in international-street:
+  - administrative_area_short, administrative_area_long, level_type, level_number
+
+
+## [3.13.2] - 2022-11-10
+
+- Latest versions of dependencies.
+- Fix to our deserializer so it won't fail when we add new fields to our REST endpoints.
+
+### Changed:
+
+- Reworking the rate limit code to continue trying. Looks at the returned header to know how long to wait before trying again.
+- Add OKHttp as our client. This will add support back for java 8.
+
 ## [3.13.0] - 2022-08-10
 
 ### Changed:
