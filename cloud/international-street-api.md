@@ -7,6 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 
 
+## 3.3.19 - 2022-11-10
+
+CHANGES:
+
+- Implemented new data to improve results.
+- Fixed precision for PO Box results - is now Locality.
+- Handle abbreviated thoroughfare types in POL.
+
+
 ## 3.3.16 - 2022-10-27
 
 CHANGES:
