@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.1 - 2022-12-01
+
+CHANGES:
+
+Enhanced Mode Improvements:
+- Significant improvements to footnotes analysis.
+- Minor enhancement for misspelled street names.
+- Minor improvement to match rates for addresses with similar street names.
+
 ## 5.3.0 - 2022-10-26
 
 CHANGES:
