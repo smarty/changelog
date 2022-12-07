@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.2 - 2022-12-03
+
+BUG FIXES:
+
+- Fixed minor issue where a specific string combination would cause the request to fail.
+
 ## 5.3.1 - 2022-12-01
 
 CHANGES:
