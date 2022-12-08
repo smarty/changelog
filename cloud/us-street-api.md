@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.3 - 2022-12-08
+
+CHANGES:
+
+- Internal restructuring, no external changes.
+
+
 ## 5.3.2 - 2022-12-03
 
 BUG FIXES:
