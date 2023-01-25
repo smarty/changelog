@@ -6,6 +6,16 @@ CHANGES:
 
 - Now compiled with go 1.19.3 
 
+## 8.8.10 - 2023-01-25
+
+CHANGES:
+
+- Improved error recovery handling. 
+  - It requires three failed batches in a row before the run will be terminated.
+  - The log will contain the errors encountered during the run.
+  - When a failure occurs during the run, the file containing the search results will no longer be deleted.
+
+
 ## 8.8.8 - 2022-08-02
 
 CHANGES:
