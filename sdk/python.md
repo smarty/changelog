@@ -8,7 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
-- Change the max timeout to reflect that it is is seconds, not milliseconds and make the default 10 seconds.
+- Change the max timeout to reflect that it is in seconds, not milliseconds and make the default 10 seconds.
 
 ## [4.11.11] - 2023-01-25
 
