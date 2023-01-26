@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.4 - 2022-01-26
+
+CHANGES:
+- Added CPR to CMR to support new data changes.
+- Improved search capabilities for some alternate cities.
+
+BUG FIXES:
+- Resolved issue with outputs when secondaries were submitted in the 'street2' field.
+- Resolved issues with specific key-words being dropped.
+
 ## 5.3.3 - 2022-12-08
 
 CHANGES:
