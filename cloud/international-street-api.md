@@ -7,6 +7,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 
 
+## 3.3.23 - 2023-01-27
+
+CHANGES:
+
+- Improved BEL results by adding sub and super administrative area data.
+- Released new quarterly data and improved search engine.
+
+
 ## 3.3.19 - 2022-11-10
 
 CHANGES:
