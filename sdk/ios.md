@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.10.19] - 2023-02-01
+
+### Changes:
+
+- Added new fields in international-autocomplete-api:
+  - distance, geolocation, latitude, longitude
+- Removed objectiveC examples (no longer supporting these)
+- Fixed problems with us-zipcode multiple lookups. content type for POST needed to be set to application/json
+- Fixed USReverseGeoAddress state_abbreviation problem
 
 ## [8.10.18] - 2022-11-08
 
