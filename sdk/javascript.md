@@ -6,6 +6,52 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed:
+
+- Reduced disclaimer font size
+
+
+## [2.1.1] - 2022-11-23
+
+### Added:
+
+- Adds note about authentication options with US Autocomplete Pro 
+
+
+## [2.1.0] - 2022-11-09
+
+### Added:
+
+- Added new fields in international street results:
+	- administrativeAreaShort, administrativeAreaLong, levelType, levelNumber
+
+## [2.0.0] - 2022-07-26
+
+### Changed:
+
+- Enhanced retries for certain HTTP error codes
+- Handles 429 retries more gracefully
+
+
+## [1.13.7] - 2022-07-26
+
+### Changed:
+
+- Changed wording from "website keys" to "embedded keys"
+
+
+## [1.13.6] - 2022-06-24
+
+
+## [1.13.5] - 2022-06-24
+
+
+## [1.13.4] - 2022-06-24
+
+### Changed:
+
+- Updated README and LICENSE
+
 
 ## [1.13.3] - 2022-05-25
 
