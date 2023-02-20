@@ -6,10 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 0.23.3 - 2023-02-20
+
+- Small internal changes regarding plans and subscriptions.
+- Compiled using Go v1.19.5.
+
+
+## 0.23.1 - 2022-12-13
+
+- Fix issue with lowercase state abbreviations.
+
+
 ## 0.22.0 - 2022-10-12
 
 - Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.
 - Compiled using Go v1.19.2.
+
 
 ## 0.19.0 - 2021-02-10
 
