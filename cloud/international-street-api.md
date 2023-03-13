@@ -5,6 +5,17 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 3.3.26 - 2023-03-10
+
+CHANGES:
+
+- Fixed an issue where some PO Box results would incorrectly have a precision of Thoroughfare. It is now DeliveryPoint.
+- Fixed an issue with Postal code analysis changes for CAN and GBR.
+- Improved input handling so we will return results when previously no results would be returned.
+- Eliminated Company and Organization from address lines.
+- Fixed formatting of sub building data in GBR.
+- Added dependent thoroughfare in the address lines for GBR.
+- Fixed an issue where status would be ambiguous when a single result would be returned.
 
 
 ## 3.3.23 - 2023-01-27
