@@ -4,6 +4,11 @@ All notable changes to the US ZIP Code API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.12.2 - 2023-03-21
+
+- Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.
+- Compiled using Go v1.19.7.
+
 ## 5.11.4 - 2022-10-12
 
 - Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.

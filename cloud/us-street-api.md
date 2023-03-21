@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.3.6 - 2023-03-21
+
+- Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.
+- Compiled using Go v1.19.7.
+
 ## 5.3.4 - 2022-01-26
 
 CHANGES:
