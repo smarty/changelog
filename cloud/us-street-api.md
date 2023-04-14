@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## UNRELEASED
 
+## 5.4.1 - 2023-04-14 - 2023-04-17
+
+NOTE: This version will be released over the dates above.
+
+On-Premise builds will require updated data which will be available after the cloud roll out is completed.
+
+CHANGES:
+- Enhanced accuracy and availability of geocodes.
+- Improved secondary matches in enhanced mode.
+- Internal code changes to prepare for upcoming features.
+
+BUG FIXES:
+- Fixed enhanced_match flag issue with strict and invalid mode when submitting batches.
+
 ## 5.3.6 - 2023-03-21
 
 - Small internal changes regarding plans and subscriptions to interpret appropriate features of a customer request.
