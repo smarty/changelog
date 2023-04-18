@@ -6,10 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+
+## [2.1.2] - 2023-04-18
+
 ### Changed:
 
 - Reduced disclaimer font size
 
+### Security:
+
+- Bump minimatch from 3.0.4 to 3.1.2
 
 ## [2.1.1] - 2022-11-23
 
@@ -24,6 +30,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Added new fields in international street results:
 	- administrativeAreaShort, administrativeAreaLong, levelType, levelNumber
+
 
 ## [2.0.0] - 2022-07-26
 
