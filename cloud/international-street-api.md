@@ -9,7 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 CHANGES:
 
-- No longer return sub building type in address lines for CHE and SGP.
+- No longer return sub city type in address lines for CHE and SGP.
 - Prefix ALA postal codes with AX
 
 
