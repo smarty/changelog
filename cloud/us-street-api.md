@@ -4,7 +4,15 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## UNRELEASED
+## 5.5.1 - 2023-05-01
+
+On-Premise customers should see documentation updates (https://www.smarty.com/docs/local/us-street-api#manage) as there are changes in the way the program is launched.
+
+- Restructured source code to improve performance.
+- Enhanced error messages which are returned as JSON with additional information.
+- Geocodes are now rounded to the 6th decimal place instead of being truncated to the 6th.
+- Fixed an issue where no results would be found if street2 was populated but street was not.
+
 
 ## 5.4.1 - 2023-04-14 - 2023-04-17
 
