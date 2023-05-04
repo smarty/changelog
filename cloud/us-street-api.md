@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.5.6 - 2023-05-04
+
+- Fixed HTTP 404 issues that would occur when a trailing slash was used at the end of the route in the URL such as https://us-street.api.smartystreets.com/street-address/?...
+- Fixed HTTP 406 issues that would occur if all values in the Accept header were not supported. It will now default to return JSON in that case.
+- Fixed an issue when making an API call in a web browser where it would return XML instead of JSON. 
+
+
 ## 5.5.1 - 2023-05-01
 
 On-Premise customers should see documentation updates (https://www.smarty.com/docs/local/us-street-api#manage) as there are changes in the way the program is launched.
