@@ -5,6 +5,21 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 3.3.35 - 2023-05-08
+
+CHANGES:
+
+- Fixed an issue where it could cause the server to restart.
+- No longer return sub city type in address lines for NLD.
+
+
+## 3.3.34 - 2023-04-28
+
+CHANGES:
+
+- Internal changes that do not affect results.
+
+
 ## 3.3.33 - 2023-04-20
 
 CHANGES:
