@@ -7,6 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## UNRELEASED
 None
 
+## 1.11.0 - 2023-06-21
+
+- Casing streets and cities is now similar to US Street API.
+
+
 ## 1.10.10 - 2023-04-28
 
 - Deployed new data to fix issues with some secondaries not being grouped together under their parent address.
