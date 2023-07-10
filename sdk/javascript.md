@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [2.2.0] - 2023-07-10
+
+### Changed:
+
+- Updated API url domains from `*.api.smartystreets.com` to `*.api.smarty.com`
+
+
+## [2.1.1] - 2022-11-23
+
+### Added:
+
+- Adds note about authentication options with US Autocomplete Pro 
+
 
 ## [2.1.2] - 2023-04-18
 
