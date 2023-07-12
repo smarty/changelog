@@ -1,29 +1,30 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.9.0 - 2023-07-12
+CHANGES:
+
+- Improved performance for us-street functionality.
+- Support for SmartyKey
+- Support for psv input files
+- Support for international street.
+  - New optional flag `-api` to indicate which api to use. Valid values include `us-street` and `international-street` with a default value of `us-street`.
+  - An error will be thrown if an invalid api value is given
+  - See the documentation for more information
+
+## 8.8.10 - 2023-01-25
+
+CHANGES:
+
+- Improved error recovery handling. 
+  - It requires three failed batches in a row before the run will be terminated.
+  - The log will contain the errors encountered during the run.
+  - When a failure occurs during the run, the file containing the search results will no longer be deleted.
+
 ## 8.8.9 - 2022-11-2
 
 CHANGES:
 
 - Now compiled with go 1.19.3 
-
-## 8.8.10 - 2023-01-25
-
-CHANGES:
-
-- Improved error recovery handling. 
-  - It requires three failed batches in a row before the run will be terminated.
-  - The log will contain the errors encountered during the run.
-  - When a failure occurs during the run, the file containing the search results will no longer be deleted.
-
-
-## 8.8.10 - 2023-01-25
-
-CHANGES:
-
-- Improved error recovery handling. 
-  - It requires three failed batches in a row before the run will be terminated.
-  - The log will contain the errors encountered during the run.
-  - When a failure occurs during the run, the file containing the search results will no longer be deleted.
 
 
 ## 8.8.8 - 2022-08-02
