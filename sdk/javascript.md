@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
-- Updated StatusCodeSender to pass the errors recieved from the response to the user.
+- Updated StatusCodeSender to pass the errors recieved from the response to the user except for 500, 503 and 504.
 
 
 ## [2.2.1] - 2023-07-11
