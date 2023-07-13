@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [3.0.0] - 2023-07-13
+
+### Changed:
+
+- updated StatusCodeSender to pass the errors recieved from the response to the user.
+
 
 ## [2.2.1] - 2023-07-11
 
