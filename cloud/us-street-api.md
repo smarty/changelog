@@ -5,9 +5,7 @@ All notable changes to the US Street Address API will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## 5.7.1 - 2023-07-19
-
 CHANGES:
-
   - Implemented USPS Cycle "O", the most notable change affects dpv_footnotes.
   - Of particular note, the meaning of the "CC" and "N1" dpv_footnotes are being revised.
   - For more information see https://www.smarty.com/docs/usps-cycle-o and https://www.smarty.com/docs/cloud/us-street-api#analysis
