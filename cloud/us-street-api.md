@@ -14,7 +14,6 @@ Enhanced Match Improvements:
   - Improved handling of some addresses with odd secondaries.
   - Improved capability to differentiate between street suffixes and street names.
 
-
 ## 5.7.2 - 2023-08-02
   - Includes a fix for when "via" or "plaza" was not being recognized.
   - Internal code optimizations.
