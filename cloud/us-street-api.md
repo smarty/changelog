@@ -4,6 +4,17 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.7.6 - 2023-08-10
+Enhanced Match Improvements:
+  - Fixed multiple false positive issues.
+  - Fixed issue where input in street2 field occasionally returned odd results.
+  - Fixed issue where M.L.K was not being recognized as a valid street.
+  - Fixed issue where a duplicate PMB value was being copied into the primary number as well as PMB number field.
+  - Fixed issue where some odd secondaries were being corrected erroneously.
+  - Improved handling of some addresses with odd secondaries.
+  - Improved capability to differentiate between street suffixes and street names.
+
+
 ## 5.7.2 - 2023-08-02
   - Includes a fix for when "via" or "plaza" was not being recognized.
   - Internal code optimizations.
