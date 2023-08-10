@@ -5,6 +5,21 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 3.5.3 - 2023-08-10
+
+IMPROVEMENTS:
+- Improved handling and retention of building and apartment information for addresses.
+- Improvements to the output address formats to better align with local postal expectations.
+- Field-specific changes are now returned for transliterated addresses.
+- Improved consistency in street abbreviations.
+
+CHANGES:
+- Standardization of administrative_area field (removal of administrative_area_short and administrative_area_long fields)
+- MEX administrative_area will now utilize the ISO-3 state code.
+- Field-specific changes no longer apply to full address lines (as they are more useful on individual fields).
+- New component field (level_number) - for applicable countries
+
+
 ## 3.3.35 - 2023-05-08
 
 CHANGES:
