@@ -1,5 +1,14 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.10.0 - 2023-08-11
+
+CHANGES:
+
+- An optional -rate-limit flag is now available.
+  - If the flag is omitted, no rate limit will be applied.
+  - If the flag is used, must be set to a positive integer (lookups to send per second).
+  - If a rate-limit less than 1 or non-integer is given, an error will be thrown and the CLI process will not run.
+
 ## 8.9.0 - 2023-07-12
 CHANGES:
 
