@@ -5,6 +5,14 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 3.5.7 - 2023-08-22
+
+CHANGES:
+- Implemented format change in DEU for address lines. Move Sub Building after Premise.
+- Fixed JPN formatting issues for native and latin.
+- If no language is specified in the request we will determine it from the input character set. For best results, specify the language if consistent transliteration is needed.
+
+
 ## 3.5.5 - 2023-08-15
 
 CHANGES:
