@@ -4,9 +4,12 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.7.12 - 2023-09-25
+- Fixed a rare issue where an incorrect empty result was being returned.
+
 ## 5.7.11 - 2023-09-19
 - Fixed an issue where an odd secondary combination would cause results to not return correctly.
-- 
+
 ## 5.7.10 - 2023-09-13
 - Fixed an internal issue that will not affect address results.
 
