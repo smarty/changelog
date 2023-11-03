@@ -4,6 +4,13 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.8 - 2023-11-3
+
+CHANGES:
+- Added field "document_type_description" to help clarify financial data.
+- Better standardized casing for many fields.
+- Updated a few fields for clarity.
+
 ## 1.0.4 - 2023-10-25
 
 CHANGES:
