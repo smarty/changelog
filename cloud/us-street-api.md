@@ -4,6 +4,18 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.7.23 - 2023-11-8
+
+### FIXED
+
+- Fixed an issue where an improperly used dash would return no results
+- Fixed a rare issue with extra spaces in some secondaries
+- Fixed inconsistent results when the street field is empty but street2 contains valid data
+
+### DEPRECATED
+
+- JSONP is officially deprecated.  Support will be removed for JSONP starting on January 31, 2024.
+
 ## 5.7.19 - 2023-10-31
 - Added Project US@ formatting option, for more information on Project US@ see https://www.smarty.com/articles/project-usa-address-standardization
 
