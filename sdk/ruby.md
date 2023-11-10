@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.16.0] - 2023-11-10
+
+### Changed:
+
+- Update International Autocomplete to v2
+ - Change default endpoint of international-autocomplete-api to: "https://international-autocomplete.api.smarty.com/v2/lookup"
+ - Remove `super-administrative-area` and `sub-administrative-area` fields from `Candidate`
+ - Add `entries` (int) , `address_text` (string), and `address_id` (string) fields to `Candidate`
+  - Add functionality to append `address_id` to URL path, not as query parameter
+ - Remove `distance` , `geolocation` , `include_only_administrative_area` , `latitude` , and `longitude` fields from `Lookup`
+ - Remove `international_geolocate_type`
+ - In `international_autocomplete/client` `send()` function, add check to ensure i) `country` field on lookup is set and ii) `search` || `address_id` field is set
+ - Update unit tests to cover behavior above
+
 ## [5.15.4] - 2023-11-07
 
 ### Changed:
