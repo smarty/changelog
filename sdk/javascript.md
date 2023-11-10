@@ -6,6 +6,27 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [4.0.0] - 2023-11-10
+
+### Update International Address Autocomplete to v2
+
+### Changed:
+- Changed default endpoint of international-autocomplete-api to: `https://international-autocomplete.api.smarty.com/v2/lookup`
+- Renamed `include_only_locality` to `includeOnlyLocality`, `include_only_postal_code` to `includeOnlyPostalCode`, and `max_results` to `maxResults` in `Lookup`
+- Updated `international_address_autocomplete.js` example file
+- Updated unit tests
+
+### Added:
+- Added `entries`, `addressText`, and `addressId` to `Suggestion`
+- Added `addressId` to `Lookup`
+- Added functionality to append `addressId` to URL path, not as query string parameter
+
+### Removed:  
+- Removed `include_only_administrative_area` field from `Lookup`
+
+### Deprecated:
+- Support for International Address Autocomplete v1
+
 ## [3.3.0] - 2023-10-26
 
 ### Changed:
