@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
+- Updated International Autocomplete SDK example license value with correct value for v2
 - Updated US Autocomplete Pro SDK example to reflect correct use of Preferred City filter
 
 
