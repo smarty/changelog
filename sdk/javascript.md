@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [4.0.1] - 2023-11-29
+
+### Update Axios, Axios-Retry, and Mocha versions
+
+### Security:
+- Upgraded axios to version 1.6.2
+- Upgraded axios-retry to version 4.0.0
+- Upgraded mocha to version 10.2.0
+
+
 ## [4.0.0] - 2023-11-10
 
 ### Update International Address Autocomplete to v2
