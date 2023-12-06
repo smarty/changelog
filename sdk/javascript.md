@@ -8,8 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [4.0.2] - 2023-12-06
 
+### Axios.create is not a function error.
+
 ### Fixed:
-- Fixed "TypeError: Axios.create is not a function" error.
+- Added .default to require statement.
 
 ## [4.0.1] - 2023-11-29
 
