@@ -4,6 +4,18 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.7.29 - 2023-12-14
+We are beginning our phased rollout of us-street-api 5.7.29. This process is scheduled to be completed by 2023-12-19 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+
+- Fixed an issue with duplicated output.
+- Improved handling of secondary values.
+- Improved footnote accuracy.
+- Improved performance for enhanced mode.
+- Fixed incorrect address being returned in some cases.
+- Improved PO Box validation.
+
 ## 5.7.27 - 2023-12-06
 
 ### FIXED
