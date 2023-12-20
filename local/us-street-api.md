@@ -12,6 +12,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ATTENTION: See note at top of file.
 
+## 5.7.30 - 2023-12-20
+
+IMPROVEMENTS:
+
+- Improved internal geocode processes.
+- More accurate rooftop geocodes.
+- Better address results for non-postal addresses.
+
 ## 2.2.28 - 2019-06-17
 
 IMPROVEMENTS:
