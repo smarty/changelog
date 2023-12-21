@@ -13,6 +13,13 @@ We are beginning our phased rollout of us-street-api 5.7.30. This process is sch
 - More accurate rooftop geocodes.
 - Better address results for non-postal addresses.
 
+#### 2023.12.G - Add-on Data 
+
+On-Premise builds will require updated data which will be available after the cloud roll out is completed.
+
+- Removed some invalid non-postal addresses.
+- Updated and enhanced geocode precision.
+
 ## 5.7.29 - 2023-12-14
 We are beginning our phased rollout of us-street-api 5.7.29. This process is scheduled to be completed by 2023-12-19 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 

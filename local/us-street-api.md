@@ -20,6 +20,11 @@ IMPROVEMENTS:
 - More accurate rooftop geocodes.
 - Better address results for non-postal addresses.
 
+#### 2023.12.G - Add-on Data
+
+- Removed some invalid non-postal addresses.
+- Updated and enhanced geocode precision.
+
 ## 2.2.28 - 2019-06-17
 
 IMPROVEMENTS:
