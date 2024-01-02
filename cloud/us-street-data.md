@@ -13,6 +13,9 @@ On-Premise builds will require updated data which will be available after the cl
 - Updated and enhanced geocode precision.
 
 ## 2023.12.A - 2023-11-28
+### Enhanced data
+- Enhanced matching data: 2023.12.G
+- Rooftop geocoding data: 2023.12.G
 
 Changes:
 
