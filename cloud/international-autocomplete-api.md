@@ -4,6 +4,13 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.13 - 2024-01-03
+
+CHANGES:
+
+- Fixed issue where some v2 customers would not be charged for evaluation lookups.
+
+
 ## 1.0.12 - 2023-12-18
 
 CHANGES:
