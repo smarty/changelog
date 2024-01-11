@@ -4,6 +4,12 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.14 - 2024-01-11
+
+CHANGES:
+- Added a feature that allows attribute groups to be used to narrow the list of returned attributes. The documentation for this feature will be released Mon Jan 15.
+
+
 ## 1.0.8 - 2023-11-3
 
 CHANGES:
