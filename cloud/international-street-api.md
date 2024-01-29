@@ -5,10 +5,16 @@ All notable changes to the International Street Address API will be documented i
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## 3.6.3 - 2024-01-29
+
+CHANGES:
+- Internal changes that will not affect results.
+
+
 ## 3.6.2 - 2024-01-10
 
 CHANGES:
-- Fixed an issue with TUR addresses where some address lines were missing..
+- Fixed an issue with TUR addresses where some address lines were missing.
 
 
 ## 3.6.1 - 2024-01-08
