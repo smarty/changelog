@@ -8,8 +8,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Changed:
 
--Added a Universal lookup for the US Enrichment API SDK that returns a JSON byte slice for a lookup to a specific Dataset and/or Data Subset
--Added examples for using SendUniversalLookup
+- Added a Universal lookup for the US Enrichment API SDK that returns a JSON byte slice for a lookup to a specific Dataset and/or Data Subset
+- Added examples for using SendUniversalLookup
 
 ## [1.18.2] - 2024-01-30
 
