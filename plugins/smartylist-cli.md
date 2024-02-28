@@ -1,5 +1,16 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.11.0 - 2024-02-28
+
+CHANGES:
+
+- Enrichment-API functionality is now available.
+  - New valid api name is `us-enrichment`
+  - New optional flag `-enrichment-dataset` to indicate which enrichment dataset to target. A valid value is `property`.
+  - New optional flag `-enrichment-data-subset` to indicate which subset of the provided dataset to target. Some valid values include `principal` and `financial`.
+- ARM-64 build was added.
+- Added support for Project US@ formatting. 
+
 ## 8.10.0 - 2023-08-11
 
 CHANGES:
@@ -10,6 +21,7 @@ CHANGES:
   - If a rate-limit less than 1 or non-integer is given, an error will be thrown and the CLI process will not run.
 
 ## 8.9.0 - 2023-07-12
+
 CHANGES:
 
 - Improved performance for us-street functionality.
