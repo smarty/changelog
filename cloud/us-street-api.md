@@ -4,6 +4,19 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.8.2 - 2024-02-28
+We are beginning our phased rollout of us-street-api 5.8.2. This process is scheduled to be completed by 2024-03-02 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+
+- Fixed an issue where inputting a PO box in street2 would yield an incorrect SmartyKey™.
+- Fixed a rare issue where non-postals would yield an incorrect SmartyKey™.
+- Fixed a rare issue where results were given an incorrect SmartyKey™
+- Fixed an issue where an incorrect SmartyKey™ was being returned when multiple results were being returned.
+- Fixed an issue where incorrect footnotes were being returned when multiple results were being returned.
+- Improved the ordering footnotes are returned in.
+- Improved the accuracy of the enhanced_match field.
+
 ## 5.7.38 - 2024-02-05
 
 ### DEPRECATED
