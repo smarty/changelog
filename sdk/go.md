@@ -26,6 +26,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Corrected host value for International Autocomplete SDK
 
 
+## [1.19.1] - 2024-03-01
+
+### Changed:
+
+- Updated US Enrichment calls to include a Universal call for all datasets and subsets.
+- Added GeoReference to US Enrichment which will be release shortly.
+
+
 ## [1.18.0] - 2023-11-10
 
 ### Changed:
