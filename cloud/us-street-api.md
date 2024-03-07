@@ -4,6 +4,18 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.8.4 - 2024-03-07
+We are beginning our phased rollout of us-street-api 5.8.4. This process is scheduled to be completed by 2024-03-12 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+
+- Fixed an issue where there was a contradiction between enhanced_match and DPVFootnotes.
+- Improved ability to find SmartyKey™ when secondary is invalid.
+- Improved ability to find results that use the street2 field.
+- Fixed an issue where duplicate PMB values would be returned.
+- Fixed the inconsistency between strict, invalid, and enhanced mode for the A# and B# footnotes.
+- Improved matching on PO boxes with dual input.
+
 ## 5.8.2 - 2024-02-28
 We are beginning our phased rollout of us-street-api 5.8.2. This process is scheduled to be completed by 2024-03-02 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
