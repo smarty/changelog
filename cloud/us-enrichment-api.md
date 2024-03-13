@@ -4,6 +4,13 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.0.29 - 2024-03-13
+
+CHANGES:
+- Fixed casing where letters follow numbers in the same word.
+- Updated data. See: us-enrichment-data.md
+
+
 ## 1.0.27 - 2024-02-20
 
 CHANGES:
