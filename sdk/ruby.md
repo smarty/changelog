@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.17.1] - 2024-03-19
+
+### Changed:
+
+- Updated return fields of `us-enrichment` to match the corresponding live api response
+
 ## [5.17.0] - 2024-01-03
 
 ### Changed:
