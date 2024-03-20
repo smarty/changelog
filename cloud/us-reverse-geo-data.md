@@ -4,6 +4,12 @@ All notable changes to the US Reverse Geocoding API Data will be documented in t
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024.03.B - 2024-03-20
+
+Changes:
+
+- Changed data to better handle Trailing Alpha (TA) addresses
+
 ## 2024.03.A - 2024-03-05
 
 Changes:
