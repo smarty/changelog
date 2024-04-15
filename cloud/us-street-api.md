@@ -4,6 +4,20 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.3 - 2024-04-15
+We are beginning our phased rollout of us-street-api 5.9.3. This process is scheduled to be completed by 2024-04-18 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+
+- Improved matching capabililty for enhanced match.
+- Removed duplicate delivery_line_2.
+- Fixed a rare scenario where the SmartyKey™ for a root address was being assigned to a secondary address.
+- Fixed an issue where enhanced_match field would fail to label unknown secondaries.
+- Stop removing apostrophes from Addressee field.
+- Fixed an issue where duplicate PMB's would fail to validate.
+- Fixed an issue where the enhanced_match field was incorrect for some unique zipcodes.
+- Fixed an issue where enhanced_match field said "none" but an address was matched.
+
 ## 5.9.1 - 2024-03-13
 We are beginning our phased rollout of us-street-api 5.9.1. This process is scheduled to be completed by 2024-03-16 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
