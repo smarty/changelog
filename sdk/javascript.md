@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.1.2] - 2024-05-02
+
+### Added:
+- Added clarifying text to .withBaseUrl() references in the example files
+
+### Fixed:
+- Adjusted spaces to tabs in one example file for consistency
+
 ## [5.0.1] - 2024-02-05
 - Fixed incorrect Content-Type header in US Extract to use the correct Content-Type header.
 
