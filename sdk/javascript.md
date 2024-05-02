@@ -13,6 +13,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ### Fixed:
 - Adjusted spaces to tabs in one example file for consistency
 
+## [5.1.1] - 2024-03-25
+
+### Fixed:
+- Corrected URL path for US Enrichment
+
+## [5.1.0] - 2024-03-22
+
+### Added:
+- Added US Enrichment support
+
 ## [5.0.1] - 2024-02-05
 - Fixed incorrect Content-Type header in US Extract to use the correct Content-Type header.
 
