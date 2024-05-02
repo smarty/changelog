@@ -4,6 +4,17 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.4 - 2024-05-02
+We are beginning our phased rollout of us-street-api 5.9.4. This process is scheduled to be completed by 2024-05-05 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+
+- Improved accuracy for the enhanced match field in regards to "missing-secondary" and "unknown-secondary".
+- Fixed an issue where the enhanced match field was "none" but a SmartyKey™ was being returned anyways.
+- Improved accuracy for A#, B#, and M# footnotes.
+- Improved ability to understand certain Spanish inputs.
+- Fixed a rare scenario where an inaccurate SmartyKey™ was being returned for an address with a valid secondary.
+
 ## 5.9.3 - 2024-04-15
 We are beginning our phased rollout of us-street-api 5.9.3. This process is scheduled to be completed by 2024-04-18 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
