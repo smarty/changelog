@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ### Added:
 - Added clarifying text to .withBaseUrl() references in the example files
+- Added US Enrichment example
 
 ### Fixed:
 - Adjusted spaces to tabs in one example file for consistency
