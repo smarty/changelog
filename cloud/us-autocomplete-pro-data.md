@@ -4,6 +4,12 @@ All notable changes to the US Autocomplete Pro API Data will be documented in th
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024.05.F - 2024-05-21
+
+Changes:
+
+- Latest updates from upstream packages and providers (deployed over 3 days, which may produce inconsistencies).
+
 ## 2024.05.E - 2024-05-14
 
 Changes:
