@@ -4,10 +4,21 @@ All notable changes to the US Autocomplete Pro API will be documented in this fi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.12.4 - 2024-05-31
+
+- Reverted to the previous version with JSONP support until the end of 1 July 2024.
+- WARNING: JSONP has been deprecated and support will end on 1 July 2024.
+
+
 ## 1.12.5 - 2024-05-28
 
-- Removes long deprecated JSONP support.
+- Removed long deprecated JSONP support.
 - Internal code changes that should not affect results.
+
+
+## 1.12.4 - 2024-04-15
+
+- Fixed an issue with the selected parameter.
 
 
 ## 1.12.0 - 2024-02-28
