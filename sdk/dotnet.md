@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.16.2] - 2024-06-19
+
+- US Enrichment API
+  - Supports GeoReference dataset
+  - Supports ETag for all datasets
+  - Added support for include and exclude for Property dataset
+  - Added the Universal call to support any dataset
+  - Added sample code for GeoReference and Universal calls.
+  - Enhanced Property sample code and added comments.
+- US Street API and US Zipcode API
+  - Added support for the Connecticut compatibility parameter
+
+
 ## [8.16.1] - 2024-03-21
 
 ### Changed:
