@@ -4,6 +4,14 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024.06.1 - 2024-06-28
+
+Changes:
+### Additional data
+- Updated us-enhanced-matching-data to have a SmartyKey™ for addresses within unique ZIP codes that were not default matches.
+- us-enhanced-matching-data: 2024.06.D
+- us-rooftop-geocoding-data: 2024.06.D
+
 
 ## 2024.06.1 - 2024-06-10
 
