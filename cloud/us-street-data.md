@@ -4,34 +4,33 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 2024.07.B - 2024-07-17
 
+## 2024.08.A - 2024-08-05
 Changes:
+- Latest updates from all upstream packages and providers (deployed over 3 days, which may produce inconsistencies).
+- Improve non-postal data
+- Improve geocoding data
 
+## 2024.07.B - 2024-07-17
+Changes:
 - Latest updates from all upstream packages and providers (deployed over 3 days, which may produce inconsistencies).
 - Improve non-postal data
 - Improve geocoding data
 
 ## 2024.07.A - 2024-07-01
-
 Changes:
-
 - Latest updates from all upstream packages and providers (deployed over 3 days, which may produce inconsistencies).
 - Fixed a rare issue with Connecticut county names
 
 ## 2024.06.C - 2024-06-26
-
 Changes:
 ### Additional data
 - Updated us-enhanced-matching-data to have a SmartyKey™ for addresses within unique ZIP codes that were not default matches (deployed over 3 days, which may produce inconsistencies).
 - us-rooftop-geocoding-data: 2024.06.D
 - us-enhanced-matching-data: 2024.06.D
 
-
 ## 2024.06.C - 2024-06-6
-
 Changes:
-
 - Fixed issue with timezone not being returned correctly for some counties (deployed over 3 days, which may produce inconsistencies).
 
 
