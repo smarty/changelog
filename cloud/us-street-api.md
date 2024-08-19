@@ -4,6 +4,12 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.17 - 2024-08-19
+We are beginning our phased rollout of us-street-api 5.9.17. This process is scheduled to be completed by 2024-08-22 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved unique zip code handling for X# address matches.
+
 ## 5.9.16 - 2024-08-14
 We are beginning our phased rollout of us-street-api 5.9.16. This process is scheduled to be completed by 2024-08-16 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
