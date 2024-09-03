@@ -4,6 +4,13 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.6.13 - 2024-09-03
+
+CHANGES:
+- Fixed address line formatting for sub-buildings in CAN. 
+- Fixed formatting for KGZ.
+
+
 ## 3.6.10 - 2024-05-07
 
 CHANGES:
