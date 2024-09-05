@@ -7,6 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## 2024.09.A - 2024-09-04
 Changes:
 - Latest updates from all upstream packages and providers (deployed over 3 days, which may produce inconsistencies).
+- Fixed an issue where `Loma Vista` was not matching correctly.
 
 ## 2024.08.B - 2024-08-19
 Changes:
