@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.13.0] - 2024-09-06
+- us-address-enrichment-api
+  - Added GeoReference Endpoint for the US Address Enrichment API
+  - Added Secondary Endpoint for the US Address Enrichment API
+  - Added Secondary Count Endpoint for the US Address Enrichment API
+  - Updated Enrichment Example for new endpoints and consistency with other examples
+
 ## [8.12.4] - 2024-07-03
 
 - International Autocomplete API
