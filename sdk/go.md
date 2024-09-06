@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.19.6] - 2024-09-06
+
+- Added street query parameters to the request.
+- Added street query example code.
+
+
 ## [1.19.5] - 2024-07-17
 
 - Added Secondary Data and Secondary Counts to US Enrichment API.
