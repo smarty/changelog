@@ -4,6 +4,16 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.18 - 2024-09-16
+We are beginning our phased rollout of us-street-api 5.9.18. This process is scheduled to be completed by 2024-09-19 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved handling of extra secondary components.
+- Fixed some mismatches between the components of an address and the delivery_line_1 field.
+- Improved handling duplicated secondary info.
+- Improved handling of addresses with NE directionals.
+- Improved handling of unique zip code addresses that include boxes (PO, RR, HC, etc.).
+
 ## 5.9.17 - 2024-08-19
 We are beginning our phased rollout of us-street-api 5.9.17. This process is scheduled to be completed by 2024-08-22 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
