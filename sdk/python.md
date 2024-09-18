@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.16.0] - 2024-09-18
+- us-address-enrichment-api
+  - Added Address Search Feature for the US Address Enrichment API
+
 ## [4.15.2] - 2024-09-04
 - Fixed dash-separated description file to support newer version of pip.
 
