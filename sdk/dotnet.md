@@ -6,7 +6,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [8.18.0] - 2024-09-30
 - us-address-enrichment-api
-  - Added support for ETag
   - Added address search
 
 ## [8.17.0] - 2024-08-16
