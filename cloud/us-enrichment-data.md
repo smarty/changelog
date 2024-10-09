@@ -4,6 +4,16 @@ All notable changes to the US Enrichment API Data will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024-10-09
+
+Changes:
+
+- Updated US Property Data - 2024.10.A
+- Updated Geo Reference Data - 2024.10.A
+  - Fixed an issue where some properties would be mis-categorized as incorporated.
+- Updated Secondary data - 2024.10.D
+
+
 ## 2024-09-20
 
 Changes:
