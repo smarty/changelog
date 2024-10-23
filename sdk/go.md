@@ -114,6 +114,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - Added "selected" field to us-autocomplete-pro-api lookup struct.
 
+## [v1.16.1] - 2023-7-26
+
+### Changed:
+
+- Changed default domain for all apis to *.api.smarty.com (was *.api.smartystreets.com). This change could affect firewall rules that allowed only the previous domain name
+
 ## [1.16.0] - 2023-06-29
 
 ### Changed:
