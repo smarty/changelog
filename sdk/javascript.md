@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.0] - 2024-10-24
+
+### Added:
+- Rollup as a dependency, allowing for improved use of both common js and esmodules.
+
+### Changed:
+- The package size has been reduced, as we are now bundling with Rollup. The original code we're bundling is no longer included in the package.
+- The entrypoint is now pointed to the `dist/` folder.
+
+### Removed:
+- Support for Node.js version 14 has been removed.
+
 ## [5.2.0] - 2024-10-07
 
 ### Added:
