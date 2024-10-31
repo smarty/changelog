@@ -1,5 +1,12 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.12.2 - 2024-10-31
+
+CHANGES:
+
+- Added `changes` fields to the International Street response.
+
+
 ## 8.11.0 - 2024-02-28
 
 CHANGES:
