@@ -4,6 +4,14 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.25 - 2024-11-04
+We are beginning our phased rollout of us-street-api 5.9.25. This process is scheduled to be completed by 2024-11-07 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Fixed an issue where parts of delivery instructions in delivery_line_2 were being erroneously omitted.
+- Fixed a rare issue where an incorrect street suffix would be assigned to the returned address.
+- Improved detection for PMBs when input doesn't indicate there is a PMB.
+
 ## 5.9.24 - 2024-10-24
 We are beginning our phased rollout of us-street-api 5.9.24. This process is scheduled to be completed by 2024-10-27 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
