@@ -7,6 +7,13 @@ CHANGES:
 - Added `changes` fields to the International Street response.
 
 
+## 8.12.3 - 2024-11-08
+
+CHANGES:
+
+- Added `administrative_area_iso2` field and it's corresponding change field to the International Street response.
+- The change to return this field will be deployed to the International Street API on 11 Nov 2024.
+
 ## 8.11.0 - 2024-02-28
 
 CHANGES:
