@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.26 - 2024-11-20
+We are beginning our phased rollout of us-street-api 5.9.26. This process is scheduled to be completed by 2024-11-23 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Fixed a rare issue where secondary designators were duplicated
+- Improved match functionality for inputs with an invalid primary number in enhanced mode.
+
 ## 5.9.25 - 2024-11-04
 We are beginning our phased rollout of us-street-api 5.9.25. This process is scheduled to be completed by 2024-11-07 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
