@@ -4,6 +4,10 @@ All notable changes to the US ZIP Code API Data will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024.12.E - 2024-12-10
+Changes:
+- Updated data to include correct Geographic Counties (deployed over 2 days, which may produce inconsistencies).
+
 ## 2024.12.D - 2024-12-5
 Changes:
 - Latest updates from all upstream packages and providers. (deployed over 2 days, which may produce inconsistencies).
