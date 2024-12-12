@@ -4,6 +4,17 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.31 - 2024-12-12
+
+CHANGES:
+- Introducing geo-reference vintage census data subsets.
+  - Get current census data: geo-reference
+  - Get 2010 census data:    geo-reference/2010
+  - Get 2020 census data:    geo-reference/2020
+  - A new output field has been added to show the census version date:
+    - Example: "data_set_version": "census-2024"
+
+
 ## 1.2.11 - 2024-10-09
 
 CHANGES:
