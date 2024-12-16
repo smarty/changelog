@@ -1,5 +1,11 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.13.0 - 2024-12-16
+
+CHANGES:
+
+- Support county-source as an input field
+
 ## 8.12.2 - 2024-10-31
 
 CHANGES:
