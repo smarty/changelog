@@ -4,6 +4,12 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2024.12.G - 2024-12-18
+Changes:
+- This deploy also has a corresponding us-street-api change to 5.9.28 (deployed over 2 days, which may produce inconsistencies).
+- Improved matching on partial addresses and PO boxes.
+- Improved matching with certain types of misspellings.
+
 ## 2024.12.E - 2024-12-10
 Changes:
 - Updated data to include correct Geographic Counties when using the county_source flag (deployed over 2 days, which may produce inconsistencies).
