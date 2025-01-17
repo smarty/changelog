@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.17.0] - 2025-01-17
+- us-address-enrichment-api
+  - Added include and exclude parameters
+- us-street-api
+  - Added county_source parameter
+- Added ability to set connection pool size to ClientBuilder
+
 ## [4.16.1] - 2024-10-17
 - international-street-api
   - Added new return fields additionalContent
