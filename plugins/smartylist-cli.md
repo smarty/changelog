@@ -1,10 +1,22 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
+## 8.13.1 - 2025-01-21
+
+CHANGES:
+
+- Enhanced US Enrichment support
+  - Allow eTag in the input file
+  - Support the address search feature
+  - Sort the output file columns based on header name
+  - Fixed an issue in the secondary data where the secondary count was not present in the output
+
+
 ## 8.13.0 - 2024-12-16
 
 CHANGES:
 
 - Support county-source as an input field
+
 
 ## 8.12.2 - 2024-10-31
 
