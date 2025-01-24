@@ -4,6 +4,16 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.01.E - 2025-01-24
+Changes:
+- This deploy also has a corresponding us-street-api change to 5.9.31.
+- Only addon data changed
+- Better matching for certain types of address variations, including crossing->xing, County Roads, and North East addresses
+- Better partial matching for addresses that do not have a primary number
+- Various other minor differences and improvements
+### Additional data
+- us-enhanced-matching-data: 2025.01.E
+
 ## 2025.01.D - 2025-01-16
 Changes:
 - Only addon data changes.
