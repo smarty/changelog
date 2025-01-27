@@ -4,6 +4,12 @@ All notable changes to the US Autocomplete Pro API will be documented in this fi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.12.16 - 2025-01-27
+
+- Improved the way prefer results are returned. 
+  - The results are now assembled and sorted based on the order of the prefer_states and/or prefer_cities in the list. 
+
+
 ## 1.12.13 - 2024-12-18
 
 - Fixed an issue with finding alternate cities for non-postal addresses.
