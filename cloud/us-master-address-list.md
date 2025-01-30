@@ -4,6 +4,11 @@ All notable changes to the US Master Address List will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.01.K - 2025-01-30
+Changes:
+- Updated PO Box Rooftop geocodes.
+- Firstline empty spaces cleared out.
+
 ## 2025.01.D - 2025-01-16
 Changes:
 - Updates to geocode precisions.
