@@ -4,6 +4,10 @@ All notable changes to the US Autocomplete Pro API Data will be documented in th
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.01.K - 2025-01-28
+Changes:
+- Address update to sync with other services. (deployed over 2 days, which may produce inconsistencies).
+
 ## 2025.01.D - 2025-01-15
 Changes:
 - Updates to geocode precisions. (deployed over 2 days, which may produce inconsistencies).

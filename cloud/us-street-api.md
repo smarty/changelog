@@ -4,6 +4,14 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.32 - 2025-01-28
+We are beginning our phased rollout of us-street-api 5.9.32. This process is scheduled to be completed by 2025-01-30 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+This deploy also has a corresponding us-street-data change to 2025.01.K.
+
+### FIXED
+- No longer report rooftop geocodes for invalid post office boxes.
+- Various other minor differences and improvements.
+
 ## 5.9.31 - 2025-01-22
 We are beginning our phased rollout of us-street-api 5.9.31. This process is scheduled to be completed by 2025-01-24 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 This deploy also has a corresponding us-street-data change to 2025.01.E.
