@@ -4,6 +4,15 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.9.33 - 2025-01-30
+We are beginning our phased rollout of us-street-api 5.9.33. This process is scheduled to be completed by 2025-02-01 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved matching with various kinds of hyphen addresses in enhanced mode.
+- Added county_source to strict/invalid modes.
+- Fixed county_source for xml inputs.
+- Fixed returning urbanization information for PR addresses when using enhanced mode.
+
 ## 5.9.32 - 2025-01-28
 We are beginning our phased rollout of us-street-api 5.9.32. This process is scheduled to be completed by 2025-01-30 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 This deploy also has a corresponding us-street-data change to 2025.01.K.
