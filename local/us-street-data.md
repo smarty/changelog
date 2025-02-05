@@ -4,6 +4,13 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.02.0 - 2025-02-06
+Changes:
+- Latest updates from all upstream packages and providers.
+### Additional data
+- us-enhanced-matching-data: 2025.02.B
+- us-rooftop-geocoding-data: 2025.02.B
+
 ## 2025.01.K - 2025-01-30
 Changes:
 - This deploy also has a corresponding us-street-api change to 5.9.32.
