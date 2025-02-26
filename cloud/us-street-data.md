@@ -4,6 +4,11 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.02.F - 2025-02-26
+We are beginning our phased rollout of us-street-data 2025.02.F. This process is scheduled to be completed by 2025-02-28 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Better data for address matches that receive an AABBTA DPVFootnote.
+
 ## 2025.02.B - 2025-02-05
 We are beginning our phased rollout of us-street-data 2025.02.B. This process is scheduled to be completed by 2025-02-07 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
