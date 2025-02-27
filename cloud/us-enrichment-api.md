@@ -4,6 +4,12 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.2.36 - 2025-02-27
+
+CHANGES:
+- Resolved spurious 500 errors when performing an address search.
+
+
 ## 1.2.33 - 2025-01-07
 
 CHANGES:
