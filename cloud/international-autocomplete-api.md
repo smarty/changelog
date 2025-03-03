@@ -4,6 +4,14 @@ All notable changes to the International Autocomplete API will be documented in 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2.2.1 - 2025-02-27
+CHANGES:
+
+- Improved result sorting.
+- Added geolocation feature to prefer results by ip address.
+- Added max_group_results to limit the number of results from group expansion.
+
+
 ## 2.2.0 - 2025-02-13
 CHANGES:
 
