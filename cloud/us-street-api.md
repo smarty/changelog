@@ -4,6 +4,14 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.10.0 - 2025-03-03
+We are beginning our phased rollout of us-street-api 5.10.0. This process is scheduled to be completed by 2025-03-05 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- DPVFootnotes are now always in alphabetical order
+- Updated addresses with invalid secondaries now have the same DPV barcode as their root addresses
+- Updated unique ZIP codes to return the correct dpv_match_code from Y when it should be D
+
 ## 5.9.34 - 2025-02-18
 We are beginning our phased rollout of us-street-api 5.9.34. This process is scheduled to be completed by 2025-02-21 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
