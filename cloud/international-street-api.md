@@ -4,12 +4,10 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 3.6.19 - 2024-10-16
+## 3.6.20 - 2025-03-04
 
 CHANGES:
-- Returns a new field:  `administrative_area_iso2`. This field contains the two character country code and the administrative area code.  Example:  CA-AB  (which means Canada-Alberta)
-- Deployment will be complete by EOD 12 Nov so some inconsistencies will be seen until that time.
-
+- Internal maintenance.
 
 ## 3.6.18 - 2024-10-16
 
