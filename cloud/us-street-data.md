@@ -4,6 +4,13 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.03.H - 2025-03-13
+We are beginning our phased rollout of us-street-data 2025.03.H. This process is scheduled to be completed by 2025-03-16 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Addresses now properly identified as "COUNTY ROAD" where applicable.
+- General geocode improvements.
+- Fixed a bug where the wrong geocodes where being returned when the country_source argument was being used.
+
 ## 2025.03.B - 2025-03-06
 We are beginning our phased rollout of us-street-data 2025.03.B. This process is scheduled to be completed by 2025-03-08 12:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
