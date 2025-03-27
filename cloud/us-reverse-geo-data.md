@@ -4,6 +4,11 @@ All notable changes to the US Reverse Geocoding API Data will be documented in t
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.04.A - 2025-03-27
+We are beginning our phased rollout of us-reverse-geo-data 2025.04.A. This process is scheduled to be completed by 2025-03-29 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Latest updates from all upstream packages and providers.
+
 ## 2025.03.H - 2025-03-13
 We are beginning our phased rollout of us-reverse-geo-data 2025.03.H. This process is scheduled to be completed by 2025-03-16 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
