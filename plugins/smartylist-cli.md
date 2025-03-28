@@ -11,6 +11,14 @@ CHANGES:
   - Fixed an issue in the secondary data where the secondary count was not present in the output
 
 
+## 8.13.2 - 2025-03-28
+
+CHANGES:
+
+- Added a new flag: -geocode which will return geocodes when using international-street.
+- Removes the "attributes/" prefix for US Enrichment columns. 
+
+
 ## 8.13.0 - 2024-12-16
 
 CHANGES:
