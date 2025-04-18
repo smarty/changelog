@@ -1,14 +1,11 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 
-## 8.13.1 - 2025-01-21
+
+## 8.13.3 - 2025-04-18
 
 CHANGES:
 
-- Enhanced US Enrichment support
-  - Allow eTag in the input file
-  - Support the address search feature
-  - Sort the output file columns based on header name
-  - Fixed an issue in the secondary data where the secondary count was not present in the output
+- Added new flags: -enrichment-include and -enrichment-exclude which will limit the attributes returned for property data when using us-enrichment.
 
 
 ## 8.13.2 - 2025-03-28
@@ -17,6 +14,17 @@ CHANGES:
 
 - Added a new flag: -geocode which will return geocodes when using international-street.
 - Removes the "attributes/" prefix for US Enrichment columns. 
+
+
+## 8.13.1 - 2025-01-21
+
+CHANGES:
+
+- Enhanced US Enrichment support
+    - Allow eTag in the input file
+    - Support the address search feature
+    - Sort the output file columns based on header name
+    - Fixed an issue in the secondary data where the secondary count was not present in the output
 
 
 ## 8.13.0 - 2024-12-16
