@@ -4,6 +4,11 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.04.B - 2025-04-24
+We are beginning our phased rollout of us-street-data 2025.04.B. This process is scheduled to be completed by 2025-04-26 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Improved geocode accuracy.
+
 ## 2025.04.A - 2025-03-27
 We are beginning our phased rollout of us-street-data 2025.04.A. This process is scheduled to be completed by 2025-03-29 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
