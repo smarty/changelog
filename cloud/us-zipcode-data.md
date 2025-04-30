@@ -4,6 +4,11 @@ All notable changes to the US ZIP Code API Data will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.04.C - 2025-04-30
+We are beginning our phased rollout of us-zipcode-data 2025.04.C. This process is scheduled to be completed by 2025-05-03 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Improved geocode accuracy.
+
 ## 2025.04.B - 2025-04-24
 We are beginning our phased rollout of us-zipcode-data 2025.04.B. This process is scheduled to be completed by 2025-04-26 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
