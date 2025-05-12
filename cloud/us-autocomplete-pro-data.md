@@ -4,6 +4,11 @@ All notable changes to the US Autocomplete Pro API Data will be documented in th
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.05.B - 2025-05-12
+We are beginning our phased rollout of us-autocomplete-pro-data 2025.05.B. This process is scheduled to be completed by 2025-05-15 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Better non-postal matching.
+
 ## 2025.05.A - 2025-05-06
 We are beginning our phased rollout of us-autocomplete-pro-data 2025.05.A. This process is scheduled to be completed by 2025-05-09 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
