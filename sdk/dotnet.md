@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.19.1] - 2025-05-12
+- Added administrative_area_iso2 to international-street.
+- Removed .withLicense from examples. Not needed if there is only one license and is confusing to most sdk users.
+
 ## [8.18.3] - 2024-11-06
 - added support for custom parameters to client requests
 - standardized the examples
