@@ -36,7 +36,7 @@ We are beginning our phased rollout of us-street-api 5.11.0. This process is sch
 - Improved matching when lastline components are out of order, especially when zipcode appears before the city/state.
 - Improved matching with hyphens.
 
-## 5.10.8 - 2025-03-24
+## 5.10.8 - 2025-03-27
 We are beginning our phased rollout of us-street-api 5.10.8. This process is scheduled to be completed by 2025-03-29 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
 ### FIXED
