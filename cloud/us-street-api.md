@@ -10,7 +10,6 @@ We are beginning our phased rollout of us-street-api 5.11.7. This process is sch
 ### FIXED
 - Improved matching on addresses with ordinal and fraction components
 - Improved enhanced_match field result with ignored input
-- Improved matching on addresses containing the word "MINTON"
 
 ## 5.11.5 - 2025-05-15
 Changes:
