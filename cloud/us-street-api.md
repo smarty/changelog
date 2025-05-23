@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.11.8 - 2025-05-23
+We are beginning our phased rollout of us-street-api 5.11.8 and its associated us-street-data 1.1:2025.05.D. This process is scheduled to be completed by 2025-05-24 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- This includes a data release of version 1.1:2025.05.D
+- For the local download of us-street-api with the enhanced data addon, you can now use county_source=geographic to request geographic county information.
+
 ## 5.11.7 - 2025-05-19
 We are beginning our phased rollout of us-street-api 5.11.7. This process is scheduled to be completed by 2025-05-21 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
