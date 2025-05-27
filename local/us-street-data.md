@@ -4,6 +4,13 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.05.D - 2025-05-27
+Changes:
+- Only addon data changed.
+- With the enhanced data addon, you can now use county_source=geographic to request geographic county information.
+### Additional data
+- us-enhanced-matching-data: 2025.05.D
+
 ## 2025.05.0 - 2025-05-12
 Changes:
 - Improved matching for non-postal addresses.
