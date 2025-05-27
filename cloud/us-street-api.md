@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.12.0 - 2025-05-27
+We are beginning our phased rollout of us-street-api 5.12.0. This process is scheduled to be completed by 2025-05-28 00:00:00 UTC.
+
+### CHANGES
+- This deploy is in preparation for the beta release of Component Analysis.
+- This deploy will not affect results.
+
 ## 5.11.8 - 2025-05-23
 We are beginning our phased rollout of us-street-api 5.11.8 and its associated us-street-data 1.1:2025.05.D. This process is scheduled to be completed by 2025-05-24 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
