@@ -46,6 +46,9 @@ Changes:
 ## 5.11.0 - 2025-04-24
 We are beginning our phased rollout of us-street-api 5.11.0. This process is scheduled to be completed by 2025-04-26 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
+### CHANGES
+- Added a new enhanced_match value, address-link-conversion, this is to show the address components were changed based on authoritative data to a linked address.
+
 ### FIXED
 - Improved matching when lastline components are out of order, especially when zipcode appears before the city/state.
 - Improved matching with hyphens.
