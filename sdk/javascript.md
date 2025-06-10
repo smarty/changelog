@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [7.0.0] - 2025-6-10
 
 ### Added:
-- Added support for Typescript
+- Added the tsconfig for incremental typescript migration
 
 ## [6.3.2] - 2025-5-16
 
