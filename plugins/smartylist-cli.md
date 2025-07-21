@@ -1,5 +1,5 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
-
+All notable changes to this project will be documented in this file.
 
 ## 8.13.3 - 2025-04-18
 
