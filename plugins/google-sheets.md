@@ -20,4 +20,4 @@ ADDED:
 
 ## Earlier
 
-Note: Detailed changelog entries begin with version 1.0.0. Previous changes were not tracked in this format.
+Note: Detailed changelog entries begin with version 9.0.0. Previous changes were not tracked in this format.
