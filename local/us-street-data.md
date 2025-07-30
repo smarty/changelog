@@ -4,6 +4,12 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.07.E - 2025-07-30
+Changes:
+- Improved LACSLink analysis to better show when links actually occur.
+### Additional data
+- us-enhanced-matching-data: 2025.07.E
+
 ## 2025.07.D - 2025-07-25
 Changes:
 - Better matching for addresses with standalone secondary designators.
