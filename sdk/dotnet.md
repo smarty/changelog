@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [10.1.0] - 2025-08-04
+- us-enrichment-api
+  - Added support for the risk dataset.
+  
 ## [10.0.0] - 2025-07-09
 - Migrated from obsolete HttpWebRequest to HttpClient for sending requests. As a result, net40 was removed as a target framework as it does not have System.Net.Http but net5.0 was added.
 - Added a WithDebug() function to the ClientBuilder that prints out the HTTP request and response.
