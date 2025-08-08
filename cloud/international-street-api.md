@@ -4,6 +4,13 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.6.27 - 2025-08-08
+
+CHANGES:
+- Canada sub-building types will now be returned in the address lines.
+- Enabled a new feature called `occupant_use` which provides the use type of the address, such as `residential` or `commercial`. This requires a specific plan.
+
+
 ## 3.6.26 - 2025-04-21
 
 CHANGES:
