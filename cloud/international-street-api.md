@@ -4,6 +4,11 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.6.28 - 2025-08-08
+
+CHANGES:
+- Backed out the Canada fix made earlier today. It is not always appropriate to add the sub building type as a prefix. For example, PH is an appropriate prefix, but APT is not. We will create a more comprehensive fix later.
+
 ## 3.6.27 - 2025-08-08
 
 CHANGES:
