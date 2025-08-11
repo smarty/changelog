@@ -4,6 +4,11 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.08.C - 2025-08-11
+We are beginning our phased rollout of us-street-data 2025.08.C. This process is scheduled to be completed by 2025-08-12 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Improved matching of Input City to Deliverable City, and the associated footnote U#.
+
 ## 2025.08.A - 2025-08-01
 We are beginning our phased rollout of us-street-data 2025.08.A. This process is scheduled to be completed by 2025-08-02 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
