@@ -4,6 +4,12 @@ All notable changes to the International Autocomplete API will be documented in 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2.2.13 - 2025-08-14
+CHANGES:
+
+- Fixed issue where dependent locality in Japanese addresses (returned in Japanese characters) would return in the incorrect order.
+- Fixed issue where administrative area Fryslân was returned instead of Friesland in the Netherlands. 
+
 ## 2.2.11 - 2025-07-15
 CHANGES:
 
