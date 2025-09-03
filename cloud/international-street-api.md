@@ -4,6 +4,14 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.6.30 - 2025-09-03
+
+CHANGES:
+- Canada addresses with a sub building type of Ph or Th, will have this value used as a prefix to the sub building number.
+  - Example:  Ph4-363 Sorauren Ave Toronto ON  M6R 3C1
+- Updated data: 2025Q3.1-0
+
+
 ## 3.6.28 - 2025-08-08
 
 CHANGES:
