@@ -4,6 +4,17 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.13.1 - 2025-09-03
+We are beginning our phased rollout of us-street-api 5.13.1. This process is scheduled to be completed by 2025-09-03 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Improved accuracy for inputs with multiple secondaries.
+- Improved results when no match could be found.
+
+## 5.13.0 - 2025-08-29
+Changes:
+- Minor version for additional input parameter "features".
+- Added Component Analysis functionality.  This can be accessed through the input parameter "features=component-analysis" on the request URL. See documentation for specifics of this feature.  Not all plans will have component analysis by default, reach out to Smarty to see if you have access on your current plan
+
 ## 5.12.20 - 2025-08-14
 We are beginning our phased rollout of us-street-api 5.12.20. This process is scheduled to be completed by 2025-08-15 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
