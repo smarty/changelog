@@ -10,6 +10,13 @@ Changes:
 ### Additional data
 - us-enhanced-matching-data: 2025.08.C
 
+## 2025.09.C - 2025-09-04
+Changes:
+- Latest updates from all upstream packages and providers.
+### Additional data
+- us-enhanced-matching-data: 2025.09.C
+- us-rooftop-geocoding-data: 2025.09.C
+
 ## 2025.08.A - 2025-08-01
 Changes:
 - Latest updates from all upstream packages and providers.

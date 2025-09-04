@@ -9,6 +9,11 @@ We are beginning our phased rollout of us-street-data 2025.08.C. This process is
 Changes:
 - Improved matching of Input City to Deliverable City, and the associated footnote U#.
 
+## 2025.09.C - 2025-09-04
+We are beginning our phased rollout of us-street-data 2025.09.C. This process is scheduled to be completed by 2025-09-05 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Latest updates from all upstream packages and providers.
+
 ## 2025.08.A - 2025-08-01
 We are beginning our phased rollout of us-street-data 2025.08.A. This process is scheduled to be completed by 2025-08-02 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
