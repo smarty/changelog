@@ -4,6 +4,13 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.09.D - 2025-09-09
+Changes:
+- Terms LBJ and SMU are now capitalized
+### Additional data
+- us-enhanced-matching-data: 2025.09.D
+- us-rooftop-geocoding-data: 2025.09.E
+
 ## 2025.08.C - 2025-08-11
 Changes:
 - Improved matching of Input City to Deliverable City, and the associated footnote U#.
