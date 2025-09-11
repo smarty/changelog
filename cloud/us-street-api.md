@@ -4,6 +4,17 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.13.2 - 2025-09-11
+We are beginning our phased rollout of us-street-api 5.13.2. This process is scheduled to be completed by 2025-09-12 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved DPV Footnotes for results that were not an exact match
+- Improved LACSLink Matching
+- Improved matching for inputs with state names in the street
+- Improved matching for inputs with CO RD in the street
+- Improved matching for short inputs
+- The local version will return an error if a request is made with enhanced mode and your instance isn't configured properly to use enhanced mode. Previously the request was run in strict mode without any indication that enhanced mode was not used.
+
 ## 5.13.1 - 2025-09-03
 We are beginning our phased rollout of us-street-api 5.13.1. This process is scheduled to be completed by 2025-09-03 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
