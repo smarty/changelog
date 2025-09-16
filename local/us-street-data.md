@@ -4,6 +4,15 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025.09.I - 2025-09-16
+Changes:
+- Numeric streets must include a proper suffix (e.g., "1st St" instead of just "1").
+- Non-postal street names: spaced versions remain valid, non-spaced versions have been deactivated.
+- Military addresses are only valid when sourced from USPS.
+### Additional data
+- us-enhanced-matching-data: 2025.09.I
+- us-rooftop-geocoding-data: 2025.09.I
+
 ## 2025.09.D - 2025-09-09
 Changes:
 - Terms LBJ and SMU are now capitalized
