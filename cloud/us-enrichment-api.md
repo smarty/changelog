@@ -4,6 +4,14 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.4.3 - 2025-09-19
+
+CHANGES:
+- Property data with the principal data subset (`property/principal`) with now return `financial_history` data when the feature is requested. This is done by using the new `features` input parameter with a value of `financial`.
+  - Example: `features=financial`
+  - This feature will work with all current plans.
+
+
 ## 1.4.2 - 2025-09-09
 
 CHANGES:
