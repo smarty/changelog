@@ -4,6 +4,12 @@ All notable changes to the US Extract API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.18.1 - 2025-09-24
+
+CHANGED:
+
+- Added SmartyKey to results validated using 'enhanced' match strategy
+ 
 ## 3.17.2 - 2024-12-12
 
 CHANGED:
