@@ -4,46 +4,46 @@ All notable changes to the US Extract API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 3.17.2 2024-12-12
+## 3.17.2 - 2024-12-12
 
 CHANGED:
 
 - Fixed an issue where rooftop geocodes were being returned erroneously.
 
-## 3.15.7 2023-10-03
+## 3.15.7 - 2023-10-03
 
 CHANGES:
 
 - Fixed a rare issue where a detected city with multiple strings might not be processed correctly.
 
-## 3.15.3 2023-01-24
+## 3.15.3 - 2023-01-24
 
 CHANGES:
 
 - Internal changes to help make service operational health more visible.
 
-## 3.14.9 2022-09-15
+## 3.14.9 - 2022-09-15
 
 CHANGES:
 
 - Added a new host-header property on startup. It does not affect the user experience.
 
 
-## 3.14.7 2022-08-24
+## 3.14.7 - 2022-08-24
 
 CHANGES:
 
 - Fixed an issue for local customers where some local instances of us-street would not work. Error: EOF
 
 
-## 3.14.6 2022-08-22
+## 3.14.6 - 2022-08-22
 
 CHANGES:
 
 - Removed some messages printed on the console.
 
 
-## 3.14.4 2022-08-18
+## 3.14.4 - 2022-08-18
 
 CHANGES:
 
@@ -52,28 +52,28 @@ CHANGES:
 - Any communication errors to US Street will be reported to the client.
 
 
-## 3.13.0 2022-06-10
+## 3.13.0 - 2022-06-10
 
 CHANGES:
 
 - Allow patch to config.json upon startup using -config
 
 
-## 3.12.2 2022-05-23
+## 3.12.2 - 2022-05-23
 
 CHANGES:
 
 - Compiled using Go v1.18.x.
 - Update internal logging of parsing failures.
 
-## 3.12.1 2022-05-20
+## 3.12.1 - 2022-05-20
 
 CHANGES:
 
 - Latest dependencies.
 - Update internal logging of upstream validation failures.
 
-## 3.12.0 2022-05-11
+## 3.12.0 - 2022-05-11
 
 CHANGES:
 
@@ -90,14 +90,14 @@ BUG FIXES:
   - Fix where `-auth-id` and `-auth-token` options on the command line could have been ignored.
 	
 
-## 3.11.15 2022-04-07
+## 3.11.15 - 2022-04-07
 
 CHANGES:
 
 - Code refactor. Nothing was changed that would modify the user experience.
 
 
-## 3.11.14 2022-03-24
+## 3.11.14 - 2022-03-24
 
 CHANGES:
 
@@ -105,20 +105,20 @@ CHANGES:
 - Internal code refactor to improve reliability and stability.
 
 
-## 3.11.10 2022-03-09
+## 3.11.10 - 2022-03-09
 
 CHANGES:
 
 - Go v1.17.8
 - Ensuring all arguments are fully reset on each HTTP invocation to prevent cross-talk between requests.
 
-## 3.11.3 2022-03-02
+## 3.11.3 - 2022-03-02
 
 CHANGES:
 
 - Internal packaging to ensure binaries for local installation are available.
 
-## 3.11.0 2022-03-02
+## 3.11.0 - 2022-03-02
 
 CHANGES:
 
@@ -126,7 +126,7 @@ CHANGES:
 - Go v1.17.7
 - Completely overhauled internal structure.
 
-## 3.8.3 2021-04-01
+## 3.8.3 - 2021-04-01
 
 CHANGES:
 
@@ -134,7 +134,7 @@ CHANGES:
 - Better diagnostic logging of upstream errors.
 - Overhauled build packaging.
 
-## 3.7.0 2020-09-30
+## 3.7.0 - 2020-09-30
 
 CHANGES:
 
