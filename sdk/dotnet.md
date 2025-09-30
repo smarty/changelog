@@ -17,6 +17,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [10.0.0] - 2025-07-09
 - Migrated from obsolete HttpWebRequest to HttpClient for sending requests. As a result, net40 was removed as a target framework as it does not have System.Net.Http but net5.0 was added.
 - Added a WithDebug() function to the ClientBuilder that prints out the HTTP request and response.
+- **BREAKING CHANGE**: with this version, all client calls are transitioned to use the HTTPClient. This means everything is now async for a better experience. Blocking call options are provided as a convenience, though they're still fundamentally asynchronous at their core.
 
 ## [9.0.0] - 2025-06-20
 - us-autocomplete
