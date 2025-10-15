@@ -9,6 +9,11 @@ We are beginning our phased rollout of us-autocomplete-pro-data 2025.10.F. This 
 Changes:
 - Latest updates from all upstream packages and providers.
 
+## 2025.10.D - 2025-10-08
+We are beginning our phased rollout of us-autocomplete-pro-data 2025.10.D. This process is scheduled to be completed by 2025-10-08 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Latest updates from all upstream packages and providers.
+
 ## 2025.10.A - 2025-10-02
 We are beginning our phased rollout of us-autocomplete-pro-data 2025.10.A. This process is scheduled to be completed by 2025-10-03 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
