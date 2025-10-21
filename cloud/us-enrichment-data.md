@@ -4,6 +4,14 @@ All notable changes to the US Enrichment API Data will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025-10-21
+
+Changes:
+- Updated the following datasets throughout the day.
+ - secondary data     : 2025.10.C - Improved secondary sorting.
+ - geo-reference data : 2025.10.B - Updated with the 2025 census data.
+
+
 ## 2025-10-10
 
 Changes:
