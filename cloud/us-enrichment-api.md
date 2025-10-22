@@ -4,6 +4,19 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.5.1 - 2025-10-22
+
+CHANGES:
+- Fixed a small issue that would not affect API results.
+
+
+## 1.5.0 - 2025-10-21
+
+CHANGES:
+- Updated Secondary and Geo-Reference data
+- Improved sorting of secondaries.
+
+
 ## 1.4.3 - 2025-09-19
 
 CHANGES:
