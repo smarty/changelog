@@ -4,6 +4,10 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.0 - 2025-11-11
+CHANGES:
+- Added geocode-classification feature flag.
+
 ## 3.7.5 - 2025-10-31
 CHANGES:
 - Fixed Kosovo ISO-3 code. It has been corrected to XKX.
