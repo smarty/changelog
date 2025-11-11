@@ -4,6 +4,16 @@ All notable changes to the US Enrichment API Data will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2025-11-11
+
+Changes:
+- Updated the following datasets throughout the day.
+ - property data      : 2025.11.A
+ - risk data          : 2025.11.A
+ - secondary data     : 2025.11.A
+ - geo-reference data : 2025.11.A
+
+
 ## 2025-10-21
 
 Changes:
