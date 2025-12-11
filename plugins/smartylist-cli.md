@@ -3,6 +3,7 @@ All notable changes to this project will be documented in this file.
 
 ## 8.14.0 - 2025-11-07
 
+- Changed the default match to 'enhanced' for US Street.
 - Added ability to use component analysis to US Street.
 
 ## 8.13.4 - 2025-07-19
