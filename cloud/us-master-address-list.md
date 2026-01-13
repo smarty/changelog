@@ -4,6 +4,10 @@ All notable changes to the US Master Address List will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026.01.B - 2026-01-13
+Changes:
+- Corrected an issue in which zip9 precisions were incorrectly labelled as street precision, affecting less than 1% of precision values.
+
 ## 2026.01.A - 2026-01-06
 Changes:
 - Latest updates from all upstream packages and providers.
