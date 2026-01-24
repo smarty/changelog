@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [5.0.0] - 2026-01-23
+- us-street-api
+  - Make enhanced the default match strategy
+  - Default maxCandidates to 0, auto-set to 5 for enhanced mode
+  - Change Lookup default candidates from 1 to 0. When maxCandidates is 0 and
+enhanced mode is used, candidates is automatically set to 5 on the request.
+Explicit non-zero values are always respected.
+  - Add Closeable support to fix OkHttp thread cleanup warnings
+
 ## [4.6.1] - 2025-11-21
 - us-enrichment-api
     - Moved financial_history to property/principal response.
