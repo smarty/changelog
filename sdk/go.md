@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [1.29.0] - 2026-01-23
 - us-street-api
-  - Default match when not set is not Enhanced.
+  - Default match is now set to Enhanced if not explicitly set.
 
 ## [1.28.0] - 2026-01-19
 - Enable all client to use BasicAuth for authentication.

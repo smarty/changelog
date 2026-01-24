@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 enhanced mode is used, candidates is automatically set to 5 on the request.
 Explicit non-zero values are always respected.
   - Add Closeable support to fix OkHttp thread cleanup warnings
+  - Added support for Basic Auth
 
 ## [4.6.1] - 2025-11-21
 - us-enrichment-api

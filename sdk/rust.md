@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [0.11.0] - 2025-01-23
+- Added support for Basic Auth
+- us-street-api
+    - Default match is now set to Enhanced if not explicitly set.
+
 ## [0.10.1] - 2025-11-21
 - us-enrichment-api
     - Moved financial_history to property/principal response. 
