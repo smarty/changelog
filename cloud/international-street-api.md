@@ -4,6 +4,20 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+- These changes will be deployed throughout the day of Feb 9, 2026. 
+- Changes to the Turkey (TUR) address components and format
+  - DependentLocality will no longer be returned. Instead, it will return DoubleDependentLocality.
+  - Locality will no longer be returned. Instead, it will return SubAdministrativeArea.
+  - The format for the Address lines has been modified to use these new fields.
+  - Possible customer impact:
+    - If the customer is using only the Address lines returned in every result, then existing code will not be impacted. 
+    - If the customer is building their own Address lines or using the individual components mentioned above, they will need to adjust their code to use the new fields.
+
+## 3.8.12 - 2026-01-21
+CHANGES:
+- Internal maintenance. 
+
 ## 3.8.12 - 2026-01-21
 CHANGES:
 - Internal maintenance. 
