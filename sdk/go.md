@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.29.2] - 2026-02-05
+- Add SendUniversalLookupWithContext to us-enrichment-api and more tests
+
 ## [1.29.1] - 2026-02-04
 - Context-Aware Retry with Retry-After Header Support
   - Retry-After Header Support (429 responses)
