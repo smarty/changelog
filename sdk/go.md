@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.29.3] - 2026-02-05
+- Add AppendedHeader option for single-value header support for headers like (User-Agent)
+
 ## [1.29.2] - 2026-02-05
 - Add SendUniversalLookupWithContext to us-enrichment-api and more tests
 
@@ -11,7 +14,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
   - Retry-After Header Support (429 responses)
   - Context Cancellation Support
   - backOffRateLimit constant changed from 5 to 10 seconds
-
 
 ## [1.29.0] - 2026-01-23
 - us-street-api
