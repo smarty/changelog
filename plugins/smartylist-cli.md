@@ -1,6 +1,10 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 All notable changes to this project will be documented in this file.
 
+## 8.15.0 - 2026-02-09
+
+- Removed disablement of the CLI when there's a newer major version available.
+
 ## 8.14.0 - 2025-11-07
 
 - Changed the default match to 'enhanced' for US Street.
