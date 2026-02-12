@@ -4,6 +4,15 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.14.8 - 2026-02-12
+We are beginning our phased rollout of us-street-api 5.14.8. This process is scheduled to be completed by 2026-02-13 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Better matching when the input has partial last line information
+- Better matching when the input has unrelated context related to the street address 
+- Better matching on the Pound (#) symbol for secondary matching
+- Better matching for addresses where the city and street name are the same, and the input only contains one of them
+
 ## 5.14.7 - 2026-02-09
 We are beginning our phased rollout of us-street-api 5.14.7. This process is scheduled to be completed by 2026-02-11 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 ### FIXED
