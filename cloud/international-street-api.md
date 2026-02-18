@@ -4,6 +4,12 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.16 - 2026-02-18
+CHANGES:
+- These changes will be deployed throughout the day.
+  - New February data: 2026Q1.0-1
+  - New CAN and GBR uplift data: 2026.02.A
+
 ## 3.8.13 - 2026-02-09
 - These changes will be deployed throughout the day. 
 - Changes to the Turkey (TUR) address components and format
