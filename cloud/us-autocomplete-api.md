@@ -1,9 +1,12 @@
 # Changelog - [US Autocomplete API](https://www.smarty.com/docs/cloud/us-autocomplete-api)
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 All notable changes to the US Autocomplete API will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
+## Important Note:
+`US Autocomplete API` has been deprecated.
+This API is accessed with the following URL: `us-autocomplete.api.smarty.com/suggest`
+We suggest you contact Smarty support for assistance in migrating to `US Autocomplete Pro`.
 
 ## UNRELEASED
 
