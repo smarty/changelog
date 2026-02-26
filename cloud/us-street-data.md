@@ -4,6 +4,11 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026.03.A - 2026-02-26
+We are beginning our phased rollout of us-street-data 2026.03.A. This process is scheduled to be completed by 2026-02-28 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+Changes:
+- Latest updates from all upstream packages and providers.
+
 ## 2026.02.C - 2026-02-12
 We are beginning our phased rollout of us-street-data 2026.02.C. This process is scheduled to be completed by 2026-02-13 00:00:00 UTC. Some customers may notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 Changes:
