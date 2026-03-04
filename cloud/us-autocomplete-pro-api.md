@@ -10,14 +10,13 @@ That API is accessed with the following URL: `us-autocomplete.api.smarty.com/sug
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete Pro`.
 
 # Unreleased
-- On Monday March 9, 2026 we plan to gradually rollout a new version of US Autocomplete Pro.
-This new version will allow for greater flexibility in the future and a better searching experience.
-Most of the changes you will not notice as the current interface is the same.
-- The changes you will notice are:
+- On Monday, March 9, 2026 we plan to incrementally roll out a new version of US Autocomplete Pro.
+- We anticipate the gradual rollout will take a few days.
+- Changes:
   - `smarty_key` will be returned as a new field for results with entries <= 1.
   - `entry_id` will be returned as a new field for collapsed secondary groups (entries > 1). 
-  - Collapsed secondary groups will now contain the base address. Currently, the users see both the base address and the collapsed group which caused confusion.
-- We anticipate the gradual rollout will take two to three days. Once complete, new documentation will be released explaining the new features. 
+  - Collapsed secondary groups will now contain the base address. Currently, the users see both the base address and the collapsed group which has caused confusion.
+  - Improved searching.
 
 ## 1.12.29 - 2025-07-01
 
