@@ -4,6 +4,22 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.14.11 - 2026-03-04
+We are beginning our phased rollout of us-street-api 5.14.11. This process is scheduled to be completed by 2026-03-05 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved city matching when using enhanced match mode.
+- Better matching on PO Box numbers where no zip code is provided and the box number itself is a valid zip code.
+
+### ADDED
+- Introduced a new `iana-timezone` feature flag that, when provided, replaces the current time zone fields with new geo-based IANA time zone fields:
+    - `iana_timezone`
+    - `iana_utc_offset`
+    - `iana_dst`
+
+### CHANGED
+- Various performance improvements and optimizations.
+
 ## 5.14.9 - 2026-02-26
 We are beginning our phased rollout of us-street-api 5.14.9. This process is scheduled to be completed by 2026-02-28 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
