@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [7.2.0] - 2026-03-05
+- us-street-api
+  - Added IANA timezone fields (`iana_time_zone`, `iana_utc_offset`, `iana_obeys_dst`) to metadata response, accessible via the `iana-timezone` feature flag.
+  - Added IANA timezone example.
+- Improved us-enrichment example output formatting.
+
 ## [7.1.0] - 2026-02-06
 - Added append header functionality for headers that are not multi-value.
 
