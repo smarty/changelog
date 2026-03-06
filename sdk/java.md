@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [5.3.1] - 2026-03-06
+- us-street-api
+  - Fixed batch POST missing default match and candidates values.
+  - Always send match, format, and county_source explicitly (no longer suppressed as "server defaults").
+  - Added custom parameter support via `addCustomParameter()` for both single and batch lookups.
+
 ## [5.3.0] - 2026-03-04
 - us-street-api
   - Added IANA timezone fields (iana_time_zone, iana_utc_offset, iana_dst) to Metadata, accessible via the "iana-timezone" feature flag.
