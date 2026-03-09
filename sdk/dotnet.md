@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [12.2.1] - 2026-03-09
+- us-street-api
+  - Always send match strategy in requests, including strict.
+  - Apply match and candidates defaults consistently for both single and batch requests.
+
 ## [12.2.0] - 2026-03-04
 - us-street-api
   - Added IANA timezone fields to Metadata: IANATimeZone, IANAUTCOffset, and IANADST. Accessible via the "iana-timezone" feature flag.
