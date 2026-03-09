@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [6.2.1] - 2026-03-09
+- us-street-api
+  - Always send `match` parameter in requests, including `match=strict`.
+  - Omit null fields from JSON batch request bodies.
+- us-enrichment-api
+  - Added examples for geo-reference, risk, secondary, secondary count, and generic lookups.
+- Added match strategy example to Makefile.
+
 ## [6.2.0] - 2026-03-05
 - us-street-api
   - Added IANA timezone fields to metadata response: `iana_time_zone`, `iana_utc_offset`, and `iana_dst`.
