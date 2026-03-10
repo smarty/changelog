@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [9.0.0] - 2026-03-10
+
+### Changed:
+- Converted entire codebase from JavaScript to TypeScript.
+- Exported TypeScript types (Request, Response, Sender, Sleeper, Signer) from SDK.
+- Enabled `noPropertyAccessFromIndexSignature` and replaced `Record<string, any>` with named interfaces.
+- Fixed the minimum International Street Lookup requirements.
+
 ## [8.2.2] - 2026-03-09
 
 ### Changed:
