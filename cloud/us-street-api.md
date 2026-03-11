@@ -4,6 +4,12 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.14.12 - 2026-03-11
+We are beginning our phased rollout of us-street-api 5.14.12. This process is scheduled to be completed by 2026-03-12 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### FIXED
+- Improved matching of user input to the city field when using match strategy enhanced.
+
 ## 5.14.11 - 2026-03-04
 We are beginning our phased rollout of us-street-api 5.14.11. This process is scheduled to be completed by 2026-03-05 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
