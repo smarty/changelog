@@ -1,4 +1,4 @@
-# [Smarty Address](https://www.smarty.com/docs/plugins/smarty-address)
+# Smarty Address JS Plugin
 All notable changes to this project will be documented in this file.
 
 ## 1.0.1 - 2026-03-19
