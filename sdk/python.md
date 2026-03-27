@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [5.6.0] - 2026-03-26
+- Added `with_sender()` option to `ClientBuilder`, allowing a custom HTTP sender to be used as the innermost transport while keeping the full middleware chain intact (signing, retries, status codes, headers, URL prefix, license).
+- Added an error when `with_sender()` is combined with `with_max_timeout()`, `with_http_proxy()`/`with_https_proxy()`, `with_debug()`, or `with_connection_pool_size()`, as these options only apply to the built-in HTTP transport.
+
 ## [5.5.0] - 2026-03-12
 - international-autocomplete-api
   - Added `max_group_results` and `geolocation` fields to Lookup.
