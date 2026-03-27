@@ -28,11 +28,7 @@ CHANGES:
 
 ## 3.8.12 - 2026-01-21
 CHANGES:
-- Internal maintenance. 
-
-## 3.8.12 - 2026-01-21
-CHANGES:
-- Internal maintenance. 
+- Internal maintenance.
 
 ## 3.8.10 - 2026-01-20
 CHANGES:
