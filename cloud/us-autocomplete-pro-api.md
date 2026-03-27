@@ -9,6 +9,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 That API is accessed with the following URL: `us-autocomplete.api.smarty.com/suggest`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete Pro`.
 
+## 1.12.36 - 2026-02-09
+
+- Normal code maintenance.
+
+
+## 1.12.34 - 2026-02-02
+
+- Fixed issue where autocomplete basic calls could not turn off geolocation.
+
+
 ## 1.12.29 - 2025-07-01
 
 - Fixed issue where military UNIT addresses could not be found. 
