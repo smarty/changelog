@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [7.5.0] - 2026-04-01
+- us-street-api
+  - Added `smarty_key_ext` field to candidate result object.
+
 ## [7.4.0] - 2026-03-26
 - Added `with_sender()` option to `ClientBuilder`, allowing a custom HTTP sender to be used as the innermost transport while keeping the full middleware chain intact (signing, retries, status codes, headers, URL prefix, license).
 - Added an error when `with_sender()` is combined with `with_max_timeout()`, `with_proxy()`, or `with_debug()`, as these options only apply to the built-in HTTP transport.
