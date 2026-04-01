@@ -9,6 +9,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 That API is accessed with the following URL: `us-autocomplete.api.smarty.com/suggest`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete Pro`.
 
+## 1.12.35 - 2026-04-01
+
+- Reverted back to the former US Autocomplete Pro API to consider feedback from customers.
+
+
 ## 1.0.14 - 2026-04-01
 
 - Fixed an issue when zipcode filters were used that prefer_geolocation needed to be set to none. It is now more forgiving and sets it for you.
