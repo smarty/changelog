@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [10.0.0] - 2026-04-03
+
+### Changed:
+- Replaced axios with native Fetch API for HTTP transport, using `undici` for proxy support in Node.js.
+- Minimum Node.js version raised to 20.
+- Improved error handling: RetrySender now re-throws error responses after retries are exhausted, StatusCodeSender preserves original error messages for network and unknown errors.
+- Validated proxy URL protocol in `withProxy()` for plain JavaScript callers.
+
 ## [9.3.0] - 2026-04-01
 - us-street-api
 	- Added `smartyKeyExt` field to candidate result object.
