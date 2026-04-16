@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.35.0] - 2026-04-15
+- us-enrichment-api
+  - Added support for the business dataset, including example code and the new `lookup/business/{business_id}` detail view URL format.
+  - Switched internal calls to use basic auth.
+
+## [1.34.0] - 2026-04-02
+- Per-request authentication now accepts a `Credential` interface instead of string parameters; `Credential.Sign` errors are propagated to callers.
+
 ## [1.33.0] - 2026-04-01
 - us-street-api
   - Added `SmartyKeyEXT` field to candidate result object.
