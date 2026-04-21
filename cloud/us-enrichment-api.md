@@ -4,6 +4,12 @@ All notable changes to the US Enrichment API will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 1.5.25 - 2026-04-21
+
+CHANGES:
+- Fixed issue where some census_tract codes would not be in the 6 digit format.
+
+
 ## 1.5.20 - 2026-04-15
 
 CHANGES:
