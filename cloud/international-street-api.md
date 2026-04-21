@@ -4,6 +4,12 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.18 - 2026-04-21
+CHANGES:
+- These changes will be deployed throughout the day.
+  - New April data: 2026Q1.1-1
+  - Enforced rules outlined in the docs regarding using freeform. When freeform is used, all other address2-4 lines are ignored. 
+
 ## 3.8.17 - 2026-03-24
 CHANGES:
 - These changes will be deployed throughout the day.
