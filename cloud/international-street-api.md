@@ -2,6 +2,11 @@
 
 All notable changes to the International Street Address API will be documented in this file.
 
+## Unreleased
+- We plan to add a new field to the International Street Components for Saudi Arabia only.
+  - ShortAddressCode will contain the Short National Address value for Saudi Arabia (SAU)
+  - The target release date is yet to be determined.
+
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## 3.8.18 - 2026-04-21
