@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [10.0.0] - 2026-04-23
+- us-enrichment-api
+  - Added support for the `business` dataset.
+  - Added ETag round-trip support on all enrichment lookups.
+  - Breaking: all `sendXxxLookup` methods now fail fast with `FieldNotSetError` when the lookup has no `smartyKey`, `street`, or `freeform` set (whitespace-only values count as unset). Previously these calls would proceed to the network with a malformed URL.
+
 ## [9.5.0] - 2026-04-01
 - us-street-api
   - Added `smartyKeyExt` field to candidate result object.
