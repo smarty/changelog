@@ -4,6 +4,12 @@ All notable changes to the US Enrichment API Data will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026-04-23
+Changes:
+- New April Business data 2026.04.F
+- Fixed malformed business data addresses for PO Boxes, HC, RR, and PSC.
+- Changed two field names in business data (num_of_pcs_total to number_of_pcs_total, num_of_pcs_range to number_of_pcs_range).
+
 ## 2026-04-21
 
 Changes:
