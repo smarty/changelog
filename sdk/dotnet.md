@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [13.1.0] - 2026-04-23
+- Added `WithHttpClient()` option to `ClientBuilder` for integrating with `IHttpClientFactory` or a user-supplied `HttpClient` instance.
+
+## [13.0.0] - 2026-04-23
+- us-enrichment-api
+  - Added Business Summary and Business Detail endpoints.
+  - ETag round-trip: request ETag is sent via the `Etag` header; response ETag is captured on 200 and carried on 304 via `NotModifiedException.ResponseEtag`.
+  - Tightened lookup field validation (whitespace rejection, required `businessId` on Business Detail).
+  - **BREAKING CHANGE**: Replaced `GetEtag()`/`SetEtag()` on enrichment `Lookup` with `GetRequestEtag()`/`SetRequestEtag()` and `GetResponseEtag()`/`SetResponseEtag()`. Shared enrichment lookup state moved to a new `EnrichmentLookupBase` base class.
+
 ## [12.5.0] - 2026-04-01
 - us-street-api
   - Added `SmartyKeyEXT` field to candidate result object.
