@@ -3,6 +3,11 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [7.0.0] - 2026-04-23
+- us-enrichment-api
+  - Added support for the US Business Enrichment API (summary and detail datasets).
+  - Added ETag support across enrichment lookups, including `RequestNotModifiedException` handling for 304 responses.
+
 ## [6.5.0] - 2026-04-01
 - us-street-api
   - Added `smartyKeyEXT` field to candidate result object.
