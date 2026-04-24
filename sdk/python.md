@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [6.0.0] - 2026-04-24
+- us-enrichment-api
+  - Added US Business Summary endpoint (`send_business_lookup`) supporting lookup by SmartyKey or address components.
+  - Added US Business Detail endpoint (`send_business_detail_lookup`) returning the full business record by `business_id`.
+  - Added ETag support: set `request_etag` on a `Lookup` to send an `Etag` request header, read `response_etag` on 200 responses, and catch `NotModifiedError` on 304 responses.
+  - Added validation rejecting whitespace-only `smartykey`, `street`, and `freeform` on `Lookup`, and whitespace-only `business_id` on `BusinessDetailLookup`.
+  - Added examples covering business, etag, geo-reference, risk, secondary, secondary-count, and generic dataset lookups.
+
 ## [5.7.0] - 2026-04-01
 - us-street-api
   - Added `smarty_key_ext` field to candidate result object.
