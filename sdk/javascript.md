@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [11.0.0] - 2026-04-24
+
+### Added:
+- US Enrichment Business API: `sendBusinessSummary` and `sendBusinessDetail` endpoints.
+- ETag support across all enrichment lookups (`requestEtag`/`responseEtag`; 304 responses surface as `NotModifiedError` with a refreshed Etag).
+- README guidance for in-browser usage.
+
+### Changed:
+- `sendFinancial` now targets `/property/principal` with `features=financial` and returns `Response`.
+- `sendSecondary` and `sendSecondaryCount` return dedicated `SecondaryResponse` / `SecondaryCountResponse` classes matching the real API shape.
+- Enrichment send methods unwrap the array payload returned by the API; `Lookup.features` is wired into the query string.
+
+### Fixed:
+- Field name alignment with API docs: added `document_type_description` on `FinancialHistory`; corrected `contact_main_info_format` → `contact_mail_info_format` (public `contactMailInfoFormat` unchanged).
+- Lookup validation rejects whitespace-only `smartyKey` / `businessId`.
+
+### Removed:
+- **Breaking:** `FinancialResponse`, `FinancialAttributes`, and `usEnrichment.Response.FinancialResponse`.
+
 ## [10.0.0] - 2026-04-03
 
 ### Changed:
