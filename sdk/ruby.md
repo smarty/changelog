@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [8.0.0] - 2026-04-24
+- us-enrichment-api
+  - Added Business Summary endpoint (`send_business_lookup`) and Business Detail endpoint (`send_business_detail_lookup`).
+  - Added first-class ETag round-trip: renamed `etag` to `request_etag` on lookups, added `response_etag` populated from server responses, and removed per-dataset `Response#etag` (ETag now lives on the Lookup).
+  - Extracted `LookupBase` with shared `include_array`, `exclude_array`, `features`, `custom_param_hash` fields and corresponding `add_*` helpers.
+  - `NotModifiedInfo` now carries the server-refreshed `response_etag` from 304 responses.
+  - Whitespace-only `smarty_key`, `street`, and `freeform` values now raise.
+- Switched outgoing ETag header from `ETAG` to `Etag`; incoming ETag header lookup is now case-insensitive.
+- Fixed `NoMethodError` in `Response` header parsing that affected every live enrichment call by centralizing case-insensitive header lookup.
+
 ## [7.5.0] - 2026-04-01
 - us-street-api
   - Added `smarty_key_ext` field to candidate result object.
