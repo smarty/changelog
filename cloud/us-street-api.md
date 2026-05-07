@@ -4,6 +4,14 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.15.5 - 2026-05-07
+We are beginning our phased rollout of us-street-api 5.15.5. This process is scheduled to be completed by 2026-05-08 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### CHANGED
+- Improved accuracy of B# footnotes for enhanced match.
+- Improved matching for addresses with secondaries that include hyphens for enhanced match.
+- Improved handling for addresses with ambiguous last line information for enhanced match.
+
 ## 5.15.4 - 2026-05-04
 We are beginning our phased rollout of us-street-api 5.15.4. This process is scheduled to be completed by 2026-05-05 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
