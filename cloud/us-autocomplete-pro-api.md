@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## Important Note: 
 `US Autocomplete Basic` has been deprecated.
 That API is accessed with the following URL: `us-autocomplete.api.smarty.com/suggest`
-We suggest you contact Smarty support for assistance in migrating to `US Autocomplete Pro`.
+We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
 ## 1.0.22 - 2026-05-07
 
