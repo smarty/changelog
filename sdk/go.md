@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.36.0] - 2026-05-14
+- us-enrichment-api
+  - **Breaking:** Removed the risk dataset (`RiskResponse`, `RiskAttributes`, `SendRisk`, and `SendRiskWithContextAndAuth`). The corresponding endpoint has been removed from the API.
+
 ## [1.35.0] - 2026-04-15
 - us-enrichment-api
   - Added support for the business dataset, including example code and the new `lookup/business/{business_id}` detail view URL format.
