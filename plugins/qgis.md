@@ -1,6 +1,18 @@
 # [QGIS Plugin](https://www.smarty.com/docs/plugins/qgis-geocoding-plugin-us-address)
 All notable changes to this project will be documented in this file.
 
+## 1.0.16 - 2026-05-14
+
+Added
+- CHANGELOG.md
+- Added SmartyKey and SmartyKeyExt to batch mode.
+
+Fixed
+- Updated the internal smartystreets-javascript-sdk.
+
+Changed
+- Updated the Summary field to be standardized across Smarty tools.
+
 ## 1.0.12 - 2025-06-30
 
 CHANGES:
