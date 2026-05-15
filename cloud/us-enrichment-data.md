@@ -4,6 +4,11 @@ All notable changes to the US Enrichment API Data will be documented in this fil
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026-05-15
+Changes:
+- Business data 2026.04.G.
+  - Improved formatting of fields referring to money and normalized hours of operation fields.
+
 ## 2026-05-11
 Changes:
 - New May data 2026.05.A (no business data yet)
