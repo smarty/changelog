@@ -4,6 +4,13 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.20 - 2026-05-18
+CHANGES:
+- These changes will be deployed throughout the day.
+  - New May data: 2026Q2.0-1
+  - Changes for New Zealand (NZL)
+    - Removed spaces around the slash separating the sub-building and premise.
+
 ## 3.8.19 - 2026-04-28
 CHANGES:
 - These changes will be deployed throughout the day.
