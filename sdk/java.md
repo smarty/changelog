@@ -3,6 +3,9 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [6.2.0] - 2026-05-18
+- Thrown exceptions now use the API's error message when available, falling back to the canned message otherwise.
+
 ## [6.1.0] - 2026-05-18
 - us-enrichment-api
   - **Breaking:** Removed the risk dataset (`RiskLookup`, `RiskResponse`, `RiskAttributes`, the `riskDataSet` constant, and the `sendRisk` client method). The corresponding endpoint has been removed from the API.
