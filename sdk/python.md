@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.2.0] - 2026-05-14
+- us-enrichment-api
+  - **Breaking:** Removed the risk dataset (`RiskLookup`, `RiskAttributes`, `riskDataset` constant, and the `send_risk_lookup` client method). The corresponding endpoint has been removed from the API.
+
 ## [6.1.0] - 2026-05-05
 - Fixed issue with_custom_header option in ClientBuilder overwriting SharedCredentials.
 

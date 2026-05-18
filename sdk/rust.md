@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [0.18.0] - 2026-05-14
+- us-enrichment-api
+    - **Breaking:** Removed the risk dataset (`RiskResponse`, `RiskAttributes`, and `risk` module). The corresponding endpoint has been removed from the API.
+
 ## [0.17.0] - 2026-04-16
 - us-enrichment-api
     - Added support for business dataset (summary and detail endpoints).
