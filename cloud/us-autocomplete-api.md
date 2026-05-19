@@ -13,8 +13,10 @@ That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
 
-## 1.0.22 - 2026-05-07
+## 1.0.23 - 2026-05-19
+- Internal maintenance
 
+## 1.0.22 - 2026-05-07
 - Deploying the new US Autocomplete V2, the next generation of US Autocomplete.
 - This will be a gradual deploy from May 7 through May 11.
 - V2 is compatible with US Autocomplete Pro calls so no code needs to be modified.
