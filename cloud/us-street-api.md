@@ -4,6 +4,18 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.16.1 - 2026-05-21
+We are beginning our phased rollout of us-street-api 5.16.1. This process is scheduled to be completed by 2026-05-22 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### CHANGED
+- Added support for General Delivery addresses for enhanced match.
+- Improved matching accuracy for addresses with ambiguous or conflicting directional indicators for enhanced match.
+- Improved matching accuracy for lookups that use componentized input for enhanced match.
+- Improved matching for compound street names to reduce incorrect matches (e.g., input "Riverwood" no longer matching "River") for enhanced match.
+- Improved accuracy in matching for addresses with directionals.
+- Improved matching for Puerto Rico urbanizations in enhanced mode.
+- Routine security updates.
+
 ## 5.15.5 - 2026-05-07
 We are beginning our phased rollout of us-street-api 5.15.5. This process is scheduled to be completed by 2026-05-08 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
