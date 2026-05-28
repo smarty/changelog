@@ -13,6 +13,9 @@ That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
 
+## 1.0.27 - 2026-05-28
+- Performance enhancements
+
 ## 1.0.26 - 2026-05-27
 - Performance enhancements
 - Reduce noisy results that do not appear to fit the input
