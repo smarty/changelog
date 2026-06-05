@@ -12,6 +12,12 @@ We suggest you contact Smarty support for assistance in migrating to `US Autocom
 That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com/lookup`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
+## 1.0.28 - 2026-06-05
+- Prevent inputted commas from obscuring matches 
+- Allow fully spelled-out ordinals (first through tenth) to match their numeric equivalents, and vice versa
+- Allow primaries with a hyphen to be typed without one, and vice versa
+- Prevent PO Box results from being returned when search term does not start with PO Box (in all of its forms) 
+- Improve performance by automatically removing preferences that conflict with the filters.
 
 ## 1.0.27 - 2026-05-28
 - Performance enhancements
