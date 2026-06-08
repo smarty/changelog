@@ -3,6 +3,12 @@ All notable changes to this project will be documented in this file.
 
 Note: Versioning for the google sheets plugin corresponds to the version used in the google app script listing. Due to restrictions by Google, each release is considered a major version release.
 
+## 23.0.0 - 2026-06-08
+
+CHANGED:
+- Redesign UI
+- Add International Street product
+- Add more US Street request options
 
 ## 10.0.0 - 2025-06-16
 
