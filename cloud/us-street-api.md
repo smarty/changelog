@@ -4,6 +4,16 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.16.4 - 2026-06-08
+We are beginning our phased rollout of us-street-api 5.16.4. This process is scheduled to be completed by 2026-06-11 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
+
+### CHANGED
+- Improved speed of enhanced match mode by 50%.
+- R7 addressses in strict mode can return rooftop geocode precision.
+- Better matching of ambiguous and duplicated input in strict mode.
+- Improved consistentcy of the B#, N#, and H# footnotes.
+- In strict mode, dual addresses (PO box and street address in the same input) will more frequently show up as two separate results, rather than one J# dual address result.
+
 ## 5.16.3 - 2026-06-03
 
 ### CHANGED
