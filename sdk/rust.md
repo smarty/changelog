@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [0.18.1] - 2026-06-08
+- 429 errors have a default 10s sleep between retries and default of 5 retries
+- Updated the sdk error handling so 400, 401, 402, 403, 413, and 422 errors from the api are correctly returned.
+
 ## [0.18.0] - 2026-05-18
 - us-enrichment-api
     - **Breaking:** Removed the risk dataset (`RiskResponse`, `RiskAttributes`, and `risk` module). The corresponding endpoint has been removed from the API.
