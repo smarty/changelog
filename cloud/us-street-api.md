@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.16.5 - 2026-06-16
+
+### CHANGED
+- Improved accuracy for A# (Corrected ZIP code).
+- Improved matching for inputs including a primary number with a trailing alpha.
+- Improved handling of invalid secondaries in enhanced mode.
+
 ## 5.16.4 - 2026-06-08
 We are beginning our phased rollout of us-street-api 5.16.4. This process is scheduled to be completed by 2026-06-11 00:00:00 UTC. Some customers might notice slightly inconsistent results between subsequent calls for the same inputs. This is expected behavior.
 
