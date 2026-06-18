@@ -12,6 +12,9 @@ We suggest you contact Smarty support for assistance in migrating to `US Autocom
 That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com/lookup`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
+## 1.0.29 - 2026-06-18
+- Internal changes that will not affect the customer experience. 
+
 ## 1.0.28 - 2026-06-05
 - Prevent inputted commas from obscuring matches 
 - Allow fully spelled-out ordinals (first through tenth) to match their numeric equivalents, and vice versa
