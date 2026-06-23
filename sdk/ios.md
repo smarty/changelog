@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [11.0.0] - 2026-06-23
+- **Breaking:** 304 Not Modified responses are no longer returned as an `NSError` with `NotModifiedInfo` code. They now return successfully with `nil` data. Callers previously checking for `NotModifiedInfo` errors should instead check for nil/empty results.
+- **Breaking:** `source` property on `USAutocompleteProLookup` and `USReverseGeoLookup` changed from `String` to the new `USAutocompleteProSource` / `USReverseGeoSource` enum type.
+- international-street-api
+  - **Breaking:** Removed `address9`–`address12` fields from the `InternationalStreetCandidate` and `InternationalStreetChanges` structs.
+  - **Breaking:** Removed `administrativeAreaShort` and `administrativeAreaLong` fields from the `InternationalStreetComponents` struct.
+  - Added `attention`, `shortAddressCode`, `subBuildingLeadingType`, `subBuildingBlock`, `subBuildingDoor`, and `subBuildingStaircase` fields to `InternationalStreetComponents`.
+- Added handling for HTTP 403 (Forbidden), 408 (Request Timeout), and 502 (Bad Gateway) status codes.
+- API error messages from response bodies are now surfaced in error text; unknown status codes include the raw response body as a fallback.
+- us-enrichment-api
+  - Added `business_name` input field to enrichment lookup for name-based business search.
+
 ## [10.2.0] - 2026-06-08
 - 429 errors check Retry-After value for retry sleep time with a default of 10s.
 - Updated the sdk error handling so 400, 401, 402, 403, 413, and 422 errors from the api are correctly returned.
