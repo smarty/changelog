@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [8.0.0] - 2026-06-23
+- **Breaking:** 304 Not Modified responses are no longer raised as `RequestNotModifiedException`. They now return `null` results with the updated ETag stored on the lookup's `getResponseEtag()`. Callers previously catching `RequestNotModifiedException` should instead check for null/empty results.
+- Added `ForbiddenException` (403).
+- Added handling for HTTP 408 (Request Timeout) and 502 (Bad Gateway) status codes.
+- API error messages from response bodies are now surfaced in exception text; unknown status codes include the raw response body as a fallback.
+- Added `Source` class to `US_Autocomplete_Pro` and `US_Reverse_Geo` for typed source constants (`Source::All`, `Source::Postal`).
+- international-street-api
+  - Synced candidate fields with API output: removed unused fields, added `attention`, `short_address_code`, `sub_building_leading_type`, `sub_building_block`, `sub_building_door`, and `sub_building_staircase` to components.
+- us-enrichment-api
+  - Added `businessName` field to enrichment `Lookup` for name-based business search.
+- Added us-street-api match strategy example and us-enrichment business name search example.
+
 ## [7.1.2] - 2026-06-08
 - Updated the sdk error handling so 400, 401, 402, 403, 413, and 422 errors from the api are correctly returned.
 
