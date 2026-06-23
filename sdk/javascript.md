@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [12.0.0] - 2026-06-23
+
+### Breaking:
+- 304 Not Modified responses are no longer thrown as `NotModifiedError`. They now resolve successfully with empty/null results and the refreshed ETag stored on the lookup's `responseEtag` field. Callers previously catching `NotModifiedError` for 304 should instead check for empty results.
+
+### Added:
+- New error classes: `ForbiddenError` (403), `RequestTimeoutError` (408), `BadGatewayError` (502).
+- All error classes now accept an optional `message` parameter and surface API error messages from the response body when available.
+- Empty response body is now handled gracefully (no longer fails JSON parsing).
+
 ## [11.1.0] - 2026-05-14
 
 ### Added:
