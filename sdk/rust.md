@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [1.0.0] - 2026-06-23
+- **Breaking:** Minimum Rust version increased from 1.63.0 to 1.88.0.
+- **Breaking:** `source` field on `us-autocomplete-pro-api` and `us-reverse-geo-api` lookups changed from `String` to `Option<Source>` enum. Replace string literals (e.g. `"all".to_string()`) with `Some(Source::All)`.
+- international-street-api
+  - **Breaking:** Removed `address9`–`address12` fields from the `Addresses` struct.
+  - **Breaking:** Removed `administrative_area_short` and `administrative_area_long` fields from the `Components` struct.
+  - Added `attention`, `short_address_code`, `sub_building_leading_type`, `sub_building_block`, `sub_building_door`, and `sub_building_staircase` fields to the `Components` struct.
+- API error messages from response bodies are now surfaced in error text; unknown status codes include the raw response body as a fallback.
+- us-enrichment-api
+  - Added `business_name` field to `EnrichmentLookup` for name-based business search.
+  - Added `response_etag` field to `EnrichmentLookup` to capture the refreshed ETag from 304 Not Modified responses.
+- Added us-street-api match strategy example, us-enrichment business name search example, and us-enrichment ETag example.
+
 ## [0.18.1] - 2026-06-08
 - 429 errors have a default 10s sleep between retries and default of 5 retries
 - Updated the sdk error handling so 400, 401, 402, 403, 413, and 422 errors from the api are correctly returned.
