@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [2.0.0] - 2026-06-23
+- **Breaking:** 304 Not Modified responses are no longer returned as errors. They now return empty results with the updated ETag stored on the lookup's `ResponseETag` field. Callers previously using `client.IsHTTPErrorCode(err, http.StatusNotModified)` should instead check for empty results.
+- **Breaking:** `Source` field on `us-autocomplete-api`, `us-autocomplete-pro-api`, and `us-reverse-geo-api` lookups changed from `string` to a typed `Source` constant. Replace string literals (e.g. `"all"`) with the provided constants (`SourceAll`, `SourcePostal`).
+- international-street-api
+  - **Breaking:** Removed `Address9`–`Address12` fields from the `Addresses` struct.
+  - **Breaking:** Removed `AdministrativeAreaShort` and `AdministrativeAreaLong` fields from the `Components` struct.
+  - Added `Attention`, `ShortAddressCode`, `SubBuildingLeadingType`, `SubBuildingBlock`, `SubBuildingDoor`, and `SubBuildingStaircase` fields to the `Components` struct.
+- API error messages from response bodies are now surfaced in error text; unknown status codes include the raw response body as a fallback.
+- Added handling for HTTP 408 (Request Timeout) and 502 (Bad Gateway) status codes.
+- us-enrichment-api
+  - Added `ResponseETag` field to `Lookup` to capture the refreshed ETag from 304 Not Modified responses.
+- Added us-street-api match strategy example.
+
 ## [1.37.0] - 2026-06-08
 - 429 errors sleep one time for default 10s between tries and do not infinitely retry (default 5 retries)
 - international-street-api
