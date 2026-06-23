@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [14.0.0] - 2026-06-23
+- **Breaking:** 304 Not Modified responses are no longer thrown as `NotModifiedException`. They now return `null` results with the updated ETag stored on the lookup's `GetResponseEtag()`. Callers previously catching `NotModifiedException` should instead check for null results.
+- **Breaking:** `Source` property on `USAutocompleteProApi` and `USReverseGeoApi` lookups changed from `string` to the new `SourceType` enum. Replace string literals (e.g. `"all"`) with `SourceType.ALL`.
+- **Breaking:** Dropped `netstandard2.0` target. The SDK now targets `net8.0`, `net9.0`, and `net10.0` only. Projects targeting .NET Framework, Xamarin, or other netstandard2.0 consumers must remain on the previous version.
+- Added handling for HTTP 408 (Request Timeout) and 502 (Bad Gateway) status codes.
+- API error messages from response bodies are now surfaced in exception text; unknown status codes include the raw response body as a fallback.
+- international-street-api
+  - **Breaking:** Removed `Address9`–`Address12` fields from the `RootLevel` struct.
+  - **Breaking:** Removed `AdministrativeAreaShort` and `AdministrativeAreaLong` fields from the `Components` struct.
+  - Added `Attention`, `ShortAddressCode`, `SubBuildingLeadingType`, `SubBuildingBlock`, `SubBuildingDoor`, and `SubBuildingStaircase` fields to the `Components` struct.
+- us-enrichment-api
+  - Added `businessName` field to enrichment `Lookup` for name-based business search.
+- Added us-street-api match strategy example and us-enrichment business name search example.
+
 ## [13.3.0] - 2026-06-08
 - 429 errors do not infinitely retry (default 5 retries) and have a default 10s sleep between retries.
 - Updated the sdk error handling so 400, 401, 402, 403, 413, and 422 errors from the api are correctly returned.
