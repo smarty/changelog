@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+## [7.0.0] - 2026-06-23
+- **Breaking:** 304 Not Modified responses are no longer thrown as `NotModifiedException`. They now return `null` results with the updated ETag available on the lookup. Callers previously catching `NotModifiedException` should instead check for null results.
+- **Breaking:** `Source` field on `us-autocomplete-pro` and `us-reverse-geo` lookups changed from `String` to the new `Source` enum type. Replace string literals (e.g. `"all"`) with `Source.ALL`.
+- **Breaking:** Removed `address9`–`address12` fields from the international street `RootLevel` output.
+- **Breaking:** Removed `administrativeAreaShort` and `administrativeAreaLong` fields from the international street `Components` output.
+- **Breaking:** Minimum Java version increased from Java 8 to Java 17.
+- Added `BadGatewayException` (502) and `RequestTimeoutException` (408) exception types.
+- API error messages from response bodies are now surfaced in exception text; multiple messages are joined and unknown status codes include the raw response body as a fallback.
+- international-street-api
+  - Added `attention`, `shortAddressCode`, `subBuildingLeadingType`, `subBuildingBlock`, `subBuildingDoor`, and `subBuildingStaircase` fields to the `Components` output.
+- us-enrichment-api
+  - Added `businessName` field to `AddressSearch` lookup for name-based business search.
+- Added us-street-api match strategy example and us-enrichment business name search example.
+
 ## [6.3.0] - 2026-06-08
 - 429 errors do not infinitely retry (default 5 retries)
 
