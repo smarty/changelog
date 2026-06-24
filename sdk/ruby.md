@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [9.0.0] - 2026-06-23
 - **Breaking:** Minimum Ruby version increased from 3.2 to 3.3.
 - **Breaking:** 304 Not Modified responses are no longer raised as `NotModifiedInfo`. They now return empty results with the updated ETag stored on the lookup's `response_etag` field. Callers previously rescuing `NotModifiedInfo` should instead check for empty results.
