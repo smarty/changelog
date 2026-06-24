@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [8.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [8.0.0] - 2026-06-23
 - **Breaking:** 304 Not Modified responses are no longer raised as `RequestNotModifiedException`. They now return `null` results with the updated ETag stored on the lookup's `getResponseEtag()`. Callers previously catching `RequestNotModifiedException` should instead check for null/empty results.
 - Added `ForbiddenException` (403).
