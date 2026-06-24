@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [2.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [2.0.0] - 2026-06-23
 - **Breaking:** 304 Not Modified responses are no longer returned as errors. They now return empty results with the updated ETag stored on the lookup's `ResponseETag` field. Callers previously using `client.IsHTTPErrorCode(err, http.StatusNotModified)` should instead check for empty results.
 - **Breaking:** `Source` field on `us-autocomplete-api`, `us-autocomplete-pro-api`, and `us-reverse-geo-api` lookups changed from `string` to a typed `Source` constant. Replace string literals (e.g. `"all"`) with the provided constants (`SourceAll`, `SourcePostal`).
