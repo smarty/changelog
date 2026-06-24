@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [11.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [11.0.0] - 2026-06-23
 - **Breaking:** 304 Not Modified responses are no longer returned as an `NSError` with `NotModifiedInfo` code. They now return successfully with `nil` data. Callers previously checking for `NotModifiedInfo` errors should instead check for nil/empty results.
 - **Breaking:** `source` property on `USAutocompleteProLookup` and `USReverseGeoLookup` changed from `String` to the new `USAutocompleteProSource` / `USReverseGeoSource` enum type.
