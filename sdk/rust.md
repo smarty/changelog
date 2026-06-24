@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [1.0.0] - 2026-06-23
 - **Breaking:** Minimum Rust version increased from 1.63.0 to 1.88.0.
 - **Breaking:** `source` field on `us-autocomplete-pro-api` and `us-reverse-geo-api` lookups changed from `String` to `Option<Source>` enum. Replace string literals (e.g. `"all".to_string()`) with `Some(Source::All)`.
