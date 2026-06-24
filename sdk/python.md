@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.1.0] - 2026-06-24
+- Added US Autocomplete V2
+
 ## [7.0.0] - 2026-06-23
 - **Breaking:** 304 Not Modified responses are no longer raised as `NotModifiedError`. They now return empty results with the updated ETag stored on the lookup's `response_etag` field. Callers previously catching `NotModifiedError` should instead check for empty results.
 - Added `RequestTimeoutError` (408) and `BadGatewayError` (502) exception types.
