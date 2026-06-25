@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.3.0] - 2026-06-25
+- Added the `EnableCleartextHTTP2` option to route requests over cleartext HTTP/2 (h2c) using prior knowledge, intended for local development or a TLS-terminating proxy/sidecar in front of the API. Requires an `http://` base URL set via `CustomBaseURL`.
+
 ## [2.2.0] - 2026-06-24
 - Clients now negotiate HTTP/2 by default, falling back to HTTP/1.1 when it isn't available. Use the `DisableHTTP2` option to force HTTP/1.1.
 
