@@ -12,6 +12,9 @@ We suggest you contact Smarty support for assistance in migrating to `US Autocom
 That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com/lookup`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
+## 1.0.30 - 2026-06-26
+- Fixed an issue where smarty_key would not be returned on results containing an alternate city. 
+
 ## 1.0.29 - 2026-06-18
 - Internal changes that will not affect the customer experience. 
 
