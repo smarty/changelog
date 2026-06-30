@@ -4,6 +4,12 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.28 - 2026-06-30
+CHANGES:
+- These changes will be deployed throughout the day.
+  - An internal change that should not affect results.
+
+
 ## 3.8.25 - 2026-06-22
 CHANGES:
 - These changes will be deployed throughout the day.
