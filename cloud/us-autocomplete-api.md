@@ -12,6 +12,13 @@ We suggest you contact Smarty support for assistance in migrating to `US Autocom
 That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com/lookup`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
+## 1.0.33 - 2026-07-08
+- To be deployed throughout the day.
+- New data: `2026.07.P` (based on 2026.07.B with new stuff below)
+- `urbanization` support during search for Puerto Rico addresses.
+- `urbanizaiton` is returned in the result in "v2" mode.
+- New enhanced filter in v2 mode: `undeliverable-base-address` to filter out undeliverable `AAN1` base addresses.
+
 ## 1.0.30 - 2026-06-26
 - Fixed an issue where smarty_key would not be returned on results containing an alternate city. 
 
