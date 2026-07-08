@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.39.0] - 2026-07-08
+- us-autocomplete-api
+  - Added `Urbanization` field to the `Suggestion` struct, for Puerto Rico addresses.
+
 ## [1.38.0] - 2026-06-26
 This release consolidates the work that was briefly tagged `2.0.0` through `2.3.0`. Those v2 tags have been removed from the remote and the changes now ship as a single minor release. The v2 tags were never installable: the module path in `go.mod` was never given the `/v2` suffix that Go's semantic import versioning requires for a major version bump, so `go get`-ing any `v2.x` would have failed and no one could have been depending on it. Note that some of the changes below are breaking relative to `1.37.0`.
 
