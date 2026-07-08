@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [14.3.0] - 2026-07-08
+- us-autocomplete-api
+  - Added `Urbanization` property to the `Suggestion` class, for Puerto Rico addresses.
+
 ## [14.2.0] - 2026-06-25
 - HTTP/2 is now the default, with automatic fallback to HTTP/1.1. Call `WithoutHttp2()` to force HTTP/1.1.
 - `WithDebug()` now logs the HTTP version.
