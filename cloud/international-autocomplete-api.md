@@ -4,6 +4,10 @@ All notable changes to the International Autocomplete API will be documented in 
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2.2.33 - 2026-07-14
+CHANGES:
+-  Palau (PW/PLW) and Federated States of Micronesia (FM/FSM) are no longer supported by this API and are now served by US Autocomplete. Please route these requests to US Autocomplete API.
+
 ## 2.2.30 - 2026-06-30
 CHANGES:
 - These changes will be deployed throughout the day.
