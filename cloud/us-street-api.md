@@ -4,10 +4,17 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.16.16 - 2026-08-12
+
+### Changed
+- Improved spelling corrections
+- Improved spacing corrections
+
 ## 5.16.15 - 2026-07-31
 
 ### CHANGED
 - Latest updates from all upstream packages and providers.
+
 
 ## 5.16.14 - 2026-07-23
 
