@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [15.0.0] - 2026-08-19
+- international-street-api
+  - **Breaking:** `Lookup.Language` changed from `string` to `LanguageMode?`, now a real enum with `Native` and `Latin` members. Replace string literals with enum members, or use `LanguageModeExtensions.FromValue()` to resolve a raw string case-insensitively (e.g. `"Latin"`, `"NATIVE"`).
+
 ## [14.3.0] - 2026-07-08
 - us-autocomplete-api
   - Added `Urbanization` property to the `Suggestion` class, for Puerto Rico addresses.
