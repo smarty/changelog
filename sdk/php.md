@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [9.0.0] - 2026-08-19
+- international-street-api
+  - **Breaking:** `LanguageMode` is now a backed enum (`LanguageMode::Native`, `LanguageMode::Latin`) instead of a string-wrapping class, so invalid values can no longer be constructed. Use `LanguageMode::fromValue()` to resolve a raw string case-insensitively; it throws `UnprocessableEntityException` for invalid values.
+
 ## [8.2.0] - 2026-07-08
 - us-autocomplete-api
   - Added `urbanization` field to the `Suggestion` class, for Puerto Rico addresses.
