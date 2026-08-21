@@ -4,6 +4,14 @@ All notable changes to the International Street Address API Data will be documen
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026Q3.0-2 - 2026-08-21
+CHANGES:
+- New Geocode status uplift data for GBR and CAN.
+
+## 2026Q3.0-2 - 2026-08-18
+CHANGES:
+- Latest data packages.
+
 ## 2026Q3.0-1 - 2026-07-30
 CHANGES:
 - Improved many geocode precision values to be more accurate. 
