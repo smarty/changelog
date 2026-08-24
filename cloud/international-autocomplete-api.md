@@ -195,7 +195,7 @@ CHANGES:
 
 CHANGES:
 
-- Completed preparations for the planned outage of v1 on Jan 16th.  See https://get.smarty.com/international-autocomplete-api-v2-migration.
+- Completed preparations for the planned outage of v1 on Jan 16th.  See https://www.smarty.com/docs/apis/international-autocomplete-api/reference.
 
 
 ## 1.0.13 - 2024-01-03
