@@ -4,6 +4,10 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.35 - 2026-08-31
+CHANGES:
+- Reduce some very high latencies experienced with some GBR queries. We are still working this issue, but most latencies have been reduced 10x.
+
 ## 3.8.34 - 2026-08-18
 CHANGES:
 - Internal maintenance. 
