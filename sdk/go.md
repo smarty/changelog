@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] - 2026-09-15
+This is the first release on the `/v2` module path. Unlike the `2.x` tags that were folded into `1.38.0`, this release carries the `/v2` suffix in `go.mod` that Go requires for a major version, so it is installable. Upgrade with `go get github.com/smartystreets/smartystreets-go-sdk/v2` and change every import from `github.com/smartystreets/smartystreets-go-sdk/...` to `github.com/smartystreets/smartystreets-go-sdk/v2/...`.
+
+- **Breaking:** Module path is now `github.com/smartystreets/smartystreets-go-sdk/v2`. Existing `v1` import paths keep resolving to the `1.x` releases.
+- **Breaking:** Requires Go 1.27 or later.
+- JSON encoding and decoding now use the standard library's `encoding/json/v2`. Struct tags were updated for the v2 rules (`omitzero` on `bool`, numeric, and pointer fields) so request bodies keep the same shape.
+- The SDK has no runtime dependencies outside the standard library. `golang.org/x/net` was removed; `EnableCleartextHTTP2` and `DisableHTTP2` are implemented with `http.Transport.Protocols`.
+- `WithMaxIdleConnections` now applies when `EnableCleartextHTTP2` is set. `ViaProxy` is still ignored in that mode because an h2c connection cannot traverse an HTTP proxy.
+- Retry backoff jitter now sleeps a whole number of seconds from 0 to `min(attempt, 10)` inclusive; the previous range excluded the upper bound.
+- Errors from building an HTTP request are returned to the caller instead of being discarded.
+- us-enrichment-api
+  - **Breaking:** All `Send*` methods now return `(result, error)` instead of `(error, result)`, matching Go convention. Swap the two return values at each call site.
+- international-street-api
+  - The `Language` field is case-insensitive. `"Latin"` and `"latin"` are both accepted and sent to the API in lowercase.
+- Examples for us-street-api, us-zipcode-api, and us-extract-api note that batch requests are sent by POST and therefore require a secret key; embedded (website) keys are GET-only.
+- Rewrote the README with installation, quick start, authentication, client option, batch, and error handling sections.
+- `make examples` runs every example program, and each example has its own target (for example `make us-street-api-list`).
+
 ## [1.39.0] - 2026-07-08
 - us-autocomplete-api
   - Added `Urbanization` field to the `Suggestion` struct, for Puerto Rico addresses.
