@@ -4,6 +4,14 @@ All notable changes to the US Street Address API Data will be documented in this
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026.09.G - 2026-09-17
+Changes:
+- Added support for SuiteLink matching in enhanced mode
+- Increased enhanced data ~250 MB and memory usage ~500 MB
+### Additional data
+- us-enhanced-matching-data: 2026.09.G
+- us-rooftop-geocoding-data: 2026.09.G
+
 ## 2026.09.B - 2026-09-11
 Changes:
 - Increased support for authoritative alias matching.

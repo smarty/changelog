@@ -4,6 +4,11 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.19.1 - 2026-09-17
+
+### Changed
+- Added support for SuiteLink matching in enhanced mode
+
 ## 5.18.3 - 2026-09-11
 
 ### Added
@@ -32,7 +37,6 @@ We are beginning our phased rollout of us-street-api 5.18.2. This process is sch
 
 ### CHANGED
 - Latest updates from all upstream packages and providers.
-
 
 ## 5.16.14 - 2026-07-23
 
