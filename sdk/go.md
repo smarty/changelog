@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.1] - 2026-09-17
+Just fixing up tags.
+
 ## [2.0.0] - 2026-09-15
 This is the first release on the `/v2` module path. Unlike the `2.x` tags that were folded into `1.38.0`, this release carries the `/v2` suffix in `go.mod` that Go requires for a major version, so it is installable. Upgrade with `go get github.com/smartystreets/smartystreets-go-sdk/v2` and change every import from `github.com/smartystreets/smartystreets-go-sdk/...` to `github.com/smartystreets/smartystreets-go-sdk/v2/...`.
 
