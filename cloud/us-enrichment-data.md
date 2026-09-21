@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## 2026-09-21
 Changes:
-- Updated property, geo-reference, secondary data to 2026.09.A.
+- Updated business data to 2026.09.A.
 
 ## 2026-09-08
 Changes:

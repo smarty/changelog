@@ -7,7 +7,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## 1.5.45 - 2026-09-21
 CHANGES:
 - To be deployed throughout the day.
-- Updated property, business data to 2026.09.A.
+- Updated business data to 2026.09.A.
 
 ## 1.5.43 - 2026-09-08
 CHANGES:
