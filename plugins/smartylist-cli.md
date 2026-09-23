@@ -1,6 +1,39 @@
 # [SmartyList CLI](https://www.smarty.com/docs/plugins/smartylist/cli)
 All notable changes to this project will be documented in this file.
 
+## 8.17.0 - 2026-09-18
+
+- Now compiled with Go 1.27 and Smarty Go SDK v2.0.1.
+- US Enrichment: a `304 Not Modified` response (the supplied `etag` still matches) is no longer treated as an error. The output row is written with the etag column populated and all other enrichment columns blank.
+- US Enrichment: fixed an issue where output columns could become misaligned with the header row.
+- International Street: removed the `address9` through `address12` output columns and their corresponding `changes_` columns, which are no longer returned by the API.
+
+## 8.16.3 - 2026-06-17
+
+- Internal maintenance. Updated to Go 1.26.4 and Smarty Go SDK v1.37.0. No functional changes were made.
+
+## 8.16.2 - 2026-05-18
+
+- Internal maintenance. Updated to Smarty Go SDK v1.36.0. No functional changes were made.
+
+## 8.16.1 - 2026-05-11
+
+- Internal maintenance. Now compiled with Go 1.26.3. No functional changes were made.
+
+## 8.16.0 - 2026-04-21
+
+- US Street: added a new `smarty_key_ext` output column.
+- US Enrichment: added support for a `business_id` input column (also recognized as `businessid` or `business-id`) for use with the `business` dataset. When a lookup returns multiple businesses, each business is written as its own output row.
+- The `-api` flag error messages now list `us-enrichment` as a valid value.
+
+## 8.15.2 - 2026-04-09
+
+- Internal maintenance. Updated to Go 1.26.2 and Smarty Go SDK v1.34.0. No functional changes were made.
+
+## 8.15.1 - 2026-03-31
+
+- Internal maintenance. Now compiled with Go 1.26 and Smarty Go SDK v1.32.0. No functional changes were made.
+
 ## 8.15.0 - 2026-02-09
 
 - Removed disablement of the CLI when there's a newer major version available.
