@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.3.0] - 2026-10-01
+- international-autocomplete-api
+  - Added `Lookup.setLanguage()`, taking the new `international_autocomplete.LanguageMode` (`NATIVE`, `LATIN`). Unset uses the country's default output language; `NATIVE` is required for French diacritics in Canada, and `LATIN` removes diacritics.
+
 ## [7.2.0] - 2026-07-08
 - us-autocomplete-api
   - Added `urbanization` field to the `Suggestion` class, for Puerto Rico addresses.
