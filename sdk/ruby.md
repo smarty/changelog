@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [10.1.0] - 2026-10-01
+- international-autocomplete-api
+  - Added `Lookup#language`, taking the new `InternationalAutocomplete::LanguageMode` (`NATIVE`, `LATIN`). Unset uses the country's default output language; `NATIVE` is required for French diacritics in Canada, and `LATIN` removes diacritics.
+
 ## [10.0.0] - 2026-08-19
 - international-street-api
   - **Breaking:** `LanguageMode` is now a closed set of `Data`-backed instances (`LanguageMode::NATIVE`, `LanguageMode::LATIN`) instead of plain string constants. `Lookup#language` is validated and normalized case-insensitively at send time; invalid values raise `SmartyStreets::UnprocessableEntityError`. Use `LanguageMode.from_value()` to resolve a raw string.
