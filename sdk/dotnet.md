@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [15.1.0] - 2026-10-01
+- international-autocomplete-api
+  - Added `Lookup.Language`, a nullable `LanguageMode` (`Native`, `Latin`). Unset uses the country's default output language; `Native` is required for French diacritics in Canada, and `Latin` removes diacritics.
+- Restored `netstandard2.0` to the target frameworks, alongside net8.0, net9.0, and net10.0.
+
 ## [15.0.0] - 2026-08-19
 - international-street-api
   - **Breaking:** `Lookup.Language` changed from `string` to `LanguageMode?`, now a real enum with `Native` and `Latin` members. Replace string literals with enum members, or use `LanguageModeExtensions.FromValue()` to resolve a raw string case-insensitively (e.g. `"Latin"`, `"NATIVE"`).
