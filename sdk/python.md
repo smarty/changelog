@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.1.0] - 2026-10-01
+- international-autocomplete-api
+  - Added `Lookup.language`, taking the new `international_autocomplete.LanguageMode` enum (`NATIVE`, `LATIN`). Unset uses the country's default output language; `NATIVE` is required for French diacritics in Canada, and `LATIN` removes diacritics.
+
 ## [8.0.0] - 2026-08-19
 - international-street-api
   - **Breaking:** `LanguageMode` is now an `Enum` (`LanguageMode.NATIVE`, `LanguageMode.LATIN`) instead of module-level string constants. `Lookup.language` is validated and normalized case-insensitively at send time; invalid values raise `UnprocessableEntityError`. Use `LanguageMode.from_value()` to resolve a raw string.
