@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2026-10-02
+- international-autocomplete-api
+  - Added `language` to `Lookup` as `Option<Language>` (`Native`, `Latin`). Unset uses the country's default output language; `Native` is required for French diacritics in Canada, and `Latin` removes diacritics.
+  - Lookups now request `/v2/lookup` without a trailing slash, and an `address_id` is appended as a path segment instead of being resolved as a relative URL.
+
 ## [1.2.0] - 2026-07-08
 - us-autocomplete-api
   - Added `urbanization` field to the `Suggestion` struct, for Puerto Rico addresses.
