@@ -12,6 +12,11 @@ We suggest you contact Smarty support for assistance in migrating to `US Autocom
 That API is accessed with the following URL: `us-autocomplete-pro.api.smarty.com/lookup`
 We suggest you contact Smarty support for assistance in migrating to `US Autocomplete V2`.
 
+## 1.0.36 - 2026-10-14
+- To be deployed Wednesday through Friday the 16th.
+- Added a new feature to enable sending the `selected` and `search` parameters in the same call. 
+This assures that only addresses from the selected group are returned.
+
 ## 1.0.34 - 2026-07-13
 - To be deployed throughout the day.
 - Internal maintenance - does not affect user experience.
