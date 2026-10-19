@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.0] - 2026-10-19
+- us-enrichment-api
+  - **Breaking:** Remove Secondary.MatchedAddress in us-enrichment-api since the API now returns it in the response
+  - Added matched_address to BusinessSummaryResponse, SecondaryResponse, and SecondaryCountResponse.
+  - Added root_address to SecondaryCountResponse.
+  - num_of_pcs_range and num_of_pcs_total are now number_of_pcs_range and number_of_pcs_total.
+  - Added SendProperty and SendPropertyWithContextAndAuth, which call /lookup/{key}/property, the path our docs now list.
+  - SendPropertyPrincipal* still calls the legacy /property/principal path and is now marked deprecated.
+
 ## [2.0.2] - 2026-10-01
 - international-autocomplete-api
   - Added the `Language` field to `Lookup`, with `Native` and `Latin` constants. Unset uses the country's default output language; `Native` is required for French diacritics in Canada, and `Latin` removes diacritics.
