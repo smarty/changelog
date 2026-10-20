@@ -4,6 +4,13 @@ All notable changes to the US Street Address API will be documented in this file
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 5.21.0 - 2026-10-20
+
+### Changed
+- Invalid match can now return partials matches with freeform input.
+- Improved footnotes accuracy when using invalid match mode.
+- Improved matching logic to favor not changing any information to make a partial match over changing some street information for a full match
+
 ## 5.20.1 - 2026-10-13
 
 ### Changed
