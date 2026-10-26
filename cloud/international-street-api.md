@@ -4,6 +4,10 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.8.45 - 2026-10-26
+CHANGES:
+- Added `max_results` as an input parameter. This allows you better control about how many results will be returned.
+
 ## 3.8.44 - 2026-10-19
 CHANGES:
 - October data packages.
