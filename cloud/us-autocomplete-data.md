@@ -4,6 +4,10 @@ All notable changes to the US Autocomplete API (V2) Data will be documented in t
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 2026.10.M - 2026-10-28
+Changes:
+- Added ability to exclude `cmra` type addresses. CMRA are private mailboxes like the UPS store.
+
 ## 2026.10.B - 2026-10-08
 Changes:
 - Latest updates from all upstream packages and providers.
