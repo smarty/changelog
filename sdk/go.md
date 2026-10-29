@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.0] - 2026-10-29
+- international-postal-code
+  - Added `max_results` and `language` lookup parameters
+  - Added `thoroughfare` candidate field
+- international-street
+  - Added `max_results` lookup parameter
+
 ## [2.1.0] - 2026-10-19
 - us-enrichment-api
   - **Breaking:** Remove Secondary.MatchedAddress in us-enrichment-api since the API now returns it in the response
