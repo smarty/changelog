@@ -4,6 +4,11 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.9.3 - 2026-11-16
+CHANGES:
+- FRA (France) now returns occupant_use
+- Updated to November data
+
 ## 3.8.46 - 2026-11-05
 CHANGES:
 - Fixed an issue where Netherlands (NLD) queries would not return input_id.
