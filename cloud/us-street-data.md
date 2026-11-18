@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## 2026.11.F - 2026-11-18
 Changes:
-- Fixed a bug with cities on state lines
+- Fixed a bug with cities on state lines.
 
 ## 2026.11.E - 2026-11-17
 Changes:
