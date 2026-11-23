@@ -4,6 +4,10 @@ All notable changes to the International Street Address API will be documented i
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## 3.9.4 - 2026-11-23
+CHANGES:
+- NLD queries with multiple results now return an "Ambiguous" verification status.
+
 ## 3.9.3 - 2026-11-16
 CHANGES:
 - FRA (France) now returns occupant_use
